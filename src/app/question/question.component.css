@@ -1,0 +1,526 @@
+body {
+  background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+.question-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  direction: ltr;
+  animation: popIn 0.5s ease;
+  border: 3px solid #7ea8f8;
+  position: relative;
+  max-height: auto; /* تحديد أقصى ارتفاع */
+
+}
+
+.question-box h2 {
+  color: #4b5fab;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.question-box h1 {
+  color: #000000;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.read-button {
+  background-color: #b0db3a;
+  color: #5f2f75;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+.read-button:hover {
+  background-color: #fbc02d;
+  transform: scale(1.05);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.option-button {
+  background-color: #90caf9;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 40px;
+  color: #2c387e;
+  font-weight: bold;
+  transition: 0.3s ease;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.option-image {
+  width: 100%;
+  max-width: 400px; /* زوّدي الرقم لو حابة الصورة تكون أكبر */
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.option-button:hover {
+  background-color: #64b5f6;
+  color: white;
+  transform: scale(1.03);
+}
+
+.feedback p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.feedback p.correct {
+  color: #388e3c;
+}
+
+.feedback p.wrong {
+  color: #d32f2f;
+}
+
+.reward-img {
+  width: 50px;
+  margin-top: 10px;
+}
+.rewarded-img {
+  width: 50px;
+  margin-top: 10px;
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding: 0 20px;
+}
+
+.spacer {
+  width: 120px; 
+}
+.next-button {
+  background-color: #2e7d32;
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.previous-button {
+  background-color: #FFA726;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* position: absolute; */
+  /* bottom: 20px;
+  left: 20px; الشمال */
+}
+
+
+
+.previous-button:hover {
+  background-color: #e07f07;
+  transform: scale(1.05);
+}
+
+
+.next-button:hover {
+  background-color: #81c784;
+  transform: scale(1.05);
+}
+.back-button {
+  background-color: #9e1313;
+  color: #f8f3f1;
+  padding: 10px 18px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s ease;
+  position: absolute; /* علشان نتحكم في مكانه */
+  top: 20px; /* من فوق */
+  right: 60px; /* خليها 70px أو غيريها حسب المسافة اللي تعجبك عشان ما يتزاحمش مع زرار read */
+  z-index: 1000; /* عشان يبقى فوق */
+}
+
+
+
+.back-button:hover {
+  background-color: #bb5959;
+  transform: scale(1.05);
+}
+
+.congratulation-message {
+  text-align: center;
+  position: relative;
+}
+
+.balloons {
+  position: absolute;
+  top: -50px;
+  width: 100%;
+}
+
+.balloons {
+  position: fixed; /* عشان تطفو فوق كل حاجة */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none; /* ميأثرش على ضغطات الزرائر */
+  z-index: 999; /* فوق كل العناصر */
+}
+
+.balloon {
+  position: absolute;
+  bottom: -50px; /* تبدأ تحت الشاشة بشوية */
+  width: 50px;
+  animation: floatUp linear infinite;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-120vh); /* تطلع لفوق الشاشة وتختفي */
+    opacity: 0;
+  }
+}
+
+
+
+@keyframes sparkleStar {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.5); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+
+
+
+/* Animations */
+@keyframes popIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% { background-color: #fff8e1; color: #ff6f00; }
+  50% { background-color: #ffcccc; color: #700202; }
+  100% { background-color: #fff8e1; color: #ff6f00; }
+}
+.timer.warning {
+  animation: flash 0.5s infinite;
+  background-color: #ffcccc;
+  color: #750505;
+}
+
+.timer {
+  background-color: #fff8e1;
+  color: #ff6f00;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 5px auto;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.time-up-message {
+  background: linear-gradient(to bottom right, #943636, #a73535);
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 24px;
+  max-width: 500px;
+  margin: 30px auto;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  animation: popIn 0.6s ease;
+}
+
+.retry-button {
+  width: fit-content;
+  padding: 12px 20px;
+  font-size: 1.1em;
+  border-radius: 12px;
+  border: none;
+  background-color: #f6eef1;
+  color: #880e4f;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+.retry-button:hover {
+  background-color: #c83063;
+  color:white;
+  transform: scale(1.05);
+}
+
+.completion-message{
+  background-color: #0aaa6a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 350px;
+  margin: 80px auto;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  animation: popIn 0.5s ease;
+
+}
+.not_Found{
+  background-color: #4e0505;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 500px;
+  margin: 100px auto;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+  animation: popIn 0.5s ease;
+}
+.option-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.question-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.question-image {
+  max-width: 80%;
+  max-height: 300px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.question-image:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .question-box {
+    padding: 15px;
+    margin: 15px 10px;
+    max-width: 100%;
+    max-height: auto; /* 80% من ارتفاع الشاشة */
+   
+  }
+
+  .question-box h2 {
+ 
+    font-size: 30px; /* رقم السؤال يصغر شوية */
+  }
+
+  .read-button {
+    font-size: 12px;
+    padding: 4px 10px;
+    top: 12px;
+    right: 12px;
+  }
+  .next-button,
+  .previous-button,
+  .retry-button {
+    font-size: 20px;
+    padding: 10px 16px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .options {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .option-button {
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  .option-image {
+    width: 60px;
+    height: 60px;
+  }
+
+  .timer {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  .question-image {
+    max-height: 200px;
+  }
+
+  .completion-message,
+  .time-up-message {
+    padding: 10px;
+    margin: 20px 50px;
+    max-width: 80%;
+  }
+
+  .reward-img {
+    width: 30px;
+  }
+  .rewarded-img {
+    width: 40px;
+  }
+
+}
+
+/* لجعل الأزرار أكثر تناسقًا على الشاشات الصغيرة */
+@media (max-width: 480px) {
+
+  .next-button,
+  .previous-button,
+  .retry-button {
+    font-size: 18px;
+    padding: 8px 10px;
+    width: auto; /* يضمن عدم أخذ العرض الكامل */
+    display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
+    text-align: center; /* لضمان محاذاة النص داخل الأزرار */
+  }
+  .question-box h1 {
+    font-size: 18px; /* رقم السؤال يصغر شوية */
+  }
+  .question-box h2 {
+    font-size: 30px;
+  }
+
+  .read-button {
+    font-size: 12px;
+    padding: 4px 10px;
+    top: 12px;
+    right: 12px;
+  }
+  .back-button {
+    font-size: 15px;
+    padding: 8px 14px;
+    margin: 10px 0 0 10px; /* يخليه تحت الهيدر وعلى الشمال */
+    display: inline-block;
+    position: absolute; /* علشان نتحكم في مكانه */
+  top: 5px; /* من فوق */
+  right: 10px; /* خليها 70px أو غيريها حسب المسافة اللي تعجبك عشان ما يتزاحمش مع زرار read */
+  z-index: 1000;  /* مهم جدًا علشان ما يطلعش فوق */
+  }
+  .completion-message,
+  .time-up-message {
+    padding: 20px;
+    margin: 20px 20px;
+    max-width: 80%;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .question-box {
+    padding: 8px;
+    margin: 8px;
+    max-width: 100%;
+    height: auto;
+    max-height: auto; /* 80% من ارتفاع الشاشة */
+     /* يسمح بوجود اسكرول فقط إذا كان المحتوى أكبر من الحجم */
+  }
+  .question-text {
+    font-size: 32px;
+  }
+
+
+  .question-box h1 {
+    font-size: 18px; /* رقم السؤال يصغر شوية */
+  }
+
+  .read-button {
+    font-size: 10px;
+    padding: 4px 10px;
+    top: 12px;
+    right: 12px;
+  }
+  .next-button,
+  .previous-button {
+    font-size: 15px;
+    padding: 10px;
+    width: auto; /* التأكد من أن الأزرار لا تأخذ العرض الكامل */
+    display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
+  }
+  .option-button {
+    font-size: 30px;
+    padding: 3px;
+    width: auto; /* التأكد من أن الأزرار لا تأخذ العرض الكامل */
+    display: inline-block; /* يمنع الأزرار من التمدد بشكل كامل */
+  }
+
+  .back-button {
+    font-size: 10px;
+    padding: 8px 14px;
+    margin: 10px 0 0 10px; /* يخليه تحت الهيدر وعلى الشمال */
+    display: inline-block;
+    position: absolute; /* علشان نتحكم في مكانه */
+  top: 5px; /* من فوق */
+  right: 10px; /* خليها 70px أو غيريها حسب المسافة اللي تعجبك عشان ما يتزاحمش مع زرار read */
+  z-index: 1000;  
+  }
+  /* لضبط الصور مع الأزرار */
+  .question-image {
+    max-width: 80%;
+    height: auto;
+  }
+  .option-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .reward-img {
+    width: 30px;
+  }
+  .rewarded-img {
+    width: 30px;
+  }
+}
+

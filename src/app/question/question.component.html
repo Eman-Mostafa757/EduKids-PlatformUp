@@ -1,0 +1,113 @@
+
+<div [ngClass]="{'timer': true, 'warning': warningStarted}" *ngIf="!timeUp">
+  ⏳ الوقت المتبقي: {{ formattedTime }}
+</div>
+
+<button class="back-button" (click)="goBack()">خروج</button>
+
+<div *ngIf="!timeUp && filteredQuestions.length > 0" class="question-box">
+
+  <ng-container *ngIf="filteredQuestions[currentQuestionIndex]?.language === 'ar-EG'; else englishTitle">
+    <h1>السؤال {{getArabicQuestionNumber(currentQuestionIndex + 1) }}</h1>
+  </ng-container>
+
+  <ng-template #englishTitle>
+    <h1>Question {{ currentQuestionIndex + 1 }}</h1>
+  </ng-template>
+
+  
+  <h2 class="question-text" *ngIf="filteredQuestions[currentQuestionIndex]?.content?.text">
+    {{ filteredQuestions[currentQuestionIndex].content.text }}
+  </h2>
+  <!-- عرض النص والصورة معًا داخل السؤال -->
+  <div class="question-media">
+    <img *ngIf="filteredQuestions[currentQuestionIndex]?.content?.image" 
+         [src]="filteredQuestions[currentQuestionIndex].content.image" 
+         alt="Question Image" 
+         class="question-image">
+  </div>
+
+ 
+
+  <button class="read-button" (click)="speakQuestion()">
+    🔊 {{ filteredQuestions[currentQuestionIndex]?.language === 'ar-EG' ? 'اقرأ السؤال' : 'Read Question' }}
+  </button>
+  
+  <div class="options">
+    <button class="option-button" 
+            *ngFor="let option of filteredQuestions[currentQuestionIndex]?.options"
+            [disabled]="showFeedback" 
+            (click)="checkAnswer(option.value)">
+      
+      <ng-container [ngSwitch]="option.type">
+        <span *ngSwitchCase="'text'">{{ option.value }}</span>
+        <img *ngSwitchCase="'image'" [src]="option.value" alt="Option Image" class="option-image">
+      </ng-container>
+
+    </button>
+  </div>
+
+  <div class="feedback" *ngIf="showFeedback">
+    <p [ngClass]="isCorrectAnswer ? 'correct' : 'wrong'">
+      {{ isCorrectAnswer ? '✅ إجابة صحيحة' : '❌ خطأ! جرّب تاني.' }}
+    </p>
+    <div class="reward" *ngIf="showReward">
+      <img src="assets/images/party.png" alt="Star" class="rewarded-img" />
+    </div>
+  </div>
+<!-- 
+<button *ngIf="isCorrectAnswer" class="next-button" (click)="nextQuestion()">التالي ➡️</button> -->
+  <div class="navigation-buttons">
+    <div class="spacer">
+      <button (click)="previousQuestion()" *ngIf="currentQuestionIndex > 0" class="previous-button" >⬅️ السابق</button>
+    </div>
+    <div>
+      <button *ngIf="isCorrectAnswer" class="next-button" (click)="nextQuestion()">التالي ➡️</button>
+    </div>
+  
+  </div>
+  
+</div>
+
+<!-- في حالة عدم وجود أسئلة -->
+<div *ngIf="filteredQuestions.length === 0" class="not_Found">
+  <p>😥لا توجد أسئلة لهذه المادة حالياً </p>
+</div>
+
+<!-- في حالة انتهاء الوقت -->
+<div *ngIf="timeUp && !examCompleted" class="time-up-message">
+  <img src="assets/images/2.png" alt="Time's up" class="reward-img" style="width: 150px; margin-bottom: 6px;">
+  <h1 style="color: #f1eaea;">⏰   الوقت خلص</h1>
+  <p style="font-size: 22px; margin-top: 2px; color: #f1eaea;" > 👏 ولا يهمك ... تقدر تحاول تاني</p>
+  <p style="font-size: 20px; color: #f1eaea;">  😊 التجربة أهم من النتيجة</p>
+  <button class="retry-button" (click)="restartExam()"> 🔁 جرّب تاني</button>
+</div>
+
+
+
+
+<div *ngIf="examCompleted" class="completion-message">
+  <audio *ngIf="examCompleted" autoplay>
+    <source src="assets/audio/kids-happy-music-329738-[AudioTrimmer.com].mp3" type="audio/mp3" />
+  
+  </audio>
+  <img src="assets/images/1.png" alt="Trophy" class="reward-img" />
+  <h2>👏 🎉 خلصت الامتحان </h2>
+  <h3>👏 أحسنت </h3>
+
+  <!-- رسالة التهنئة مع الأنيميشن -->
+</div>
+<div class="congratulation-message">
+  <!-- <h1>ممتاااز! أنت نجم ساطع! ⭐🌟</h1> -->
+  <div class="balloons">
+    <img 
+      *ngFor="let balloon of balloons" 
+      src="assets/images/بالونة-removebg-preview.png" 
+      alt="Balloon"
+      class="balloon"
+      [style.left.%]="balloon.left"
+      [style.animationDuration.s]="balloon.duration"
+    />
+  </div>
+  
+</div>

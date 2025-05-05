@@ -4447,8 +4447,642 @@ export const questionsData = {
         تانية: {
           عربي: [
             {
-              
-            }
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/ما أروع أبناء مصر.mp3",
+                text:" ........ما أروع أبناء مصر ! أسلوب"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "نداء" },
+                { type: "text", value: "تعجب" },
+                { type: "text", value: "استفهام" }
+              ],
+              correctAnswer: "تعجب"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أختر الجمع.mp3",
+                text:"........جمع الوادي "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الأودية" },
+                { type: "text", value: "الأدوية" },
+                { type: "text", value: "الودي" }
+              ],
+              correctAnswer: "الأودية"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يوجد السَد العالي. أْسوان.mp3",
+                text:"يوجد السد العالي ......أسوان"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "عن" },
+                { type: "text", value: "على" },
+                { type: "text", value: "في" }
+              ],
+              correctAnswer: "في"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يَتَجَوَل الفلاح . المزارع.mp3",
+                text:"يتجول الفلاح ........ المزارع"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "بين" },
+                { type: "text", value: "فوق" },
+                { type: "text", value: "تحت" }
+              ],
+              correctAnswer: "بين"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تتعاون مع الأصدقاء . نعم.mp3",
+                text:"تتعاون مع الأصدقاء ؟ نعم.......... "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أين" },
+                { type: "text", value: "متى" },
+                { type: "text", value: "هل" }
+              ],
+              correctAnswer: "هل"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أختر المضاد.mp3",
+                text:" ...............مضاد (ضعفاء)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "كُسالى" },
+                { type: "text", value: "أقوياء" },
+                { type: "text", value: "نشطاء" }
+              ],
+              correctAnswer: "أقوياء"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تشرق الشمس.mp3",
+                text:"..........تشرق الشمس"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ليلاً" },
+                { type: "text", value: "صباحاً" },
+                { type: "text", value: "مساءً" }
+              ],
+              correctAnswer: "صباحاً"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يقف الثعلب خلف الشجرة . جملة.mp3",
+                text:"..................يقف الثعلب خلف الشجرة . جملة"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "فعلية" },
+                { type: "text", value: "أسمية" },
+                { type: "text", value: "خيالية" }
+              ],
+              correctAnswer: "فعلية"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحجر ثقيل.mp3",
+                text:"الحجر ثقيل ..........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "هؤلاء" },
+                { type: "text", value: "هذه" },
+                { type: "text", value: "هذا" }
+              ],
+              correctAnswer: "هذا"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يأكل الولد طعام الأِفطار .  يأكل فعل.mp3",
+                text:".........يأكل الولد طعام الإفطار. يأكل فعل "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ماضٍ" },
+                { type: "text", value: "مضارع" },
+                { type: "text", value: "أمر" }
+              ],
+              correctAnswer: "مضارع"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/عامل مخلص.mp3",
+                text:"عامل مخلص ............"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أنتَ" },
+                { type: "text", value: "أنتِ" },
+                { type: "text", value: "هي" }
+              ],
+              correctAnswer: "أنتَ"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحليب كل صباح.mp3",
+                text:"الحليب كل صباح.........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "اسمع" },
+                { type: "text", value: "اشرب" },
+                { type: "text", value: "احترم" }
+              ],
+              correctAnswer: "اشرب"
+            },
+            {
+              content: {
+                text:"...........كلمة الحقول مد بال"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الألف" },
+                { type: "text", value: "الواو" },
+                { type: "text", value: "الياء" }
+              ],
+              correctAnswer: "الواو"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تذهب مريم أِلى النادي اليوم.mp3",
+                text:"تذهب مريم إلى النادي اليوم.........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "لن" },
+                { type: "text", value: "لم" },
+                { type: "text", value: "لا" }
+              ],
+              correctAnswer: "لن"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/من أخلاق المصري القديم.mp3",
+                text:"..............من أخلاق المصري القديم"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الغضب" },
+                { type: "text", value: "الكذب" },
+                { type: "text", value: "الصدق" }
+              ],
+              correctAnswer: "الصدق"
+            },
+            {
+              content: {
+                text:"..............مثنى كلمة (ولد)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ولدان" },
+                { type: "text", value: "ولدين" },
+                { type: "text", value: "جميع ماسبق" }
+              ],
+              correctAnswer: "جميع ماسبق"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تعكس صورتي.mp3",
+                text:"تعكس صورتي.............."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "المرآة" },
+                { type: "text", value: "المرأة" },
+                { type: "text", value: "المرأاة" }
+              ],
+              correctAnswer: "المرآة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/ما أجمل الزي النوبي.mp3",
+                text:"........ما أجمل الزي النوبي"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "؟" },
+                { type: "text", value: "!" },
+                { type: "text", value: "." }
+              ],
+              correctAnswer: "!"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/ما أجمل الزي النوبي.mp3",
+                text:"هذه البنت .......... تزين البيت "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "هو" },
+                { type: "text", value: "الذي" },
+                { type: "text", value: "التي" }
+              ],
+              correctAnswer: "التي"
+            },
+            {
+              content: {
+                text:".......... النماء - السماء (علي وزن ) "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "القمر" },
+                { type: "text", value: "الرجاء" },
+                { type: "text", value: "النجوم" }
+              ],
+              correctAnswer: "الرجاء"
+            },
+            {
+              content: {
+                text:"............سرير - حرير (علي وزن )"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "مفيد" },
+                { type: "text", value: "مسكين" },
+                { type: "text", value: "عبير" }
+              ],
+              correctAnswer: "عبير"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أختر المضاد.mp3",
+                text:".........مضاد (كثيرة )"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "قليلة" },
+                { type: "text", value: "صغيرة" },
+                { type: "text", value: "طويلة" }
+              ],
+              correctAnswer: "قليلة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أختر المعنى.mp3",
+                text:".........معنى (جذابة)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "كذابة" },
+                { type: "text", value: "جميلة" },
+                { type: "text", value: "قبيحة" }
+              ],
+              correctAnswer: "جميلة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/لا تهمل دروسك . أسلوب.mp3",
+                text:".........لا تهمل دروسك. أسلوب"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أمر" },
+                { type: "text", value: "نهي" },
+                { type: "text", value: "تعجب" }
+              ],
+              correctAnswer: "نهي"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يا خَالِد أطِع والديك . أسلوب.mp3",
+                text:".........يا خالد , أطع والديك. أسلوب"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أمر" },
+                { type: "text", value: "نهي" },
+                { type: "text", value: "نداء" }
+              ],
+              correctAnswer: "نداء"
+            },
+            {
+              content: {
+                text:"..........كلمة (الرَّجل) لام "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "شمسية" },
+                { type: "text", value: "قمرية" },
+                { type: "text", value: "تعليل" }
+              ],
+              correctAnswer: "شمسية"
+            },
+           {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أَينِ توجد الأهرامَات .mp3",
+                text:"..........أين توجد الأهرامات"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "؟" },
+                { type: "text", value: "!" },
+                { type: "text", value: "," }
+              ],
+              correctAnswer: "؟"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الأصدقاء في تمثيل المسرحية أمس.mp3",
+                text:" الأصدقاء في تمثيل المسرحيةأمس.........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "شارك" },
+                { type: "text", value: "نشارك" },
+                { type: "text", value: "يشارك" }
+              ],
+              correctAnswer: "شارك"
+            },
+            {
+              content: {
+                text:".........الشارعان"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "نظيف" },
+                { type: "text", value: "نظيفة" },
+                { type: "text", value: "نظيفان" }
+              ],
+              correctAnswer: "نظيفان"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أرض مصر تفيض بالخير .  جمع أرض.mp3",
+                text:"...........أرض مصر تفيض بالخير. جمع (أرض)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أرضيات" },
+                { type: "text", value: "أراضات" },
+                { type: "text", value: "أراضٍ" }
+              ],
+              correctAnswer: "أراضٍ"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أهل مصر يتسمون بالكرم. مضاد الكرم.mp3",
+                text:"........... أهل مصر يتسمون بالكرم. مضاد (الكرم)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "البخل" },
+                { type: "text", value: "الأمانة" },
+                { type: "text", value: "القوة" }
+              ],
+              correctAnswer: "البخل"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/هبة . ساعدي أُمِك.mp3",
+                text:"هبة , ساعدي أمك..........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "هل" },
+                { type: "text", value: "يا" },
+                { type: "text", value: "ما" }
+              ],
+              correctAnswer: "يا"
+            },
+            {
+              content: {
+                text:"رائعة.........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الحديقة" },
+                { type: "text", value: "الشاطئ" },
+                { type: "text", value: "الكتاب" }
+              ],
+              correctAnswer: "الحديقة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحديقة . أمام البيت واسعة.mp3",
+                text:".الحديقة ...... أمام البيت واسعة"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الذي" },
+                { type: "text", value: "التي" },
+                { type: "text", value: "الذين" }
+              ],
+              correctAnswer: "التي"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحديقة . أمام البيت واسعة.mp3",
+                text:". أحافظ على أسناني..........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أنتَ" },
+                { type: "text", value: "أنتِ" },
+                { type: "text", value: "أنا" }
+              ],
+              correctAnswer: "أنا"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/لا أُحِب السَهَر.mp3",
+                text:"........لا أحب السهر"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ظهراً" },
+                { type: "text", value: "ليلاً" },
+                { type: "text", value: "صباحاً" }
+              ],
+              correctAnswer: "ليلاً"
+            },
+            {
+              content: {
+                text:" ........مفرد كلمة (حقوق)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "حقل" },
+                { type: "text", value: "حق" },
+                { type: "text", value: "خلق" }
+              ],
+              correctAnswer: "حق"
+            },
+            {
+              content: {
+                text:" .......معني كلمة (أُبعد)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أقترب" },
+                { type: "text", value: "أزيل" },
+                { type: "text", value: "أجلس" }
+              ],
+              correctAnswer: "أزيل"
+            },
+            {
+              content: {
+                text:" .........مضاد كلمة (أغلق)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "يصعد" },
+                { type: "text", value: "يذهب" },
+                { type: "text", value: "أفتح" }
+              ],
+              correctAnswer: "أفتح"
+            },
+            {
+              content: {
+                text:" ........مضاد كلمة (يحبون)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "يطلبون" },
+                { type: "text", value: "يرفضون" },
+                { type: "text", value: "يكرهون" }
+              ],
+              correctAnswer: "يكرهون"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أِستَلَمَ الطالبان الجائزة.mp3",
+                text:" ......استلم الطالبان الجائزة. كلمة (الطالبان)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "مفرد" },
+                { type: "text", value: "مثنى" },
+                { type: "text", value: "جمع" }
+              ],
+              correctAnswer: "مثنى"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/التعاون من الأخلاق الكريمة.mp3",
+                text:" ......التعاون من الأخلاق الكريمـ"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ت" },
+                { type: "text", value: "ـة" },
+                { type: "text", value: "ـه" }
+              ],
+              correctAnswer: "ـة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أذهب الى المدرسة.mp3",
+                text:" ........ أذهب إلى المدرسة"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "صباحاً" },
+                { type: "text", value: "ليلاً" },
+                { type: "text", value: "ظهراً" }
+              ],
+              correctAnswer: "صباحاً"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/العمال ماهرون.mp3",
+                text:" العمال ماهرون........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "هذه" },
+                { type: "text", value: "هؤلاء" },
+                { type: "text", value: "هذان" }
+              ],
+              correctAnswer: "هؤلاء"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحصان يجري بسرعة.mp3",
+                text:"........الحصان يجري بسرعة. (جملة)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "تعجبية" },
+                { type: "text", value: "فعلية" },
+                { type: "text", value: "اسمية" }
+              ],
+              correctAnswer: "اسمية"
+            },
+            {
+              content: {
+                text:"........كلمة (يزور)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "اسم" },
+                { type: "text", value: "فعل" },
+                { type: "text", value: "حرف" }
+              ],
+              correctAnswer: "فعل"
+            },
+            {
+              content: {
+                text:".............ثم.   حرف"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "عطف" },
+                { type: "text", value: "جر" },
+                { type: "text", value: "تعليل" }
+              ],
+              correctAnswer: "عطف"
+            },
+            {
+              content: {
+                text:".........كلمة (أسعارٍ) تنوين بال"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الكسر" },
+                { type: "text", value: "الفتح" },
+                { type: "text", value: "الضم" }
+              ],
+              correctAnswer: "الكسر"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تقع محافظة أسوان . مصر.mp3",
+                text:".تقع محافظة أسوان ..........مصر"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "شمال" },
+                { type: "text", value: "جنوب" },
+                { type: "text", value: "غرب" }
+              ],
+              correctAnswer: "جنوب"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/ينقسم نهر النيل في . أِلى فرعين.mp3",
+                text:".ينقسم نهر النيل في ........ إلى فرعين"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "النهاية" },
+                { type: "text", value: "البداية" },
+                { type: "text", value: "الوسط" }
+              ],
+              correctAnswer: "النهاية"
+            },
+
           ],
           رياضيات: [
             {
@@ -10131,10 +10765,642 @@ export const questionsData = {
         تانية: {
           عربي: [
             {
-              question: "ما هو 3 + 2؟",
-              options: ["5", "6", "7", "8"],
-              correctAnswer: "5"
-            }
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/ما أروع أبناء مصر.mp3",
+                text:" ........ما أروع أبناء مصر ! أسلوب"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "نداء" },
+                { type: "text", value: "تعجب" },
+                { type: "text", value: "استفهام" }
+              ],
+              correctAnswer: "تعجب"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أختر الجمع.mp3",
+                text:"........جمع الوادي "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الأودية" },
+                { type: "text", value: "الأدوية" },
+                { type: "text", value: "الودي" }
+              ],
+              correctAnswer: "الأودية"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يوجد السَد العالي. أْسوان.mp3",
+                text:"يوجد السد العالي ......أسوان"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "عن" },
+                { type: "text", value: "على" },
+                { type: "text", value: "في" }
+              ],
+              correctAnswer: "في"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يَتَجَوَل الفلاح . المزارع.mp3",
+                text:"يتجول الفلاح ........ المزارع"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "بين" },
+                { type: "text", value: "فوق" },
+                { type: "text", value: "تحت" }
+              ],
+              correctAnswer: "بين"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تتعاون مع الأصدقاء . نعم.mp3",
+                text:"تتعاون مع الأصدقاء ؟ نعم.......... "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أين" },
+                { type: "text", value: "متى" },
+                { type: "text", value: "هل" }
+              ],
+              correctAnswer: "هل"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أختر المضاد.mp3",
+                text:" ...............مضاد (ضعفاء)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "كُسالى" },
+                { type: "text", value: "أقوياء" },
+                { type: "text", value: "نشطاء" }
+              ],
+              correctAnswer: "أقوياء"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تشرق الشمس.mp3",
+                text:"..........تشرق الشمس"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ليلاً" },
+                { type: "text", value: "صباحاً" },
+                { type: "text", value: "مساءً" }
+              ],
+              correctAnswer: "صباحاً"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يقف الثعلب خلف الشجرة . جملة.mp3",
+                text:"..................يقف الثعلب خلف الشجرة . جملة"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "فعلية" },
+                { type: "text", value: "أسمية" },
+                { type: "text", value: "خيالية" }
+              ],
+              correctAnswer: "فعلية"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحجر ثقيل.mp3",
+                text:"الحجر ثقيل ..........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "هؤلاء" },
+                { type: "text", value: "هذه" },
+                { type: "text", value: "هذا" }
+              ],
+              correctAnswer: "هذا"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يأكل الولد طعام الأِفطار .  يأكل فعل.mp3",
+                text:".........يأكل الولد طعام الإفطار. يأكل فعل "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ماضٍ" },
+                { type: "text", value: "مضارع" },
+                { type: "text", value: "أمر" }
+              ],
+              correctAnswer: "مضارع"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/عامل مخلص.mp3",
+                text:"عامل مخلص ............"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أنتَ" },
+                { type: "text", value: "أنتِ" },
+                { type: "text", value: "هي" }
+              ],
+              correctAnswer: "أنتَ"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحليب كل صباح.mp3",
+                text:"الحليب كل صباح.........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "اسمع" },
+                { type: "text", value: "اشرب" },
+                { type: "text", value: "احترم" }
+              ],
+              correctAnswer: "اشرب"
+            },
+            {
+              content: {
+                text:"...........كلمة الحقول مد بال"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الألف" },
+                { type: "text", value: "الواو" },
+                { type: "text", value: "الياء" }
+              ],
+              correctAnswer: "الواو"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تذهب مريم أِلى النادي اليوم.mp3",
+                text:"تذهب مريم إلى النادي اليوم.........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "لن" },
+                { type: "text", value: "لم" },
+                { type: "text", value: "لا" }
+              ],
+              correctAnswer: "لن"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/من أخلاق المصري القديم.mp3",
+                text:"..............من أخلاق المصري القديم"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الغضب" },
+                { type: "text", value: "الكذب" },
+                { type: "text", value: "الصدق" }
+              ],
+              correctAnswer: "الصدق"
+            },
+            {
+              content: {
+                text:"..............مثنى كلمة (ولد)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ولدان" },
+                { type: "text", value: "ولدين" },
+                { type: "text", value: "جميع ماسبق" }
+              ],
+              correctAnswer: "جميع ماسبق"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تعكس صورتي.mp3",
+                text:"تعكس صورتي.............."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "المرآة" },
+                { type: "text", value: "المرأة" },
+                { type: "text", value: "المرأاة" }
+              ],
+              correctAnswer: "المرآة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/ما أجمل الزي النوبي.mp3",
+                text:"........ما أجمل الزي النوبي"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "؟" },
+                { type: "text", value: "!" },
+                { type: "text", value: "." }
+              ],
+              correctAnswer: "!"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/ما أجمل الزي النوبي.mp3",
+                text:"هذه البنت .......... تزين البيت "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "هو" },
+                { type: "text", value: "الذي" },
+                { type: "text", value: "التي" }
+              ],
+              correctAnswer: "التي"
+            },
+            {
+              content: {
+                text:".......... النماء - السماء (علي وزن ) "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "القمر" },
+                { type: "text", value: "الرجاء" },
+                { type: "text", value: "النجوم" }
+              ],
+              correctAnswer: "الرجاء"
+            },
+            {
+              content: {
+                text:"............سرير - حرير (علي وزن )"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "مفيد" },
+                { type: "text", value: "مسكين" },
+                { type: "text", value: "عبير" }
+              ],
+              correctAnswer: "عبير"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أختر المضاد.mp3",
+                text:".........مضاد (كثيرة )"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "قليلة" },
+                { type: "text", value: "صغيرة" },
+                { type: "text", value: "طويلة" }
+              ],
+              correctAnswer: "قليلة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أختر المعنى.mp3",
+                text:".........معنى (جذابة)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "كذابة" },
+                { type: "text", value: "جميلة" },
+                { type: "text", value: "قبيحة" }
+              ],
+              correctAnswer: "جميلة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/لا تهمل دروسك . أسلوب.mp3",
+                text:".........لا تهمل دروسك. أسلوب"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أمر" },
+                { type: "text", value: "نهي" },
+                { type: "text", value: "تعجب" }
+              ],
+              correctAnswer: "نهي"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/يا خَالِد أطِع والديك . أسلوب.mp3",
+                text:".........يا خالد , أطع والديك. أسلوب"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أمر" },
+                { type: "text", value: "نهي" },
+                { type: "text", value: "نداء" }
+              ],
+              correctAnswer: "نداء"
+            },
+            {
+              content: {
+                text:"..........كلمة (الرَّجل) لام "
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "شمسية" },
+                { type: "text", value: "قمرية" },
+                { type: "text", value: "تعليل" }
+              ],
+              correctAnswer: "شمسية"
+            },
+           {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أَينِ توجد الأهرامَات .mp3",
+                text:"..........أين توجد الأهرامات"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "؟" },
+                { type: "text", value: "!" },
+                { type: "text", value: "," }
+              ],
+              correctAnswer: "؟"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الأصدقاء في تمثيل المسرحية أمس.mp3",
+                text:" الأصدقاء في تمثيل المسرحيةأمس.........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "شارك" },
+                { type: "text", value: "نشارك" },
+                { type: "text", value: "يشارك" }
+              ],
+              correctAnswer: "شارك"
+            },
+            {
+              content: {
+                text:".........الشارعان"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "نظيف" },
+                { type: "text", value: "نظيفة" },
+                { type: "text", value: "نظيفان" }
+              ],
+              correctAnswer: "نظيفان"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أرض مصر تفيض بالخير .  جمع أرض.mp3",
+                text:"...........أرض مصر تفيض بالخير. جمع (أرض)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أرضيات" },
+                { type: "text", value: "أراضات" },
+                { type: "text", value: "أراضٍ" }
+              ],
+              correctAnswer: "أراضٍ"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أهل مصر يتسمون بالكرم. مضاد الكرم.mp3",
+                text:"........... أهل مصر يتسمون بالكرم. مضاد (الكرم)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "البخل" },
+                { type: "text", value: "الأمانة" },
+                { type: "text", value: "القوة" }
+              ],
+              correctAnswer: "البخل"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/هبة . ساعدي أُمِك.mp3",
+                text:"هبة , ساعدي أمك..........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "هل" },
+                { type: "text", value: "يا" },
+                { type: "text", value: "ما" }
+              ],
+              correctAnswer: "يا"
+            },
+            {
+              content: {
+                text:"رائعة.........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الحديقة" },
+                { type: "text", value: "الشاطئ" },
+                { type: "text", value: "الكتاب" }
+              ],
+              correctAnswer: "الحديقة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحديقة . أمام البيت واسعة.mp3",
+                text:".الحديقة ...... أمام البيت واسعة"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الذي" },
+                { type: "text", value: "التي" },
+                { type: "text", value: "الذين" }
+              ],
+              correctAnswer: "التي"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحديقة . أمام البيت واسعة.mp3",
+                text:". أحافظ على أسناني..........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أنتَ" },
+                { type: "text", value: "أنتِ" },
+                { type: "text", value: "أنا" }
+              ],
+              correctAnswer: "أنا"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/لا أُحِب السَهَر.mp3",
+                text:"........لا أحب السهر"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ظهراً" },
+                { type: "text", value: "ليلاً" },
+                { type: "text", value: "صباحاً" }
+              ],
+              correctAnswer: "ليلاً"
+            },
+            {
+              content: {
+                text:" ........مفرد كلمة (حقوق)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "حقل" },
+                { type: "text", value: "حق" },
+                { type: "text", value: "خلق" }
+              ],
+              correctAnswer: "حق"
+            },
+            {
+              content: {
+                text:" .......معني كلمة (أُبعد)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "أقترب" },
+                { type: "text", value: "أزيل" },
+                { type: "text", value: "أجلس" }
+              ],
+              correctAnswer: "أزيل"
+            },
+            {
+              content: {
+                text:" .........مضاد كلمة (أغلق)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "يصعد" },
+                { type: "text", value: "يذهب" },
+                { type: "text", value: "أفتح" }
+              ],
+              correctAnswer: "أفتح"
+            },
+            {
+              content: {
+                text:" ........مضاد كلمة (يحبون)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "يطلبون" },
+                { type: "text", value: "يرفضون" },
+                { type: "text", value: "يكرهون" }
+              ],
+              correctAnswer: "يكرهون"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أِستَلَمَ الطالبان الجائزة.mp3",
+                text:" ......استلم الطالبان الجائزة. كلمة (الطالبان)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "مفرد" },
+                { type: "text", value: "مثنى" },
+                { type: "text", value: "جمع" }
+              ],
+              correctAnswer: "مثنى"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/التعاون من الأخلاق الكريمة.mp3",
+                text:" ......التعاون من الأخلاق الكريمـ"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ت" },
+                { type: "text", value: "ـة" },
+                { type: "text", value: "ـه" }
+              ],
+              correctAnswer: "ـة"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/أذهب الى المدرسة.mp3",
+                text:" ........ أذهب إلى المدرسة"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "صباحاً" },
+                { type: "text", value: "ليلاً" },
+                { type: "text", value: "ظهراً" }
+              ],
+              correctAnswer: "صباحاً"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/العمال ماهرون.mp3",
+                text:" العمال ماهرون........."
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "هذه" },
+                { type: "text", value: "هؤلاء" },
+                { type: "text", value: "هذان" }
+              ],
+              correctAnswer: "هؤلاء"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/الحصان يجري بسرعة.mp3",
+                text:"........الحصان يجري بسرعة. (جملة)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "تعجبية" },
+                { type: "text", value: "فعلية" },
+                { type: "text", value: "اسمية" }
+              ],
+              correctAnswer: "اسمية"
+            },
+            {
+              content: {
+                text:"........كلمة (يزور)"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "اسم" },
+                { type: "text", value: "فعل" },
+                { type: "text", value: "حرف" }
+              ],
+              correctAnswer: "فعل"
+            },
+            {
+              content: {
+                text:".............ثم.   حرف"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "عطف" },
+                { type: "text", value: "جر" },
+                { type: "text", value: "تعليل" }
+              ],
+              correctAnswer: "عطف"
+            },
+            {
+              content: {
+                text:".........كلمة (أسعارٍ) تنوين بال"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الكسر" },
+                { type: "text", value: "الفتح" },
+                { type: "text", value: "الضم" }
+              ],
+              correctAnswer: "الكسر"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/تقع محافظة أسوان . مصر.mp3",
+                text:".تقع محافظة أسوان ..........مصر"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "شمال" },
+                { type: "text", value: "جنوب" },
+                { type: "text", value: "غرب" }
+              ],
+              correctAnswer: "جنوب"
+            },
+            {
+              content: {
+                audio:"assets/audio/question/ابتدائي/عربي2/ينقسم نهر النيل في . أِلى فرعين.mp3",
+                text:".ينقسم نهر النيل في ........ إلى فرعين"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "النهاية" },
+                { type: "text", value: "البداية" },
+                { type: "text", value: "الوسط" }
+              ],
+              correctAnswer: "النهاية"
+            },
+
           ],
           رياضيات: [
             {

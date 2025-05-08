@@ -8,7 +8,7 @@ export interface Question {
     speakAnswer?: boolean;
     answer?:string
   };
-  language: 'en-US' | 'ar-EG'; // تحديد اللغة للتحكم في الصوت وغيره
+  language: 'en-US' | 'ar-EG' |'de-DE'; // تحديد اللغة للتحكم في الصوت وغيره
   options: Option[];
   correctAnswer: string;
 }

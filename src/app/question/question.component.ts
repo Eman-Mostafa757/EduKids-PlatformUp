@@ -105,13 +105,13 @@ export class QuestionComponent {
     this.stopAllSounds();
     const question = this.filteredQuestions[this.currentQuestionIndex];
     const questionNumber = this.currentQuestionIndex + 1;
-
+  
     if (question.language === 'ar-EG') {
       const numberAudioPath = `assets/audio/questionNumber/q-num-${questionNumber}.mp3`;
       const numberAudio = new Audio(numberAudioPath);
       this.currentAudio = numberAudio;
       numberAudio.play();
-
+  
       numberAudio.onended = () => {
         if (question.content?.audio) {
           const questionAudio = new Audio(question.content.audio);
@@ -119,14 +119,18 @@ export class QuestionComponent {
           questionAudio.play();
         }
       };
-    } else if (question.language === 'en-US') {
-      const questionNumberText = `Question ${questionNumber}`;
+    } else if (question.language === 'en-US' || question.language === 'de-DE') {   // 👈 اضفنا de-DE هنا
+      const langTextMap: any = {
+        'en-US': 'Question',
+        'de-DE': 'Frage'
+      };
+      const questionNumberText = `${langTextMap[question.language]} ${questionNumber}`;
       const utterNumber = new SpeechSynthesisUtterance(questionNumberText);
-      utterNumber.lang = 'en-US';
+      utterNumber.lang = question.language;
       const voices = window.speechSynthesis.getVoices();
-      const selectedVoice = voices.find((v) => v.lang === 'en-US');
+      const selectedVoice = voices.find((v) => v.lang === question.language);
       if (selectedVoice) utterNumber.voice = selectedVoice;
-
+  
       utterNumber.onend = () => {
         if (question.content?.audio) {
           const questionAudio = new Audio(question.content.audio);
@@ -135,16 +139,16 @@ export class QuestionComponent {
         } else if (question.content?.text) {
           const questionText = question.content.text;
           const utterQuestion = new SpeechSynthesisUtterance(questionText);
-          utterQuestion.lang = 'en-US';
+          utterQuestion.lang = question.language;
           if (selectedVoice) utterQuestion.voice = selectedVoice;
           window.speechSynthesis.speak(utterQuestion);
         }
       };
-
+  
       window.speechSynthesis.speak(utterNumber);
     }
   }
-
+  
   stopAllSounds() {
     window.speechSynthesis.cancel();
     if (this.currentAudio) {

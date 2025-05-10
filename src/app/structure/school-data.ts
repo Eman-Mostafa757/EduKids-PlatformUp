@@ -13,7 +13,7 @@ export const schoolStructure: Record<SectionType, { phases: Record<'حضانة' 
         subjects: ['عربي', 'رياضيات', 'متعدد', 'English Connect', 'English Crystal'],
       },
       ابتدائي: {
-        grades: ['أولي', 'تانية', 'تالتة'],
+        grades: ['أولى', 'تانية', 'تالتة'],
         subjects: ['عربي', 'رياضيات', 'English Connect', 'الماني','دين إسلامي','دين مسيحي','اكتشف'],
       },
     },
@@ -25,7 +25,7 @@ export const schoolStructure: Record<SectionType, { phases: Record<'حضانة' 
         subjects: ['عربي', 'Math', 'متعدد', 'English Connect +', 'English Crystal'],
       },
       ابتدائي: {
-        grades: ['أولي', 'تانية', 'تالتة'],
+        grades: ['Grade 1', 'Grade 2', 'Grade 3'],
         subjects: ['عربي', 'Math', 'English Connect +','الماني', 'دين إسلامي','دين مسيحي','Discover'],
       },
     },

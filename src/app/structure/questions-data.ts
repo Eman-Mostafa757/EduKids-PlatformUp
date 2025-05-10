@@ -4432,15 +4432,841 @@ export const questionsData = {
         }
       },
       ابتدائي: {
-        أولي: {
+        أولى: {
           عربي: [
             {
-
+              content: { text: 'رَائِعَةٌ_____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هذا' },
+                { type: 'text', value: 'هذه' },
+                { type: 'text', value: 'هؤلاء' }
+              ],
+              correctAnswer: 'هذه',
+            },
+            {
+              content: { text: ' تَلَامِيذٌ _____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هذا' },
+                { type: 'text', value: 'هذه' },
+                { type: 'text', value: 'هؤلاء' }
+              ],
+              correctAnswer: 'هؤلاء',
+            },
+            {
+              content: { text: 'كِتَابٌ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'مد بالألف' },
+                { type: 'text', value: 'مد بالواو' },
+                { type: 'text', value: 'مد بالياء' }
+              ],
+              correctAnswer: 'مد بالألف',
+            },
+            {
+              content: { text: 'طُيُور' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'مد بالألف' },
+                { type: 'text', value: 'مد بالواو' },
+                { type: 'text', value: 'مد بالياء' }
+              ],
+              correctAnswer: 'مد بالواو',
+            },
+            {
+              content: { text: ' مُعَلَّمٌ____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هو' },
+                { type: 'text', value: 'هي' }
+              ],
+              correctAnswer: 'هو',
+            },
+            {
+              content: { text: 'مَهَنْدِسةٌ____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هو' },
+                { type: 'text', value: 'هي' }
+              ],
+              correctAnswer: 'هي',
+            },
+            {
+              content: { text: ' جَمِيلٌ____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أَنتَ' },
+                { type: 'text', value: 'أنتِ' }
+              ],
+              correctAnswer: 'أَنتَ',
+            },
+            {
+              content: { text: ' بِنْتٌ ____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أَنتَ' },
+                { type: 'text', value: 'أنتِ' }
+              ],
+              correctAnswer: 'أنتِ',
+            },
+            {
+              content: { text: 'ظَمأً كلمة بها تنوين' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالفتح' },
+                { type: 'text', value: 'بالضم' },
+                { type: 'text', value: 'بالكسر' }
+              ],
+              correctAnswer: 'بالفتح',
+            },
+            {
+              content: { text: 'أَنَا ____ مع الْاَصْحَاب' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'نلعب' },
+                { type: 'text', value: 'ألعب' }
+              ],
+              correctAnswer: 'ألعب',
+            },
+            {
+              content: { text: 'شَرَحَ فعل' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'ماضي' },
+                { type: 'text', value: 'مضارع' }
+              ],
+              correctAnswer: 'ماضي',
+            },
+            {
+              content: { text: 'ذَهَبَ مُحَمَّدُ إِلَي الْمَدْرسَة-(إِلَي حرف____)' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'جر' },
+                { type: 'text', value: 'عطف' }
+              ],
+              correctAnswer: 'جر',
+            },
+            {
+              content: { text: 'تَحْكِي قِصَصًا اسم النشيد' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'مع أصحاب' },
+                { type: 'text', value: 'أنا إنسان' }
+              ],
+              correctAnswer: 'مع أصحاب',
+            },
+            {
+              content: { text: ' أَخِي ___' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هذا' },
+                { type: 'text', value: 'هذه' },
+                { type: 'text', value: 'هؤلاء' }
+              ],
+              correctAnswer: 'هذا',
+            },
+            {
+              content: { text: ' يَرْسُمُ ___' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هو' },
+                { type: 'text', value: 'هي' }
+              ],
+              correctAnswer: 'هو',
+            },
+            {
+              content: { text: 'يَذْهَبُ مُحَمْدُ ؟ -إلي َ الْمَدْرَسَةُ ___' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'من' },
+                { type: 'text', value: 'ما' },
+                { type: 'text', value: 'أين' }
+              ],
+              correctAnswer: 'أين',
+            },
+            {
+              content: { text: 'يَتَنَاوَلُ الطَّعَامُ ؟ أحْمَد ___' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'من ما' },
+                { type: 'text', value: 'أين' }
+              ],
+              correctAnswer: 'أين',
+            },
+            {
+              content: { text: 'يُسَافِرُ ___ سَالِمُ إِلَي بَلَاد الْعَالِمُ الْوَاِسِعُ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الطفل' },
+                { type: 'text', value: 'المغامر' },
+                { type: 'text', value: 'فرنسا' }
+              ],
+              correctAnswer: 'المغامر',
+            },
+            {
+              content: { text: '____ يُقَابِلُ سَالِمُ النَّاسُ بوَجْهٍ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'عابس' },
+                { type: 'text', value: 'غاضب' },
+                { type: 'text', value: 'باسم' }
+              ],
+              correctAnswer: 'باسم',
+            },
+            {
+              content: { text: ' لُعْبَةٌ ) أضف ياء الملكية لهذه الكلمة )' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'لِعابي' },
+                { type: 'text', value: 'لعبتي' },
+                { type: 'text', value: 'لعب' }
+              ],
+              correctAnswer: 'لعبتي',
+            },
+            {
+              content: { text: 'الطّفْلُ ) المؤنث له )' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الطفال' },
+                { type: 'text', value: 'الطفلة' },
+                { type: 'text', value: 'الأطفال' }
+              ],
+              correctAnswer: 'الطفلة',
+            },
+            {
+              content: { text: 'قَالَ اْلاَبُ بَدَأَتُ الْكِتَابَة بِوَضْعُ __ فِي لوْن' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الكتابة' },
+                { type: 'text', value: 'الريشة' },
+                { type: 'text', value: 'القلم' }
+              ],
+              correctAnswer: 'القلم',
+            },
+            {
+              content: { text: '____ أكمل أَبْنِي دَارِي' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالأشجار' },
+                { type: 'text', value: 'بالأحجار' },
+                { type: 'text', value: 'بالألعاب' }
+              ],
+              correctAnswer: 'بالأشجار',
+            },
+            {
+              content: { text: ' ____ السَّبُورَة بها لام' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'قمريه' },
+                { type: 'text', value: 'شمسيه' }
+              ],
+              correctAnswer: 'شمسيه',
+            },
+            {
+              content: { text: '____ الْقَلَمُ بها لام' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'قمريه' },
+                { type: 'text', value: 'شمسيه' }
+              ],
+              correctAnswer: 'قمريه',
+            },
+            {
+              content: { text: '____ جَمِيل’’ لها تنوين' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالفتح' },
+                { type: 'text', value: 'بالكسر' },
+                { type: 'text', value: 'بالضم' }
+              ],
+              correctAnswer: 'بالفتح',
+            },
+            {
+              content: { text: '____ مَدْرَسةٍ بها تنوين' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالفتح' },
+                { type: 'text', value: 'بالكسر' },
+                { type: 'text', value: 'بالضم' }
+              ],
+              correctAnswer: 'بالكسر',
+            },
+            {
+              content: { text: '____ كِتابٌ جمعها' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'كتاتيب' },
+                { type: 'text', value: 'كتب' },
+                { type: 'text', value: 'اكتاب' }
+              ],
+              correctAnswer: 'كُتب',
+            },
+            {
+              content: { text: '____ شَجْرهِ جمعها' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'شجور' },
+                { type: 'text', value: 'أشجار' },
+                { type: 'text', value: 'شجرة' }
+              ],
+              correctAnswer: 'أشجار',
+            },
+            {
+              content: { text: 'كَانَ اْلُهَّرجُ ____ فيِ تَمْثِيلُ مَوَاقِفٌ مُخْتَلفَة' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'شارباً' },
+                { type: 'text', value: 'بارَعاً' },
+                { type: 'text', value: 'نائماً' }
+              ],
+              correctAnswer: 'بارَعاً',
+            },
+            {
+              content: { text: 'بَعْدَ الْعَرْضُ أَخَذْنَا ____ مَعَ الْمُهَّرِجُ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'طعاماً' },
+                { type: 'text', value: 'هدية' },
+                { type: 'text', value: 'صورة' }
+              ],
+              correctAnswer: 'هدية',
+            },
+            {
+              content: { text: '_____ حِزِينٌ بها مد' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالألف' },
+                { type: 'text', value: 'باليا' },
+                { type: 'text', value: 'بالواو' }
+              ],
+              correctAnswer: 'بالألف',
+            },
+            {
+              content: { text: ' بَارِع _____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أنا' },
+                { type: 'text', value: 'نحن' }
+              ],
+              correctAnswer: 'أنا',
+            },
+            {
+              content: { text: ' أَصْدقاءٌ _____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أنا' },
+                { type: 'text', value: 'نحن' }
+              ],
+              correctAnswer: 'نحن',
+            },
+            {
+              content: { text: 'الولد يَأْكُل طعَامِهُ؟ نعم _____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'من' },
+                { type: 'text', value: 'هل' },
+                { type: 'text', value: 'ما' }
+              ],
+              correctAnswer: 'هل',
+            },
+            {
+              content: { text: '_____ كَبِيَرةٌ مذكرها' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'كبير' },
+                { type: 'text', value: 'كبار' },
+                { type: 'text', value: 'كبيرة' }
+              ],
+              correctAnswer: 'كبير',
+            },
+            {
+              content: { text: 'ضع فعل مضارع : ____ الْمُعَلَّمُ الدَّرْس' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'شرح' },
+                { type: 'text', value: 'أشرح' },
+                { type: 'text', value: 'يشرح' }
+              ],
+              correctAnswer: 'يشرح',
+            },
+            {
+              content: { text: ' _____ الحرف الممدود في كلمة "بَارِعاً" هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'ب' },
+                { type: 'text', value: 'ر' },
+                { type: 'text', value: 'ع' }
+              ],
+              correctAnswer: 'ر',
+            },
+            {
+              content: { text: 'نَسْيتُ زَميلَتي قَلَمَهَا ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أعيرها قلمي' },
+                { type: 'text', value: 'أسخر منها' }
+              ],
+              correctAnswer: 'أعيرها قلمي',
+            },
+            {
+              content: { text: 'كَاَن زَيْدٌ ___ الْفَرِيق’ٌ الثَّاِني' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'في' },
+                { type: 'text', value: 'إلي' }
+              ],
+              correctAnswer: 'في',
+            },
+            {
+              content: { text: '_____  الْفَوزُ اَهَم من' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الصداقة' },
+                { type: 'text', value: 'الكتابة' },
+                { type: 'text', value: 'القراءة' }
+              ],
+              correctAnswer: 'الصداقة',
+            },
+            {
+              content: { text: '_____ مُعَلمُ الحرف المشدد هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'م' },
+                { type: 'text', value: 'ء' },
+                { type: 'text', value: 'ل' }
+              ],
+              correctAnswer: 'ل',
+            },
+            {
+              content: { text: '_____ الْوَجْه الْمُشْرِقٌ -اسم النشيد' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الكون المشرق' },
+                { type: 'text', value: 'أنا إنسان' }
+              ],
+              correctAnswer: 'الكون المشرق',
+            },
+            {
+              content: { text: 'يَأْكُلُ سَالِمٌ طَعَامًا ____ في كل بلد' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'كثيرًا' },
+                { type: 'text', value: 'مختلفًا' },
+                { type: 'text', value: 'غالَبًا' }
+              ],
+              correctAnswer: 'مختلفًا',
+            },
+            {
+              content: { text: '____ أُجْنِي مِنْ الْارْضُ خَيرَ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'ثمار' },
+                { type: 'text', value: 'اخيار' },
+                { type: 'text', value: 'أقمار' }
+              ],
+              correctAnswer: 'ثمار',
+            },
+            {
+              content: { text: 'بَطَّةُ -الحرف المشدد هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'ــط' },
+                { type: 'text', value: 'ب' },
+                { type: 'text', value: 'ــة' }
+              ],
+              correctAnswer: 'ــط',
+            },
+            {
+              content: { text: 'بِنْتُ ) جمعها )' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أبنات' },
+                { type: 'text', value: 'بنين' },
+                { type: 'text', value: 'بنات' }
+              ],
+              correctAnswer: 'بنات',
+            },
+            {
+              content: { text: '____ أَنَا وَزَيدٌ نُحِبُ كُرَة ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'اليد' },
+                { type: 'text', value: 'القدم' },
+                { type: 'text', value: 'السلَّةُ' }
+              ],
+              correctAnswer: 'القدم',
+            },
+            {
+              content: { text: 'أَصْحَابِي' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بها ياء ملكية' },
+                { type: 'text', value: 'بها تنوين' }
+              ],
+              correctAnswer: 'بها ياء ملكية',
             }
           ],
           رياضيات: [
             {
-
+              content: { text: '...... تبدأ السنة الميلادية بشهر ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'يناير' },
+                { type: 'text', value: 'فبراير' },
+                { type: 'text', value: 'مارس' }
+              ],
+              correctAnswer: 'يناير',
+            },
+            {
+              content: { text: 'عدد أيام الأسبوع ..... أيام' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٩' },
+                { type: 'text', value: '٦' },
+                { type: 'text', value: '٧' }
+              ],
+              correctAnswer: '٧',
+            },
+            {
+              content: { text: '...... الشهر السابق لشهر مارس هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'فبراير' },
+                { type: 'text', value: 'أبريل' },
+                { type: 'text', value: 'مايو' }
+              ],
+              correctAnswer: 'فبراير',
+            },
+            {
+              content: { text: '......الشهر التالي لشهر شعبان هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'رمضان' },
+                { type: 'text', value: 'محرم' },
+                { type: 'text', value: 'ذو القعدة' }
+              ],
+              correctAnswer: 'رمضان',
+            },
+            {
+              content: { text: '...... = ١٩ + ٧ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٢٦' },
+                { type: 'text', value: '١٨' },
+                { type: 'text', value: '١٦' }
+              ],
+              correctAnswer: '٢٦',
+            },
+            {
+              content: { text: '..... = ٢٥ + ٤ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٢٩' },
+                { type: 'text', value: '٣' },
+                { type: 'text', value: '٣٥' }
+              ],
+              correctAnswer: '٢٩',
+            },
+            {
+              content: { text: ' .....= ١٤ + ١٠  ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٢٤' },
+                { type: 'text', value: '٥٤' },
+                { type: 'text', value: '٦٤' }
+              ],
+              correctAnswer: '٢٤',
+            },
+            {
+              content: { text: '...... = ٧٠ – ٥٠' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٤٠' },
+                { type: 'text', value: '٣٠' },
+                { type: 'text', value: '٢٠' }
+              ],
+              correctAnswer: '٢٠',
+            },
+            {
+              content: { text: '....... = ٦٠ – ٢٠' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٤٠' },
+                { type: 'text', value: '٣٠' },
+                { type: 'text', value: '٨٠' }
+              ],
+              correctAnswer: '٤٠',
+            },
+            {
+              content: { text: ' ...... = ٩٠ – ٣٠' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٧٠' },
+                { type: 'text', value: '٦٠' },
+                { type: 'text', value: '٥٠' }
+              ],
+              correctAnswer: '٦٠',
+            },
+            {
+              content: { text: '١٤ - ..... = ٩' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٥' },
+                { type: 'text', value: '٦' },
+                { type: 'text', value: '٧' }
+              ],
+              correctAnswer: '٥',
+            },
+            {
+              content: { text: '٢٣ - ..... = ١٧' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٧' },
+                { type: 'text', value: '٨' },
+                { type: 'text', value: '٦' }
+              ],
+              correctAnswer: '٦',
+            },
+            {
+              content: { text: ' .... = ٧٣ - ٥٠ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٢٤' },
+                { type: 'text', value: '٢٣' },
+                { type: 'text', value: '٢٠' }
+              ],
+              correctAnswer: '٢٣',
+            },
+            {
+              content: { text: '.... = ٣٦ – ١٢ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '١٢' },
+                { type: 'text', value: '١٥' },
+                { type: 'text', value: '١٤' }
+              ],
+              correctAnswer: '٢٤',
+            },
+            {
+              content: { text: ' ........ = ٨ آحاد + ٦ عشرات ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٦٨' },
+                { type: 'text', value: '٨٦' },
+                { type: 'text', value: '٦٨٠' }
+              ],
+              correctAnswer: '٦٨',
+            },
+            {
+              content: { text: '........ قيمة الرقم ٣ في العدد ٣٥ هي ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'آحاد' },
+                { type: 'text', value: 'عشرات' },
+                { type: 'text', value: 'مئات' }
+              ],
+              correctAnswer: 'عشرات',
+            },
+            {
+              content: { text: '٢٤ ..... ١٥ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '<' },
+                { type: 'text', value: '>' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '>',
+            },
+            {
+              content: { text: '٦٥ ..... ٩٧ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '<' },
+                { type: 'text', value: '>' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '<',
+            },
+            {
+              content: { text: '٣ عشرات .... ٣٠' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '<' },
+                { type: 'text', value: '>' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '=',
+            },
+            {
+              content: { text: '٢١ ..... ٨٧ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '<' },
+                { type: 'text', value: '>' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '>'
+            },
+            {
+              content: { text: '٤٥ .... ١٦ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '<' },
+                { type: 'text', value: '>' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '<'
+            },
+            {
+              content: { text: '.... عدد يتكون من ٤ آحاد و٢ عشرات هو ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٢٤' },
+                { type: 'text', value: '٤٢' },
+                { type: 'text', value: '٣٢' }
+              ],
+              correctAnswer: '٢٤',
+            },
+            {
+              content: { text: '...... العدد السابق للعدد ٤٥ هو ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٤٤' },
+                { type: 'text', value: '٤٣' },
+                { type: 'text', value: '٤٦' }
+              ],
+              correctAnswer: '٤٤',
+            },
+            {
+              content: { text: '..... العدد السابق للعدد ٢٨ هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٢٧' },
+                { type: 'text', value: '٢٩' },
+                { type: 'text', value: '٣٠' }
+              ],
+              correctAnswer: '٢٧',
+            },
+            {
+              content: { text: '...... , ١٢ , ٢٢ , ٣٢ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٤٢' },
+                { type: 'text', value: '٥٢' },
+                { type: 'text', value: '٢٢' }
+              ],
+              correctAnswer: '٤٢',
+            },
+            {
+              content: { text: ' ...... , ٥ , ١٥' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٢٥' },
+                { type: 'text', value: '٣٥' },
+                { type: 'text', value: '٥٥' }
+              ],
+              correctAnswer: '٢٥',
+            },
+            {
+              content: { text: ' ..... , ٩٠ , ٩١ , ٩٢' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٩٤' },
+                { type: 'text', value: '٩٣' },
+                { type: 'text', value: '٩٥' }
+              ],
+              correctAnswer: '٩٣',
+            },
+            {
+              content: { text: ' ..... , ١٠ , ٢٠ , ٣٠' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٤٠' },
+                { type: 'text', value: '٥٠' },
+                { type: 'text', value: '٦٠' }
+              ],
+              correctAnswer: '٤٠',
+            },
+            {
+              content: { text: ' ..... = ٦٣ + ١٣' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٧٦' },
+                { type: 'text', value: '٦٦' },
+                { type: 'text', value: '٥٦' }
+              ],
+              correctAnswer: '٧٦',
+            },
+            {
+              content: { text: ' ..... = ٧٥ + ٢٣ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٩٨' },
+                { type: 'text', value: '٨٨' },
+                { type: 'text', value: '٣٨' }
+              ],
+              correctAnswer: '٩٨',
+            },
+            {
+              content: { text: ' ..... = ٥٦ + ٤٢ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٩٨' },
+                { type: 'text', value: '٤٨' },
+                { type: 'text', value: '٢٨' }
+              ],
+              correctAnswer: '٩٨',
+            },
+            {
+              content: { text: ' ..... = ١٨ + ٧١' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٨٩' },
+                { type: 'text', value: '٩٩' },
+                { type: 'text', value: '٥٩' }
+              ],
+              correctAnswer: '٨٩',
+            },
+            {
+              content: { text: ' ..... = ٥٠ + ٣٩ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٨٩' },
+                { type: 'text', value: '٩٨' },
+                { type: 'text', value: '٤٨' }
+              ],
+              correctAnswer: '٨٩',
+            },
+            {
+              content: { text: ' ..... = ٨٣ – ٥٢ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٣١' },
+                { type: 'text', value: '٤١' },
+                { type: 'text', value: '٥١' }
+              ],
+              correctAnswer: '٣١',
+            },
+            {
+              content: { text: ' ..... = ٩٣ – ١٢ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: '٣١' },
+                { type: 'text', value: '٤١' },
+                { type: 'text', value: '٣١' }
+              ],
+              correctAnswer: '٨١',
+            },
+            {
+              content: { text: ' ..... الشكل الذي له ثلاثة اضلاع ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'المربع' },
+                { type: 'text', value: 'المثلث' },
+                { type: 'text', value: 'المستطيل' }
+              ],
+              correctAnswer: 'المثلث',
             }
           ],
           'دين مسيحي': [
@@ -6253,6 +7079,494 @@ export const questionsData = {
               ],
               correctAnswer: 'assets/grad 1/3oclock.jfif'
             }
+          ],
+          'الماني': [
+            {
+              content: { text: 'Welche Zahl ist fünfundvierzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '25' },
+                { type: 'text', value: '35' },
+                { type: 'text', value: '45' },
+                { type: 'text', value: '55' },
+              ],
+              correctAnswer: '45',
+            },
+            {
+              content: { text: 'Was kommt nach neunundneunzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'einundneunzig' },
+                { type: 'text', value: 'hundert' },
+                { type: 'text', value: 'neunzig' },
+                { type: 'text', value: 'neunundneunzig' },
+              ],
+              correctAnswer: 'hundert',
+            },
+            {
+              content: { text: 'Welche Zahl ist achtzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '28' },
+                { type: 'text', value: '88' },
+              ],
+              correctAnswer: '80',
+            },
+            {
+              content: { text: 'Siebenundsiebzig ist:' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '67' },
+                { type: 'text', value: '76' },
+                { type: 'text', value: '77' },
+                { type: 'text', value: '87' },
+              ],
+              correctAnswer: '77',
+            },
+            {
+              content: { text: 'Welche Farbe ist rot?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blue' },
+                { type: 'text', value: 'green' },
+                { type: 'text', value: 'red' },
+                { type: 'text', value: 'yellow' },
+              ],
+              correctAnswer: 'red',
+            },
+            {
+              content: { text: 'Welche Farbe ist die Banane?',
+                image:"assets/الماني/موزة.jpg"
+               },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'gelb' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'weiß' },
+              ],
+              correctAnswer: 'gelb',
+            },
+            {
+              content: { text: 'Welche Farbe hat der Himmel?' ,
+                image:"assets/الماني/سما.jpg"
+              },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'grün' },
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'braun' },
+                { type: 'text', value: 'rot' },
+              ],
+              correctAnswer: 'blau',
+            },
+            {
+              content: { text: 'Welche Farbe ist Schnee?' ,
+                image:"assets/الماني/ثلجي.jpg"
+              },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'weiß' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'orange' },
+                { type: 'text', value: 'grau' },
+              ],
+              correctAnswer: 'weiß',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Fisch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Buch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Nest' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Tafel' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Uhr' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Ball' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Banane' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Elefant' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Welche Zahl ist fünfundvierzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '25' },
+                { type: 'text', value: '35' },
+                { type: 'text', value: '45' },
+                { type: 'text', value: '55' },
+              ],
+              correctAnswer: '45',
+            },
+            {
+              content: { text: 'Was kommt nach neunundneunzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'einundneunzig' },
+                { type: 'text', value: 'hundert' },
+                { type: 'text', value: 'neunzig' },
+                { type: 'text', value: 'neunundneunzig' },
+              ],
+              correctAnswer: 'hundert',
+            },
+            {
+              content: { text: 'Welche Zahl ist achtzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '28' },
+                { type: 'text', value: '88' },
+              ],
+              correctAnswer: '80',
+            },
+            {
+              content: { text: 'Siebenundsiebzig ist:' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '67' },
+                { type: 'text', value: '76' },
+                { type: 'text', value: '77' },
+                { type: 'text', value: '87' },
+              ],
+              correctAnswer: '77',
+            },
+            {
+              content: { text: 'Welche Farbe ist rot?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blue' },
+                { type: 'text', value: 'green' },
+                { type: 'text', value: 'red' },
+                { type: 'text', value: 'yellow' },
+              ],
+              correctAnswer: 'red',
+            },
+            {
+              content: { text: 'Welche Farbe ist die Banane?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'gelb' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'weiß' },
+              ],
+              correctAnswer: 'gelb',
+            },
+            {
+              content: { text: 'Welche Farbe hat der Himmel?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'grün' },
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'braun' },
+                { type: 'text', value: 'rot' },
+              ],
+              correctAnswer: 'blau',
+            },
+            {
+              content: { text: 'Welche Farbe ist Schnee?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'weiß' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'orange' },
+                { type: 'text', value: 'grau' },
+              ],
+              correctAnswer: 'weiß',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Fisch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Buch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Nest' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Tafel' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Uhr' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Ball' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Banane' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Elefant' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Welche Zahl ist fünfundvierzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '25' },
+                { type: 'text', value: '35' },
+                { type: 'text', value: '45' },
+                { type: 'text', value: '55' },
+              ],
+              correctAnswer: '45',
+            },
+            {
+              content: { text: 'Was kommt nach neunundneunzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'einundneunzig' },
+                { type: 'text', value: 'hundert' },
+                { type: 'text', value: 'neunzig' },
+                { type: 'text', value: 'neunundneunzig' },
+              ],
+              correctAnswer: 'hundert',
+            },
+            {
+              content: { text: 'Welche Zahl ist achtzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '28' },
+                { type: 'text', value: '88' },
+              ],
+              correctAnswer: '80',
+            },
+            {
+              content: { text: 'Siebenundsiebzig ist:' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '67' },
+                { type: 'text', value: '76' },
+                { type: 'text', value: '77' },
+                { type: 'text', value: '87' },
+              ],
+              correctAnswer: '77',
+            },
+            {
+              content: { text: 'Welche Farbe ist rot?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blue' },
+                { type: 'text', value: 'green' },
+                { type: 'text', value: 'red' },
+                { type: 'text', value: 'yellow' },
+              ],
+              correctAnswer: 'red',
+            },
+            {
+              content: { text: 'Welche Farbe ist die Banane?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'gelb' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'weiß' },
+              ],
+              correctAnswer: 'gelb',
+            },
+            {
+              content: { text: 'Welche Farbe hat der Himmel?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'grün' },
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'braun' },
+                { type: 'text', value: 'rot' },
+              ],
+              correctAnswer: 'blau',
+            },
+            {
+              content: { text: 'Welche Farbe ist Schnee?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'weiß' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'orange' },
+                { type: 'text', value: 'grau' },
+              ],
+              correctAnswer: 'weiß',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Fisch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Buch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Nest' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Tafel' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Uhr' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Ball' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Banane' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Elefant' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
           ],
         },
         تانية: {
@@ -17355,20 +18669,1376 @@ export const questionsData = {
         }
       },
       ابتدائي: {
-        أولي: {
+       'Grade 1': {
           عربي: [
             {
-              question: "ما هو أكبر عدد؟",
-              options: ["1", "2", "3", "4"],
-              correctAnswer: "4"
+              content: { text: 'رَائِعَةٌ_____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هذا' },
+                { type: 'text', value: 'هذه' },
+                { type: 'text', value: 'هؤلاء' }
+              ],
+              correctAnswer: 'هذه',
+            },
+            {
+              content: { text: ' تَلَامِيذٌ _____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هذا' },
+                { type: 'text', value: 'هذه' },
+                { type: 'text', value: 'هؤلاء' }
+              ],
+              correctAnswer: 'هؤلاء',
+            },
+            {
+              content: { text: 'كِتَابٌ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'مد بالألف' },
+                { type: 'text', value: 'مد بالواو' },
+                { type: 'text', value: 'مد بالياء' }
+              ],
+              correctAnswer: 'مد بالألف',
+            },
+            {
+              content: { text: 'طُيُور' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'مد بالألف' },
+                { type: 'text', value: 'مد بالواو' },
+                { type: 'text', value: 'مد بالياء' }
+              ],
+              correctAnswer: 'مد بالواو',
+            },
+            {
+              content: { text: ' مُعَلَّمٌ____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هو' },
+                { type: 'text', value: 'هي' }
+              ],
+              correctAnswer: 'هو',
+            },
+            {
+              content: { text: 'مَهَنْدِسةٌ____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هو' },
+                { type: 'text', value: 'هي' }
+              ],
+              correctAnswer: 'هي',
+            },
+            {
+              content: { text: ' جَمِيلٌ____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أَنتَ' },
+                { type: 'text', value: 'أنتِ' }
+              ],
+              correctAnswer: 'أَنتَ',
+            },
+            {
+              content: { text: ' بِنْتٌ ____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أَنتَ' },
+                { type: 'text', value: 'أنتِ' }
+              ],
+              correctAnswer: 'أنتِ',
+            },
+            {
+              content: { text: 'ظَمأً كلمة بها تنوين' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالفتح' },
+                { type: 'text', value: 'بالضم' },
+                { type: 'text', value: 'بالكسر' }
+              ],
+              correctAnswer: 'بالفتح',
+            },
+            {
+              content: { text: 'أَنَا ____ مع الْاَصْحَاب' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'نلعب' },
+                { type: 'text', value: 'ألعب' }
+              ],
+              correctAnswer: 'ألعب',
+            },
+            {
+              content: { text: 'شَرَحَ فعل' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'ماضي' },
+                { type: 'text', value: 'مضارع' }
+              ],
+              correctAnswer: 'ماضي',
+            },
+            {
+              content: { text: 'ذَهَبَ مُحَمَّدُ إِلَي الْمَدْرسَة-(إِلَي حرف____)' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'جر' },
+                { type: 'text', value: 'عطف' }
+              ],
+              correctAnswer: 'جر',
+            },
+            {
+              content: { text: 'تَحْكِي قِصَصًا اسم النشيد' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'مع أصحاب' },
+                { type: 'text', value: 'أنا إنسان' }
+              ],
+              correctAnswer: 'مع أصحاب',
+            },
+            {
+              content: { text: ' أَخِي ___' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هذا' },
+                { type: 'text', value: 'هذه' },
+                { type: 'text', value: 'هؤلاء' }
+              ],
+              correctAnswer: 'هذا',
+            },
+            {
+              content: { text: ' يَرْسُمُ ___' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'هو' },
+                { type: 'text', value: 'هي' }
+              ],
+              correctAnswer: 'هو',
+            },
+            {
+              content: { text: 'يَذْهَبُ مُحَمْدُ ؟ -إلي َ الْمَدْرَسَةُ ___' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'من' },
+                { type: 'text', value: 'ما' },
+                { type: 'text', value: 'أين' }
+              ],
+              correctAnswer: 'أين',
+            },
+            {
+              content: { text: 'يَتَنَاوَلُ الطَّعَامُ ؟ أحْمَد ___' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'من ما' },
+                { type: 'text', value: 'أين' }
+              ],
+              correctAnswer: 'أين',
+            },
+            {
+              content: { text: 'يُسَافِرُ ___ سَالِمُ إِلَي بَلَاد الْعَالِمُ الْوَاِسِعُ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الطفل' },
+                { type: 'text', value: 'المغامر' },
+                { type: 'text', value: 'فرنسا' }
+              ],
+              correctAnswer: 'المغامر',
+            },
+            {
+              content: { text: '____ يُقَابِلُ سَالِمُ النَّاسُ بوَجْهٍ ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'عابس' },
+                { type: 'text', value: 'غاضب' },
+                { type: 'text', value: 'باسم' }
+              ],
+              correctAnswer: 'باسم',
+            },
+            {
+              content: { text: ' لُعْبَةٌ ) أضف ياء الملكية لهذه الكلمة )' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'لِعابي' },
+                { type: 'text', value: 'لعبتي' },
+                { type: 'text', value: 'لعب' }
+              ],
+              correctAnswer: 'لعبتي',
+            },
+            {
+              content: { text: 'الطّفْلُ ) المؤنث له )' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الطفال' },
+                { type: 'text', value: 'الطفلة' },
+                { type: 'text', value: 'الأطفال' }
+              ],
+              correctAnswer: 'الطفلة',
+            },
+            {
+              content: { text: 'قَالَ اْلاَبُ بَدَأَتُ الْكِتَابَة بِوَضْعُ __ فِي لوْن' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الكتابة' },
+                { type: 'text', value: 'الريشة' },
+                { type: 'text', value: 'القلم' }
+              ],
+              correctAnswer: 'القلم',
+            },
+            {
+              content: { text: '____ أكمل أَبْنِي دَارِي' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالأشجار' },
+                { type: 'text', value: 'بالأحجار' },
+                { type: 'text', value: 'بالألعاب' }
+              ],
+              correctAnswer: 'بالأشجار',
+            },
+            {
+              content: { text: ' ____ السَّبُورَة بها لام' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'قمريه' },
+                { type: 'text', value: 'شمسيه' }
+              ],
+              correctAnswer: 'شمسيه',
+            },
+            {
+              content: { text: '____ الْقَلَمُ بها لام' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'قمريه' },
+                { type: 'text', value: 'شمسيه' }
+              ],
+              correctAnswer: 'قمريه',
+            },
+            {
+              content: { text: '____ جَمِيل’’ لها تنوين' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالفتح' },
+                { type: 'text', value: 'بالكسر' },
+                { type: 'text', value: 'بالضم' }
+              ],
+              correctAnswer: 'بالفتح',
+            },
+            {
+              content: { text: '____ مَدْرَسةٍ بها تنوين' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالفتح' },
+                { type: 'text', value: 'بالكسر' },
+                { type: 'text', value: 'بالضم' }
+              ],
+              correctAnswer: 'بالكسر',
+            },
+            {
+              content: { text: '____ كِتابٌ جمعها' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'كتاتيب' },
+                { type: 'text', value: 'كتب' },
+                { type: 'text', value: 'اكتاب' }
+              ],
+              correctAnswer: 'كُتب',
+            },
+            {
+              content: { text: '____ شَجْرهِ جمعها' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'شجور' },
+                { type: 'text', value: 'أشجار' },
+                { type: 'text', value: 'شجرة' }
+              ],
+              correctAnswer: 'أشجار',
+            },
+            {
+              content: { text: 'كَانَ اْلُهَّرجُ ____ فيِ تَمْثِيلُ مَوَاقِفٌ مُخْتَلفَة' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'شارباً' },
+                { type: 'text', value: 'بارَعاً' },
+                { type: 'text', value: 'نائماً' }
+              ],
+              correctAnswer: 'بارَعاً',
+            },
+            {
+              content: { text: 'بَعْدَ الْعَرْضُ أَخَذْنَا ____ مَعَ الْمُهَّرِجُ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'طعاماً' },
+                { type: 'text', value: 'هدية' },
+                { type: 'text', value: 'صورة' }
+              ],
+              correctAnswer: 'هدية',
+            },
+            {
+              content: { text: '_____ حِزِينٌ بها مد' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بالألف' },
+                { type: 'text', value: 'باليا' },
+                { type: 'text', value: 'بالواو' }
+              ],
+              correctAnswer: 'بالألف',
+            },
+            {
+              content: { text: ' بَارِع _____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أنا' },
+                { type: 'text', value: 'نحن' }
+              ],
+              correctAnswer: 'أنا',
+            },
+            {
+              content: { text: ' أَصْدقاءٌ _____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أنا' },
+                { type: 'text', value: 'نحن' }
+              ],
+              correctAnswer: 'نحن',
+            },
+            {
+              content: { text: 'الولد يَأْكُل طعَامِهُ؟ نعم _____' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'من' },
+                { type: 'text', value: 'هل' },
+                { type: 'text', value: 'ما' }
+              ],
+              correctAnswer: 'هل',
+            },
+            {
+              content: { text: '_____ كَبِيَرةٌ مذكرها' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'كبير' },
+                { type: 'text', value: 'كبار' },
+                { type: 'text', value: 'كبيرة' }
+              ],
+              correctAnswer: 'كبير',
+            },
+            {
+              content: { text: 'ضع فعل مضارع : ____ الْمُعَلَّمُ الدَّرْس' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'شرح' },
+                { type: 'text', value: 'أشرح' },
+                { type: 'text', value: 'يشرح' }
+              ],
+              correctAnswer: 'يشرح',
+            },
+            {
+              content: { text: ' _____ الحرف الممدود في كلمة "بَارِعاً" هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'ب' },
+                { type: 'text', value: 'ر' },
+                { type: 'text', value: 'ع' }
+              ],
+              correctAnswer: 'ر',
+            },
+            {
+              content: { text: 'نَسْيتُ زَميلَتي قَلَمَهَا ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أعيرها قلمي' },
+                { type: 'text', value: 'أسخر منها' }
+              ],
+              correctAnswer: 'أعيرها قلمي',
+            },
+            {
+              content: { text: 'كَاَن زَيْدٌ ___ الْفَرِيق’ٌ الثَّاِني' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'في' },
+                { type: 'text', value: 'إلي' }
+              ],
+              correctAnswer: 'في',
+            },
+            {
+              content: { text: '_____  الْفَوزُ اَهَم من' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الصداقة' },
+                { type: 'text', value: 'الكتابة' },
+                { type: 'text', value: 'القراءة' }
+              ],
+              correctAnswer: 'الصداقة',
+            },
+            {
+              content: { text: '_____ مُعَلمُ الحرف المشدد هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'م' },
+                { type: 'text', value: 'ء' },
+                { type: 'text', value: 'ل' }
+              ],
+              correctAnswer: 'ل',
+            },
+            {
+              content: { text: '_____ الْوَجْه الْمُشْرِقٌ -اسم النشيد' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'الكون المشرق' },
+                { type: 'text', value: 'أنا إنسان' }
+              ],
+              correctAnswer: 'الكون المشرق',
+            },
+            {
+              content: { text: 'يَأْكُلُ سَالِمٌ طَعَامًا ____ في كل بلد' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'كثيرًا' },
+                { type: 'text', value: 'مختلفًا' },
+                { type: 'text', value: 'غالَبًا' }
+              ],
+              correctAnswer: 'مختلفًا',
+            },
+            {
+              content: { text: '____ أُجْنِي مِنْ الْارْضُ خَيرَ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'ثمار' },
+                { type: 'text', value: 'اخيار' },
+                { type: 'text', value: 'أقمار' }
+              ],
+              correctAnswer: 'ثمار',
+            },
+            {
+              content: { text: 'بَطَّةُ -الحرف المشدد هو' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'ــط' },
+                { type: 'text', value: 'ب' },
+                { type: 'text', value: 'ــة' }
+              ],
+              correctAnswer: 'ــط',
+            },
+            {
+              content: { text: 'بِنْتُ ) جمعها )' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'أبنات' },
+                { type: 'text', value: 'بنين' },
+                { type: 'text', value: 'بنات' }
+              ],
+              correctAnswer: 'بنات',
+            },
+            {
+              content: { text: '____ أَنَا وَزَيدٌ نُحِبُ كُرَة ' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'اليد' },
+                { type: 'text', value: 'القدم' },
+                { type: 'text', value: 'السلَّةُ' }
+              ],
+              correctAnswer: 'القدم',
+            },
+            {
+              content: { text: 'أَصْحَابِي' },
+              language: "ar-EG",
+              options: [
+                { type: 'text', value: 'بها ياء ملكية' },
+                { type: 'text', value: 'بها تنوين' }
+              ],
+              correctAnswer: 'بها ياء ملكية',
             }
           ],
-          رياضيات: [
+          Math: [
             {
-              question: "ما هو 2 + 3؟",
-              options: ["4", "5", "6", "7"],
-              correctAnswer: "5"
+              content: {
+                image :"assets/mathPrim/الاول.png"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "27" },
+                { type: "text", value: "72" }
+              ],
+              correctAnswer: "72"
+            },
+            {
+              content: {
+                image :"assets/mathPrim/التاني.png"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "30" },
+                { type: "text", value: "3" }
+              ],
+              correctAnswer: "30"
+            },
+            {
+              content: {
+                image :"assets/mathPrim/التالت.png"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "21" },
+                { type: "text", value: "12" }
+              ],
+              correctAnswer: "21"
+            },
+            {
+              content: { text: '2 tens + 9 ones = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '29' },
+                { type: 'text', value: '20' },
+                { type: 'text', value: '32' }
+              ],
+              correctAnswer: '29',
+            },
+            {
+              content: { text: '8 tens + 0 ones = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '80' },
+                { type: 'text', value: '8' },
+                { type: 'text', value: '800' }
+              ],
+              correctAnswer: '80',
+            },
+            {
+              content: { text: '2 ones + 5 tens = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '52' },
+                { type: 'text', value: '5' },
+                { type: 'text', value: '25' }
+              ],
+              correctAnswer: '52',
+            },
+            {
+              content: { text: '8 ones = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '8' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '800' }
+              ],
+              correctAnswer: '8',
+            },
+            {
+              content: { text: '3 tens = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '30' },
+                { type: 'text', value: '3' },
+                { type: 'text', value: '300' }
+              ],
+              correctAnswer: '30',
+            },
+            {
+              content: { text: '…… tens + …… ones = 42' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '4 tens + 2 ones' },
+                { type: 'text', value: '2 tens + 4 ones' },
+                { type: 'text', value: '10 tens + 2 ones' }
+              ],
+              correctAnswer: '4 tens + 2 ones',
+            },
+            {
+              content: { text: '…… tens + …… ones = 57' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '5 tens + 7 ones' },
+                { type: 'text', value: '3 tens + 7 ones' },
+                { type: 'text', value: '7 tens + 5 ones' }
+              ],
+              correctAnswer: '5 tens + 7 ones',
+            },
+            {
+              content: { text: '70 + 5 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '75' },
+                { type: 'text', value: '70' },
+                { type: 'text', value: '7' }
+              ],
+              correctAnswer: '75',
+            },
+            {
+              content: { text: '80 + 7 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '87' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '7' }
+              ],
+              correctAnswer: '87',
+            },
+            {
+              content: { text: '8 + 40 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '48' },
+                { type: 'text', value: '8' },
+                { type: 'text', value: '40' }
+              ],
+              correctAnswer: '48',
+            },
+            {
+              content: { text: '1 + 90 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '91' },
+                { type: 'text', value: '1' },
+                { type: 'text', value: '90' }
+              ],
+              correctAnswer: '91',
+            },
+            {
+              content: { text: '2 + 10 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '12' },
+                { type: 'text', value: '10' },
+                { type: 'text', value: '2' }
+              ],
+              correctAnswer: '12',
+            },
+            {
+              content: { text: '6 + 30 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '36' },
+                { type: 'text', value: '30' },
+                { type: 'text', value: '6' }
+              ],
+              correctAnswer: '36',
+            },
+            {
+              content: { text: '73 = …… + ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '70 + 3' },
+                { type: 'text', value: '70 + 2' },
+                { type: 'text', value: '70 + 7' }
+              ],
+              correctAnswer: '70 + 3',
+            },
+            {
+              content: { text: '54 = …… + ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '50 + 4' },
+                { type: 'text', value: '40 + 4' },
+                { type: 'text', value: '50 + 5' }
+              ],
+              correctAnswer: '50 + 4',
+            },
+            {
+              content: { text: '30 = …… + ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '30 + 0' },
+                { type: 'text', value: '25 + 5' },
+                { type: 'text', value: '10 + 20' }
+              ],
+              correctAnswer: '30 + 0',
+            },
+            {
+              content: { text: '12 = …… + ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10 + 2' },
+                { type: 'text', value: '7 + 5' },
+                { type: 'text', value: '13 + 3' }
+              ],
+              correctAnswer: '10 + 2',
+            },
+            {
+              content: { text: '75 ______ 36' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '>',
+            },
+            {
+              content: { text: '8 tens ______ 7 ones' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '>',
+            },
+            {
+              content: { text: '80 ______ 9 tens' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '>',
+            },
+            {
+              content: { text: '36 ______ 4 tens' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '>',
+            },
+            {
+              content: { text: '40 + 7 ______ 4 tens , 7 ones' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '=',
+            },
+            {
+              content: { text: '42 ______ 6 tens' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '>',
+            },
+            {
+              content: { text: '9 ones ______ 1 tens' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '<',
+            },
+            {
+              content: { text: '96 ______ 9 tens , 6 ones' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '=',
+            },
+            {
+              content: { text: '50 + 7 ______ 5 + 70' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '=',
+            },
+            {
+              content: { text: '19 ______ 20' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '<',
+            },
+            {
+              content: { text: '60 - 40 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '20' },
+                { type: 'text', value: '10' },
+                { type: 'text', value: '30' }
+              ],
+              correctAnswer: '20',
+            },
+            {
+              content: { text: '50 - 10 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '40' },
+                { type: 'text', value: '30' },
+                { type: 'text', value: '20' }
+              ],
+              correctAnswer: '40',
+            },
+            {
+              content: { text: '70 - 30 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '40' },
+                { type: 'text', value: '30' },
+                { type: 'text', value: '20' }
+              ],
+              correctAnswer: '40',
+            },
+            {
+              content: { text: '80 - 70 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '20' },
+                { type: 'text', value: '30' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '90 - 30 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '60' },
+                { type: 'text', value: '50' },
+                { type: 'text', value: '40' }
+              ],
+              correctAnswer: '60',
+            },
+            {
+              content: { text: '40 - 30 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '20' },
+                { type: 'text', value: '30' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '20 - 20 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '0' },
+                { type: 'text', value: '10' },
+                { type: 'text', value: '5' }
+              ],
+              correctAnswer: '0',
+            },
+            {
+              content: { text: '60 - 50 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '20' },
+                { type: 'text', value: '30' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '80 - 20 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '60' },
+                { type: 'text', value: '70' },
+                { type: 'text', value: '50' }
+              ],
+              correctAnswer: '60',
+            },
+            {
+              content: { text: '90 - 80 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '20' },
+                { type: 'text', value: '30' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '15 + …… = 20' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '5' },
+                { type: 'text', value: '4' },
+                { type: 'text', value: '6' }
+              ],
+              correctAnswer: '5',
+            },
+            {
+              content: { text: '…… + 7 = 16' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '9' },
+                { type: 'text', value: '8' },
+                { type: 'text', value: '10' }
+              ],
+              correctAnswer: '9',
+            },
+            {
+              content: { text: '…… + 9 = 18' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '9' },
+                { type: 'text', value: '8' },
+                { type: 'text', value: '10' }
+              ],
+              correctAnswer: '9',
+            },
+            {
+              content: { text: '…… + 12 = 20' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '8' },
+                { type: 'text', value: '7' },
+                { type: 'text', value: '9' }
+              ],
+              correctAnswer: '8',
+            },
+            {
+              content: { text: '8 + …… = 18' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '11' },
+                { type: 'text', value: '9' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '7 + …… = 15' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '8' },
+                { type: 'text', value: '9' },
+                { type: 'text', value: '10' }
+              ],
+              correctAnswer: '8',
+            },
+            {
+              content: { text: '…… + 5 = 15' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '9' },
+                { type: 'text', value: '8' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '…… + 4 = 14' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '11' },
+                { type: 'text', value: '12' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '…… + 6 = 19' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '13' },
+                { type: 'text', value: '14' },
+                { type: 'text', value: '15' }
+              ],
+              correctAnswer: '13',
+            },
+            {
+              content: { text: '…… - 3 = 15' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '17' },
+                { type: 'text', value: '16' }
+              ],
+              correctAnswer: '18',
+            },
+            {
+              content: { text: '19 - …… = 9' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '11' },
+                { type: 'text', value: '9' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '17 - …… = 11' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '6' },
+                { type: 'text', value: '7' },
+                { type: 'text', value: '8' }
+              ],
+              correctAnswer: '6',
+            },
+            {
+              content: { text: '18 - …… = 12' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '6' },
+                { type: 'text', value: '7' },
+                { type: 'text', value: '8' }
+              ],
+              correctAnswer: '6',
+            },
+            {
+              content: { text: '20 - …… = 9' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '11' },
+                { type: 'text', value: '12' },
+                { type: 'text', value: '10' }
+              ],
+              correctAnswer: '11',
+            },
+            {
+              content: { text: '18 - …… = 10' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '8' },
+                { type: 'text', value: '7' },
+                { type: 'text', value: '9' }
+              ],
+              correctAnswer: '8',
+            },
+            {
+              content: { text: '10 - …… = 2' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '8' },
+                { type: 'text', value: '7' },
+                { type: 'text', value: '6' }
+              ],
+              correctAnswer: '8',
+            },
+            {
+              content: { text: '13 - …… = 6' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '7' },
+                { type: 'text', value: '8' },
+                { type: 'text', value: '9' }
+              ],
+              correctAnswer: '7',
+            },
+            {
+              content: { text: '14 - …… = 7' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '7' },
+                { type: 'text', value: '6' },
+                { type: 'text', value: '8' }
+              ],
+              correctAnswer: '7',
+            },
+            {
+              content: { text: '16 - …… = 14' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '2' },
+                { type: 'text', value: '3' },
+                { type: 'text', value: '1' }
+              ],
+              correctAnswer: '2',
+            },
+            {
+              content: { text: '17 - …… = 8' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '9' },
+                { type: 'text', value: '10' },
+                { type: 'text', value: '8' }
+              ],
+              correctAnswer: '9',
+            },
+            {
+              content: { text: '15 - …… = 6' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '9' },
+                { type: 'text', value: '8' },
+                { type: 'text', value: '7' }
+              ],
+              correctAnswer: '9',
+            },
+            {
+              content: { text: '…… Is 1 more than 64' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '65' },
+                { type: 'text', value: '66' },
+                { type: 'text', value: '64' }
+              ],
+              correctAnswer: '65',
+            },
+            {
+              content: { text: '…… Is 10 more than 32' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '42' },
+                { type: 'text', value: '43' },
+                { type: 'text', value: '41' }
+              ],
+              correctAnswer: '42',
+            },
+            {
+              content: { text: '…… Is 1 more than 92' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '93' },
+                { type: 'text', value: '92' },
+                { type: 'text', value: '91' }
+              ],
+              correctAnswer: '93',
+            },
+            {
+              content: { text: '…… Is 10 more than 45' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '55' },
+                { type: 'text', value: '54' },
+                { type: 'text', value: '56' }
+              ],
+              correctAnswer: '55',
+            },
+            {
+              content: { text: '…… Is 1 less than 35' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '34' },
+                { type: 'text', value: '33' },
+                { type: 'text', value: '35' }
+              ],
+              correctAnswer: '34',
+            },
+            {
+              content: { text: '…… Is 1 less than 59' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '58' },
+                { type: 'text', value: '57' },
+                { type: 'text', value: '56' }
+              ],
+              correctAnswer: '58',
+            },
+            {
+              content: { text: '…… Is 10 less than 92' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '82' },
+                { type: 'text', value: '83' },
+                { type: 'text', value: '81' }
+              ],
+              correctAnswer: '82',
+            },
+            {
+              content: { text: '…… Is 1 more than 82' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '83' },
+                { type: 'text', value: '84' },
+                { type: 'text', value: '85' }
+              ],
+              correctAnswer: '83',
+            },
+            {
+              content: { text: '…… Is 10 more than 61' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '71' },
+                { type: 'text', value: '72' },
+                { type: 'text', value: '70' }
+              ],
+              correctAnswer: '71',
+            },
+            {
+              content: { text: '67 L.E. – 20 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '47' },
+                { type: 'text', value: '48' },
+                { type: 'text', value: '49' }
+              ],
+              correctAnswer: '47',
+            },
+            {
+              content: { text: '91 L.E. – 10 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '81' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '82' }
+              ],
+              correctAnswer: '81',
+            },
+            {
+              content: { text: '83 L.E. – 10 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '73' },
+                { type: 'text', value: '72' },
+                { type: 'text', value: '74' }
+              ],
+              correctAnswer: '73',
+            },
+            {
+              content: { text: '95 L.E. – 60 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '35' },
+                { type: 'text', value: '36' },
+                { type: 'text', value: '34' }
+              ],
+              correctAnswer: '35',
+            },
+            {
+              content: { text: '80 L.E. – 30 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '50' },
+                { type: 'text', value: '51' },
+                { type: 'text', value: '49' }
+              ],
+              correctAnswer: '50',
+            },
+            {
+              content: { text: '…………. has 4 sides' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'Square' },
+                { type: 'text', value: 'Triangle' },
+                { type: 'text', value: 'Circle' }
+              ],
+              correctAnswer: 'Square',
+            },
+            {
+              content: { text: '…………. has 3 sides' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'Triangle' },
+                { type: 'text', value: 'Square' },
+                { type: 'text', value: 'Rectangle' }
+              ],
+              correctAnswer: 'Triangle',
+            },
+            {
+              content: { text: '…………. has 4 equal sides' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'Square' },
+                { type: 'text', value: 'Rectangle' },
+                { type: 'text', value: 'Circle' }
+              ],
+              correctAnswer: 'Square',
+            },
+            {
+              content: { text: 'The number of corners of a cylinder is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '0' },
+                { type: 'text', value: '2' },
+                { type: 'text', value: '4' }
+              ],
+              correctAnswer: '0',
+            },
+            {
+              content: { text: 'The number of edges of a cube is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '12' },
+                { type: 'text', value: '10' },
+                { type: 'text', value: '14' }
+              ],
+              correctAnswer: '12',
+            },
+            {
+              content: { text: 'The number of faces of a cuboid is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '6' },
+                { type: 'text', value: '8' },
+                { type: 'text', value: '5' }
+              ],
+              correctAnswer: '6',
+            },
+            {
+              content: { text: '7 + 25 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '32' },
+                { type: 'text', value: '33' },
+                { type: 'text', value: '31' }
+              ],
+              correctAnswer: '32',
+            },
+            {
+              content: { text: '35 + 9 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '44' },
+                { type: 'text', value: '43' },
+                { type: 'text', value: '45' }
+              ],
+              correctAnswer: '44',
+            },
+            {
+              content: { text: '52 + 8 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '60' },
+                { type: 'text', value: '61' },
+                { type: 'text', value: '59' }
+              ],
+              correctAnswer: '60',
+            },
+            {
+              content: { text: '35 + 8 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '43' },
+                { type: 'text', value: '44' },
+                { type: 'text', value: '45' }
+              ],
+              correctAnswer: '43',
+            },
+            {
+              content: { text: '30 + 21 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '51' },
+                { type: 'text', value: '50' },
+                { type: 'text', value: '52' }
+              ],
+              correctAnswer: '51',
+            },
+            {
+              content: { text: '18 + 3 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '21' },
+                { type: 'text', value: '22' },
+                { type: 'text', value: '20' }
+              ],
+              correctAnswer: '21',
+            },
+            {
+              content: { text: '18 + 0 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '19' },
+                { type: 'text', value: '17' }
+              ],
+              correctAnswer: '18',
+            },
+            {
+              content: { text: '12 + 13 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '25' },
+                { type: 'text', value: '24' },
+                { type: 'text', value: '26' }
+              ],
+              correctAnswer: '25',
             }
+
           ],
           'Discover': [
             {
@@ -18952,8 +21622,980 @@ export const questionsData = {
 
 
           ],
+          'الماني': [
+            {
+              content: { text: 'Welche Zahl ist fünfundvierzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '25' },
+                { type: 'text', value: '35' },
+                { type: 'text', value: '45' },
+                { type: 'text', value: '55' },
+              ],
+              correctAnswer: '45',
+            },
+            {
+              content: { text: 'Was kommt nach neunundneunzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'einundneunzig' },
+                { type: 'text', value: 'hundert' },
+                { type: 'text', value: 'neunzig' },
+                { type: 'text', value: 'neunundneunzig' },
+              ],
+              correctAnswer: 'hundert',
+            },
+            {
+              content: { text: 'Welche Zahl ist achtzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '28' },
+                { type: 'text', value: '88' },
+              ],
+              correctAnswer: '80',
+            },
+            {
+              content: { text: 'Siebenundsiebzig ist:' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '67' },
+                { type: 'text', value: '76' },
+                { type: 'text', value: '77' },
+                { type: 'text', value: '87' },
+              ],
+              correctAnswer: '77',
+            },
+            {
+              content: { text: 'Welche Farbe ist rot?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blue' },
+                { type: 'text', value: 'green' },
+                { type: 'text', value: 'red' },
+                { type: 'text', value: 'yellow' },
+              ],
+              correctAnswer: 'red',
+            },
+            {
+              content: { text: 'Welche Farbe ist die Banane?',
+                image:"assets/الماني/موزة.jpg"
+               },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'gelb' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'weiß' },
+              ],
+              correctAnswer: 'gelb',
+            },
+            {
+              content: { text: 'Welche Farbe hat der Himmel?' ,
+                image:"assets/الماني/سما.jpg"
+              },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'grün' },
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'braun' },
+                { type: 'text', value: 'rot' },
+              ],
+              correctAnswer: 'blau',
+            },
+            {
+              content: { text: 'Welche Farbe ist Schnee?' ,
+                image:"assets/الماني/ثلجي.jpg"
+              },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'weiß' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'orange' },
+                { type: 'text', value: 'grau' },
+              ],
+              correctAnswer: 'weiß',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Fisch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Buch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Nest' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Tafel' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Uhr' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Ball' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Banane' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Elefant' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Welche Zahl ist fünfundvierzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '25' },
+                { type: 'text', value: '35' },
+                { type: 'text', value: '45' },
+                { type: 'text', value: '55' },
+              ],
+              correctAnswer: '45',
+            },
+            {
+              content: { text: 'Was kommt nach neunundneunzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'einundneunzig' },
+                { type: 'text', value: 'hundert' },
+                { type: 'text', value: 'neunzig' },
+                { type: 'text', value: 'neunundneunzig' },
+              ],
+              correctAnswer: 'hundert',
+            },
+            {
+              content: { text: 'Welche Zahl ist achtzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '28' },
+                { type: 'text', value: '88' },
+              ],
+              correctAnswer: '80',
+            },
+            {
+              content: { text: 'Siebenundsiebzig ist:' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '67' },
+                { type: 'text', value: '76' },
+                { type: 'text', value: '77' },
+                { type: 'text', value: '87' },
+              ],
+              correctAnswer: '77',
+            },
+            {
+              content: { text: 'Welche Farbe ist rot?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blue' },
+                { type: 'text', value: 'green' },
+                { type: 'text', value: 'red' },
+                { type: 'text', value: 'yellow' },
+              ],
+              correctAnswer: 'red',
+            },
+            {
+              content: { text: 'Welche Farbe ist die Banane?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'gelb' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'weiß' },
+              ],
+              correctAnswer: 'gelb',
+            },
+            {
+              content: { text: 'Welche Farbe hat der Himmel?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'grün' },
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'braun' },
+                { type: 'text', value: 'rot' },
+              ],
+              correctAnswer: 'blau',
+            },
+            {
+              content: { text: 'Welche Farbe ist Schnee?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'weiß' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'orange' },
+                { type: 'text', value: 'grau' },
+              ],
+              correctAnswer: 'weiß',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Fisch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Buch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Nest' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Tafel' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Uhr' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Ball' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Banane' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Elefant' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Welche Zahl ist fünfundvierzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '25' },
+                { type: 'text', value: '35' },
+                { type: 'text', value: '45' },
+                { type: 'text', value: '55' },
+              ],
+              correctAnswer: '45',
+            },
+            {
+              content: { text: 'Was kommt nach neunundneunzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'einundneunzig' },
+                { type: 'text', value: 'hundert' },
+                { type: 'text', value: 'neunzig' },
+                { type: 'text', value: 'neunundneunzig' },
+              ],
+              correctAnswer: 'hundert',
+            },
+            {
+              content: { text: 'Welche Zahl ist achtzig?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '28' },
+                { type: 'text', value: '88' },
+              ],
+              correctAnswer: '80',
+            },
+            {
+              content: { text: 'Siebenundsiebzig ist:' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: '67' },
+                { type: 'text', value: '76' },
+                { type: 'text', value: '77' },
+                { type: 'text', value: '87' },
+              ],
+              correctAnswer: '77',
+            },
+            {
+              content: { text: 'Welche Farbe ist rot?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blue' },
+                { type: 'text', value: 'green' },
+                { type: 'text', value: 'red' },
+                { type: 'text', value: 'yellow' },
+              ],
+              correctAnswer: 'red',
+            },
+            {
+              content: { text: 'Welche Farbe ist die Banane?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'gelb' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'weiß' },
+              ],
+              correctAnswer: 'gelb',
+            },
+            {
+              content: { text: 'Welche Farbe hat der Himmel?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'grün' },
+                { type: 'text', value: 'blau' },
+                { type: 'text', value: 'braun' },
+                { type: 'text', value: 'rot' },
+              ],
+              correctAnswer: 'blau',
+            },
+            {
+              content: { text: 'Welche Farbe ist Schnee?' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'weiß' },
+                { type: 'text', value: 'schwarz' },
+                { type: 'text', value: 'orange' },
+                { type: 'text', value: 'grau' },
+              ],
+              correctAnswer: 'weiß',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Fisch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Buch' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Nest' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Tafel' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Uhr' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Ball' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Banane' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'eine',
+            },
+            {
+              content: { text: 'Was ist richtig? ___ Elefant' },
+              language: 'de-DE',
+              options: [
+                { type: 'text', value: 'ein' },
+                { type: 'text', value: 'eine' },
+              ],
+              correctAnswer: 'ein',
+            },
+          ],
+          'English Connect +':[
+            {
+              content: { text: '…… are skirts' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'this' },
+                { type: 'text', value: 'these' },
+                { type: 'text', value: 'that' }
+              ],
+              correctAnswer: 'these'
+            },
+            {
+              content: { text: 'What are …… ?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'those' },
+                { type: 'text', value: 'that' },
+                { type: 'text', value: 'this' }
+              ],
+              correctAnswer: 'those'
+            },
+            {
+              content: { text: 'What is …..' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'those' },
+                { type: 'text', value: 'that' },
+                { type: 'text', value: 'that' }
+              ],
+              correctAnswer: 'that'
+            },
+            {
+              content: { text: 'That ….. a dress' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'am' },
+                { type: 'text', value: 'is' },
+                { type: 'text', value: 'are' }
+              ],
+              correctAnswer: 'is'
+            },
+            {
+              content: { text: '…… is a shirt' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'those' },
+                { type: 'text', value: 'this' },
+                { type: 'text', value: 'these' }
+              ],
+              correctAnswer: 'this'
+            },
+            {
+              content: { text: 'Are those ….. socks?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'her' },
+                { type: 'text', value: 'she' },
+                { type: 'text', value: 'hers' }
+              ],
+              correctAnswer: 'her'
+            },
+            {
+              content: { text: 'Abee needs …..' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'meat' },
+                { type: 'text', value: 'milk' },
+                { type: 'text', value: 'flowers' }
+              ],
+              correctAnswer: 'milk'
+            },
+            {
+              content: { text: 'These are …. gloves' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'our' },
+                { type: 'text', value: 'ours' },
+                { type: 'text', value: 'we' }
+              ],
+              correctAnswer: 'our'
+            },
+            {
+              content: { text: 'A baby needs …….' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'grass' },
+                { type: 'text', value: 'milk' },
+                { type: 'text', value: 'flowers' }
+              ],
+              correctAnswer: 'milk'
+            },
+            {
+              content: { text: '……. is he wearing?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'what' },
+                { type: 'text', value: 'how' },
+                { type: 'text', value: 'when' }
+              ],
+              correctAnswer: 'what'
+            },
+            {
+              content: { text: 'Is …… skirt plain?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'her' },
+                { type: 'text', value: 'he' },
+                { type: 'text', value: 'she' }
+              ],
+              correctAnswer: 'her'
+            },
+            {
+              content: { text: 'Wheat comes from …….' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'fabric' },
+                { type: 'text', value: 'plants' },
+                { type: 'text', value: 'trees' }
+              ],
+              correctAnswer: 'plants'
+            },
+            {
+              content: { text: 'Flour is made from …….' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'wheat' },
+                { type: 'text', value: 'wood' },
+                { type: 'text', value: 'fabric' }
+              ],
+              correctAnswer: 'wheat'
+            },
+            {
+              content: { text: 'They are ….. pants' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'I' },
+                { type: 'text', value: 'my' },
+                { type: 'text', value: 'mine' }
+              ],
+              correctAnswer: 'my'
+            },
+            {
+              content: { text: 'These …… my sunglasses' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'am' },
+                { type: 'text', value: 'is' },
+                { type: 'text', value: 'are' }
+              ],
+              correctAnswer: 'are'
+            },
+            {
+              content: { text: 'He is …… teacher' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'a' },
+                { type: 'text', value: 'an' }
+              ],
+              correctAnswer: 'a'
+            },
+            {
+              content: { text: '….. am a journalist' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'he' },
+                { type: 'text', value: 'she' },
+                { type: 'text', value: 'I' }
+              ],
+              correctAnswer: 'I'
+            },
+            {
+              content: { text: 'She is ….. engineer' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'a' },
+                { type: 'text', value: 'an' }
+              ],
+              correctAnswer: 'an'
+            },
+            {
+              content: { text: 'They …. nurses' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'am' },
+                { type: 'text', value: 'is' },
+                { type: 'text', value: 'are' }
+              ],
+              correctAnswer: 'are'
+            },
+            {
+              content: { text: 'What ….. you do?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'do' },
+                { type: 'text', value: 'does' }
+              ],
+              correctAnswer: 'do'
+            },
+            {
+              content: { text: 'She …… after animals' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'look' },
+                { type: 'text', value: 'looks' }
+              ],
+              correctAnswer: 'looks'
+            },
+            {
+              content: { text: 'He …… children' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'teach' },
+                { type: 'text', value: 'teaches' }
+              ],
+              correctAnswer: 'teaches'
+            },
+            {
+              content: { text: 'A …… teaches children' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'teacher' },
+                { type: 'text', value: 'baker' }
+              ],
+              correctAnswer: 'teacher'
+            },
+            {
+              content: { text: 'I ….. to be a firefighter' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'wants' },
+                { type: 'text', value: 'want' }
+              ],
+              correctAnswer: 'want'
+            },
+            {
+              content: { text: 'They …… animals' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'help' },
+                { type: 'text', value: 'helps' }
+              ],
+              correctAnswer: 'help'
+            },
+            {
+              content: { text: 'A baker ….. bread' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'makes' },
+                { type: 'text', value: 'make' }
+              ],
+              correctAnswer: 'makes'
+            },
+            {
+              content: { text: 'We …… farmers' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'is' },
+                { type: 'text', value: 'are' }
+              ],
+              correctAnswer: 'are'
+            },
+            {
+              content: { text: 'A …… works in a school' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'doctor' },
+                { type: 'text', value: 'teacher' },
+                { type: 'text', value: 'vet' }
+              ],
+              correctAnswer: 'teacher'
+            },
+            {
+              content: { text: 'A …… looks after sick people' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'vet' },
+                { type: 'text', value: 'nurse' },
+                { type: 'text', value: 'farmer' }
+              ],
+              correctAnswer: 'nurse'
+            },
+            {
+              content: { text: 'A vet looks after ……' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'animals' },
+                { type: 'text', value: 'people' }
+              ],
+              correctAnswer: 'animals'
+            },
+            {
+              content: { text: 'We buy bread at the ……' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'bakery' },
+                { type: 'text', value: 'factory' }
+              ],
+              correctAnswer: 'bakery'
+            },
+            {
+              content: { text: 'A …. writes a computer' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'doctor' },
+                { type: 'text', value: 'journalist' }
+              ],
+              correctAnswer: 'journalist'
+            },
+            {
+              content: { text: 'I have ….. potatoes' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'one' },
+                { type: 'text', value: 'two' },
+                { type: 'text', value: 'an' }
+              ],
+              correctAnswer: 'two'
+            },
+            {
+              content: { text: 'We have four …..' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'apple' },
+                { type: 'text', value: 'bananas' }
+              ],
+              correctAnswer: 'bananas'
+            },
+            {
+              content: { text: 'I have one …….' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'fig' },
+                { type: 'text', value: 'figs' },
+                { type: 'text', value: 'carrot' }
+              ],
+              correctAnswer: 'fig'
+            },
+            {
+              content: { text: 'They have …… mangoes' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'one' },
+                { type: 'text', value: 'three' },
+                { type: 'text', value: 'a' }
+              ],
+              correctAnswer: 'three'
+            },
+            {
+              content: { text: 'Can I …… two apples, please?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'has' },
+                { type: 'text', value: 'am' },
+                { type: 'text', value: 'have' }
+              ],
+              correctAnswer: 'have'
+            },
+            {
+              content: { text: '……. I have six figs, please?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'can' },
+                { type: 'text', value: 'haw' }
+              ],
+              correctAnswer: 'can'
+            },
+            {
+              content: { text: 'The …. is a fruit' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'onion' },
+                { type: 'text', value: 'carrot' },
+                { type: 'text', value: 'apple' }
+              ],
+              correctAnswer: 'apple'
+            },
+            {
+              content: { text: 'Yes, here you ……' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'are' },
+                { type: 'text', value: 'do' },
+                { type: 'text', value: 'have' }
+              ],
+              correctAnswer: 'are'
+            },
+            {
+              content: { text: '…. much is that?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'can' },
+                { type: 'text', value: 'How' }
+              ],
+              correctAnswer: 'How'
+            },
+            {
+              content: { text: '…… you like watermelon?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'Do' },
+                { type: 'text', value: 'Does' },
+                { type: 'text', value: 'Are' }
+              ],
+              correctAnswer: 'Do'
+            },
+            {
+              content: { text: 'Let’s …... a book' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'read' },
+                { type: 'text', value: 'reads' },
+                { type: 'text', value: 'reading' }
+              ],
+              correctAnswer: 'read'
+            },
+            {
+              content: { text: 'It is hot and sunny in …' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'winter' },
+                { type: 'text', value: 'fall' },
+                { type: 'text', value: 'summer' }
+              ],
+              correctAnswer: 'summer'
+            },
+            {
+              content: { text: '…….. often do you go swimming?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'what' },
+                { type: 'text', value: 'How' },
+                { type: 'text', value: 'where' }
+              ],
+              correctAnswer: 'How'
+            },
+            {
+              content: { text: 'I often play ……' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'swimming' },
+                { type: 'text', value: 'football' },
+                { type: 'text', value: 'beach' }
+              ],
+              correctAnswer: 'football'
+            },
+            {
+              content: { text: 'We go to the …... to swim' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'playground' },
+                { type: 'text', value: 'beach' }
+              ],
+              correctAnswer: 'beach'
+            },
+            {
+              content: { text: 'I …. breakfast at 6 o’clock' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'have' },
+                { type: 'text', value: 'has' }
+              ],
+              correctAnswer: 'have'
+            },
+            {
+              content: { text: 'I usually go to bed …… nine o’clock' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'on' },
+                { type: 'text', value: 'in' },
+                { type: 'text', value: 'at' }
+              ],
+              correctAnswer: 'at'
+            },
+            {
+              content: { text: 'What …... do you go to bed?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'time' },
+                { type: 'text', value: 'place' },
+                { type: 'text', value: 'color' }
+              ],
+              correctAnswer: 'time'
+            }
+          ],
         },
-        تانية: {
+       'Grade 2': {
           عربي: [
             {
               content: {
@@ -19593,12 +23235,570 @@ export const questionsData = {
             },
 
           ],
-          رياضيات: [
+          Math: [
             {
-              question: "ما هو 2 × 3؟",
-              options: ["4", "5", "6", "7"],
-              correctAnswer: "6"
-            }
+              content: { text: '46 + 36 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '82' },
+                { type: 'text', value: '83' },
+                { type: 'text', value: '84' }
+              ],
+              correctAnswer: '82',
+            },
+            {
+              content: { text: '97 + 83 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '180' },
+                { type: 'text', value: '179' },
+                { type: 'text', value: '181' }
+              ],
+              correctAnswer: '180',
+            },
+            {
+              content: { text: '325 + 251 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '576' },
+                { type: 'text', value: '577' },
+                { type: 'text', value: '578' }
+              ],
+              correctAnswer: '576',
+            },
+            {
+              content: { text: '675 - 289 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '386' },
+                { type: 'text', value: '387' },
+                { type: 'text', value: '385' }
+              ],
+              correctAnswer: '386',
+            },
+            {
+              content: { text: '735 – 235 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '500' },
+                { type: 'text', value: '501' },
+                { type: 'text', value: '502' }
+              ],
+              correctAnswer: '500',
+            },
+            {
+              content: { text: '530 – 239 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '291' },
+                { type: 'text', value: '292' },
+                { type: 'text', value: '290' }
+              ],
+              correctAnswer: '291',
+            },
+            {
+              content: { text: '834 – 551 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '283' },
+                { type: 'text', value: '284' },
+                { type: 'text', value: '285' }
+              ],
+              correctAnswer: '283',
+            },
+            {
+              content: { text: '705 – 567 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '138' },
+                { type: 'text', value: '139' },
+                { type: 'text', value: '140' }
+              ],
+              correctAnswer: '138',
+            },
+            {
+              content: { text: '97 + 36 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '133' },
+                { type: 'text', value: '134' },
+                { type: 'text', value: '132' }
+              ],
+              correctAnswer: '133',
+            },
+            {
+              content: { text: '197 + 82 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '279' },
+                { type: 'text', value: '280' },
+                { type: 'text', value: '281' }
+              ],
+              correctAnswer: '279',
+            },
+            {
+              content: { text: '235 + 632 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '867' },
+                { type: 'text', value: '868' },
+                { type: 'text', value: '869' }
+              ],
+              correctAnswer: '867',
+            },
+            {
+              content: { text: '752 – 356 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '396' },
+                { type: 'text', value: '397' },
+                { type: 'text', value: '398' }
+              ],
+              correctAnswer: '396',
+            },
+            {
+              content: { text: '880 – 359 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '521' },
+                { type: 'text', value: '522' },
+                { type: 'text', value: '523' }
+              ],
+              correctAnswer: '521',
+            },
+            {
+              content: { text: '567 – 329 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '238' },
+                { type: 'text', value: '239' },
+                { type: 'text', value: '240' }
+              ],
+              correctAnswer: '238',
+            },
+            {
+              content: { text: '931 – 256 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '675' },
+                { type: 'text', value: '676' },
+                { type: 'text', value: '677' }
+              ],
+              correctAnswer: '675',
+            },
+            {
+              content: { text: '822 – 314 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '508' },
+                { type: 'text', value: '509' },
+                { type: 'text', value: '510' }
+              ],
+              correctAnswer: '508',
+            },
+            {
+              content: { text: '975 – 678 = ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '297' },
+                { type: 'text', value: '298' },
+                { type: 'text', value: '299' }
+              ],
+              correctAnswer: '297',
+            },
+            {
+              content: { text: '	Choose the following numbers to the nearest:   87 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '90' },
+                { type: 'text', value: '80' },
+                { type: 'text', value: '100' }
+              ],
+              correctAnswer: '90',
+            },
+            {
+              content: { text: '82 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '80' },
+                { type: 'text', value: '90' },
+                { type: 'text', value: '70' }
+              ],
+              correctAnswer: '80',
+            },
+            {
+              content: { text: '38 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '40' },
+                { type: 'text', value: '30' },
+                { type: 'text', value: '50' }
+              ],
+              correctAnswer: '40',
+            },
+            {
+              content: { text: '8 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '0' },
+                { type: 'text', value: '20' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '12 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '10' },
+                { type: 'text', value: '20' },
+                { type: 'text', value: '0' }
+              ],
+              correctAnswer: '10',
+            },
+            {
+              content: { text: '57 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '60' },
+                { type: 'text', value: '50' },
+                { type: 'text', value: '70' }
+              ],
+              correctAnswer: '60',
+            },
+            {
+              content: { text: '94 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '90' },
+                { type: 'text', value: '100' },
+                { type: 'text', value: '80' }
+              ],
+              correctAnswer: '90',
+            },
+            {
+              content: { text: 'Choose the following numbers to the nearest hundred :  365 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '400' },
+                { type: 'text', value: '300' },
+                { type: 'text', value: '500' }
+              ],
+              correctAnswer: '400',
+            },
+            {
+              content: { text: '567 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '600' },
+                { type: 'text', value: '500' },
+                { type: 'text', value: '700' }
+              ],
+              correctAnswer: '600',
+            },
+            {
+              content: { text: '568 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '600' },
+                { type: 'text', value: '500' },
+                { type: 'text', value: '700' }
+              ],
+              correctAnswer: '600',
+            },
+            {
+              content: { text: '899 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '900' },
+                { type: 'text', value: '800' },
+                { type: 'text', value: '1000' }
+              ],
+              correctAnswer: '900',
+            },
+            {
+              content: { text: '378 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '400' },
+                { type: 'text', value: '300' },
+                { type: 'text', value: '500' }
+              ],
+              correctAnswer: '400',
+            },
+            {
+              content: { text: '823 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '800' },
+                { type: 'text', value: '900' },
+                { type: 'text', value: '700' }
+              ],
+              correctAnswer: '800',
+            },
+            {
+              content: { text: '753 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '800' },
+                { type: 'text', value: '700' },
+                { type: 'text', value: '600' }
+              ],
+              correctAnswer: '800',
+            },
+            {
+              content: { text: '500 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '500' },
+                { type: 'text', value: '600' },
+                { type: 'text', value: '400' }
+              ],
+              correctAnswer: '500',
+            },
+            {
+              content: { text: '97 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '100' },
+                { type: 'text', value: '0' },
+                { type: 'text', value: '200' }
+              ],
+              correctAnswer: '100',
+            },
+            {
+              content: { text: '36 is closer to ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '0' },
+                { type: 'text', value: '100' },
+                { type: 'text', value: '50' }
+              ],
+              correctAnswer: '0',
+            },
+            {
+              content: { text: 'Choose the rule Extend the pattern :   41, 43, 45, ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '47' },
+                { type: 'text', value: '49' },
+                { type: 'text', value: '46' }
+              ],
+              correctAnswer: '47',
+            },
+            {
+              content: { text: '19, 17, 15, ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '14' },
+                { type: 'text', value: '13' },
+                { type: 'text', value: '12' }
+              ],
+              correctAnswer: '13',
+            },
+            {
+              content: { text: '55, 45, 35, ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '30' },
+                { type: 'text', value: '25' },
+                { type: 'text', value: '20' }
+              ],
+              correctAnswer: '25',
+            },
+            {
+              content: { text: '84, 73, 62, ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '51' },
+                { type: 'text', value: '50' },
+                { type: 'text', value: '49' }
+              ],
+              correctAnswer: '51',
+            },
+            {
+              content: { text: '10, 12, 11, 13, 12, ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '11' },
+                { type: 'text', value: '13' },
+                { type: 'text', value: '14' }
+              ],
+              correctAnswer: '14',
+            },
+            {
+              content: { text: '59, 56, 53, ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '50' },
+                { type: 'text', value: '52' },
+                { type: 'text', value: '49' }
+              ],
+              correctAnswer: '50',
+            },
+            {
+              content: { text: '4, 9, 14, ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '18' },
+                { type: 'text', value: '19' },
+                { type: 'text', value: '20' }
+              ],
+              correctAnswer: '19',
+            },
+            {
+              content: { text: 'Write the odd number that comes just after 7' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '9' },
+                { type: 'text', value: '8' },
+                { type: 'text', value: '7' }
+              ],
+              correctAnswer: '9',
+            },
+            {
+              content: { text: 'Write the odd number that comes just after 5' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '7' },
+                { type: 'text', value: '6' },
+                { type: 'text', value: '8' }
+              ],
+              correctAnswer: '7',
+            },
+            {
+              content: { text: 'Write the odd number that comes just after 521' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '523' },
+                { type: 'text', value: '522' },
+                { type: 'text', value: '524' }
+              ],
+              correctAnswer: '523',
+            },
+            {
+              content: { text: 'Write the odd number that comes just after 670' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '671' },
+                { type: 'text', value: '672' },
+                { type: 'text', value: '673' }
+              ],
+              correctAnswer: '671',
+            },
+            {
+              content: { text: 'Write the odd number that comes just after 99' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '101' },
+                { type: 'text', value: '100' },
+                { type: 'text', value: '102' }
+              ],
+              correctAnswer: '101',
+            },
+            {
+              content: { text: '58 is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'even' },
+                { type: 'text', value: 'odd' }
+              ],
+              correctAnswer: 'even',
+            },
+            {
+              content: { text: '97 is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'odd' },
+                { type: 'text', value: 'even' }
+              ],
+              correctAnswer: 'odd',
+            },
+            {
+              content: { text: '567 is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'odd' },
+                { type: 'text', value: 'even' }
+              ],
+              correctAnswer: 'odd',
+            },
+            {
+              content: { text: '390 is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'even' },
+                { type: 'text', value: 'odd' }
+              ],
+              correctAnswer: 'even',
+            },
+            {
+              content: { text: '463 is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'odd' },
+                { type: 'text', value: 'even' }
+              ],
+              correctAnswer: 'odd',
+            },
+            {
+              content: { text: '102 is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'even' },
+                { type: 'text', value: 'odd' }
+              ],
+              correctAnswer: 'even',
+            },
+            {
+              content: { text: '49 is ……' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: 'odd' },
+                { type: 'text', value: 'even' }
+              ],
+              correctAnswer: 'odd',
+            },
+            {
+              content: { text: '200 L.E. + 50 L.E. + 3 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '253' },
+                { type: 'text', value: '243' },
+                { type: 'text', value: '263' }
+              ],
+              correctAnswer: '253',
+            },
+            {
+              content: { text: '125 L.E. + 75 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '200' },
+                { type: 'text', value: '210' },
+                { type: 'text', value: '190' }
+              ],
+              correctAnswer: '200',
+            },
+            {
+              content: { text: '356 L.E. + 78 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '434' },
+                { type: 'text', value: '424' },
+                { type: 'text', value: '444' }
+              ],
+              correctAnswer: '434',
+            },
+            {
+              content: { text: '135 L.E. + 356 L.E. = …… L.E.' },
+              language: "en-US",
+              options: [
+                { type: 'text', value: '491' },
+                { type: 'text', value: '481' },
+                { type: 'text', value: '501' }
+              ],
+              correctAnswer: '491',
+            },
           ],
           'Discover': [
             {
@@ -21469,7 +25669,7 @@ export const questionsData = {
           
           ],
         },
-        تالتة: {
+       'Grade 3': {
           عربي: [
             {
               content: {
@@ -22076,7 +26276,7 @@ export const questionsData = {
               correctAnswer: 'نبات',
             },
           ],
-          رياضيات: [],
+          Math: [],
           'English Connect +': [
             {
               content: { text: "We can see the ______ at the museum." },

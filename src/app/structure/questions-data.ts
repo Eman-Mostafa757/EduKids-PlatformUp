@@ -4475,7 +4475,7 @@ export const questionsData = {
               correctAnswer: 'مد بالواو',
             },
             {
-              content: { text: ' مُعَلَّمٌ____' },
+              content: { text: 'مُعَلِّمٌ____' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'هو' },
@@ -4642,7 +4642,7 @@ export const questionsData = {
                 { type: 'text', value: 'الريشة' },
                 { type: 'text', value: 'القلم' }
               ],
-              correctAnswer: 'القلم',
+              correctAnswer: 'الريشة',
             },
             {
               content: { text: '____ أكمل أَبْنِي دَارِي' },
@@ -4713,7 +4713,7 @@ export const questionsData = {
               correctAnswer: 'أشجار',
             },
             {
-              content: { text: 'كَانَ اْلُهَّرجُ ____ فيِ تَمْثِيلُ مَوَاقِفٌ مُخْتَلفَة' },
+              content: { text: 'كَانَ اْلُمُهَّرجُ ____ فيِ تَمْثِيلُ مَوَاقِفٌ مُخْتَلفَة' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'شارباً' },
@@ -4819,14 +4819,14 @@ export const questionsData = {
               correctAnswer: 'في',
             },
             {
-              content: { text: '_____  الْفَوزُ اَهَم من' },
+              content: { text: '_____ الصداقة أهم من' },
               language: "ar-EG",
               options: [
-                { type: 'text', value: 'الصداقة' },
+                { type: 'text', value: 'الفوز' },
                 { type: 'text', value: 'الكتابة' },
                 { type: 'text', value: 'القراءة' }
               ],
-              correctAnswer: 'الصداقة',
+              correctAnswer: 'الفوز',
             },
             {
               content: { text: '_____ مُعَلمُ الحرف المشدد هو' },
@@ -19164,7 +19164,7 @@ export const questionsData = {
                 { type: 'text', value: 'الريشة' },
                 { type: 'text', value: 'القلم' }
               ],
-              correctAnswer: 'القلم',
+              correctAnswer: 'الريشة',
             },
             {
               content: { text: '____ أكمل أَبْنِي دَارِي' },
@@ -19235,7 +19235,7 @@ export const questionsData = {
               correctAnswer: 'أشجار',
             },
             {
-              content: { text: 'كَانَ اْلُهَّرجُ ____ فيِ تَمْثِيلُ مَوَاقِفٌ مُخْتَلفَة' },
+              content: { text: 'كَانَ اْلُمُهَّرجُ ____ فيِ تَمْثِيلُ مَوَاقِفٌ مُخْتَلفَة' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'شارباً' },
@@ -19341,14 +19341,14 @@ export const questionsData = {
               correctAnswer: 'في',
             },
             {
-              content: { text: '_____  الْفَوزُ اَهَم من' },
+              content: { text: '_____ الصداقة أهم من' },
               language: "ar-EG",
               options: [
-                { type: 'text', value: 'الصداقة' },
+                { type: 'text', value: 'الفوز' },
                 { type: 'text', value: 'الكتابة' },
                 { type: 'text', value: 'القراءة' }
               ],
-              correctAnswer: 'الصداقة',
+              correctAnswer: 'الفوز',
             },
             {
               content: { text: '_____ مُعَلمُ الحرف المشدد هو' },

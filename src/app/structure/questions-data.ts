@@ -4730,17 +4730,17 @@ export const questionsData = {
                 { type: 'text', value: 'هدية' },
                 { type: 'text', value: 'صورة' }
               ],
-              correctAnswer: 'هدية',
+              correctAnswer: 'صورة',
             },
             {
               content: { text: '_____ حِزِينٌ بها مد' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'بالألف' },
-                { type: 'text', value: 'باليا' },
+                { type: 'text', value: 'بالياء' },
                 { type: 'text', value: 'بالواو' }
               ],
-              correctAnswer: 'بالألف',
+              correctAnswer: 'بالياء',
             },
             {
               content: { text: ' بَارِع _____' },
@@ -4798,7 +4798,7 @@ export const questionsData = {
                 { type: 'text', value: 'ر' },
                 { type: 'text', value: 'ع' }
               ],
-              correctAnswer: 'ر',
+              correctAnswer: 'ب',
             },
             {
               content: { text: 'نَسْيتُ زَميلَتي قَلَمَهَا ' },
@@ -19252,17 +19252,17 @@ export const questionsData = {
                 { type: 'text', value: 'هدية' },
                 { type: 'text', value: 'صورة' }
               ],
-              correctAnswer: 'هدية',
+              correctAnswer: 'صورة',
             },
             {
               content: { text: '_____ حِزِينٌ بها مد' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'بالألف' },
-                { type: 'text', value: 'باليا' },
+                { type: 'text', value: 'بالياء' },
                 { type: 'text', value: 'بالواو' }
               ],
-              correctAnswer: 'بالألف',
+              correctAnswer: 'بالياء',
             },
             {
               content: { text: ' بَارِع _____' },
@@ -19320,7 +19320,7 @@ export const questionsData = {
                 { type: 'text', value: 'ر' },
                 { type: 'text', value: 'ع' }
               ],
-              correctAnswer: 'ر',
+              correctAnswer: 'ب',
             },
             {
               content: { text: 'نَسْيتُ زَميلَتي قَلَمَهَا ' },

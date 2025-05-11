@@ -8301,28 +8301,7 @@ export const questionsData = {
               ],
               correctAnswer: '٣٥'
             },
-            {
-              content: { text: '............= ٨ × ٤' },
-              language: 'ar-EG',
-              options: [
-              
-                { type: 'text', value: '٣٢' },
-                { type: 'text', value: '٢٤' },
-                  { type: 'text', value: '٢٩' },
-                    { type: 'text', value: '٢٩' },
-              ],
-              correctAnswer: '٣٢'
-            },
-            {
-              content: { text: '...........= ٩ × ٣ ' },
-              language: 'ar-EG',
-              options: [
-                { type: 'text', value: '٢٩' },
-                { type: 'text', value: '٢٧' },
-                { type: 'text', value: '١٧' }
-              ],
-              correctAnswer: '٢٧'
-            },
+           
             {
               content: { text: '............ قيمة الرقم ٢ في العدد ٢٧٨ هي ' },
               language: 'ar-EG',
@@ -8333,37 +8312,7 @@ export const questionsData = {
               ],
               correctAnswer: '٢٠٠'
             },
-            {
-              content: { text: '............= ٧ × ٨ ' },
-              language: 'ar-EG',
-              options: [
-                { type: 'text', value: '٤٩' },
-                { type: 'text', value: '٧٠' },
-                { type: 'text', value: '٥٦' }
-              ],
-              correctAnswer: '٥٦'
-            },
-            {
-              content: { text: '............= ٤١ ÷ ١ ' },
-              language: 'ar-EG',
-              options: [
-                { type: 'text', value: '٨٩' },
-                { type: 'text', value: '٤١' },
-                { type: 'text', value: '١' }
-              ],
-              correctAnswer:'٤١'
-            },
-            {
-              content: { text: '............ = ٧٢ ÷ ٢ ' },
-              language: 'ar-EG',
-              options: [
-                { type: 'text', value: '٧٣' },
-                
-                { type: 'text', value: '١٩' },
-                { type: 'text', value: '٣٦' },
-              ],
-              correctAnswer: '٣٦'
-            },
+          
             {
               content: { text: '............ قيمة الرقم ٥ في العدد ٥٨١ هي ' },
               language: 'ar-EG',

@@ -8231,17 +8231,18 @@ export const questionsData = {
               },
               language: "ar-EG",
               options: [
-                { type: "text", value: "۱۸۸" },
+                { type: "text", value: "۱۸٢" },
                 { type: "text", value: "۱۹۸" },
               ],
-              correctAnswer: "۱۸۸"
+              correctAnswer: "۱۸٢"
             },
             {
               content: { text: ' ............ = ٤ أحد + ٨ عشرات + ٧ مئات ' },
               language: 'ar-EG',
               options: [
+                      { type: 'text', value: '٤٨٧' },
                 { type: 'text', value: '٨٧٤' },
-                { type: 'text', value: '٤٨٧' },
+          
                 { type: 'text', value: '٧٨٤' }
               ],
               correctAnswer: '٨٧٤'
@@ -8251,9 +8252,10 @@ export const questionsData = {
               content: { text: '...........= ٦ + ٠ + ٤ + ٠ + ٧' },
               language: 'ar-EG',
               options: [
-                { type: 'text', value: '١٧' },
+              
                 { type: 'text', value: '٢٧' },
-                { type: 'text', value: '٢٠' }
+                { type: 'text', value: '٢٠' },
+                  { type: 'text', value: '١٧' },
               ],
               correctAnswer: '١٧'
             },
@@ -8262,8 +8264,9 @@ export const questionsData = {
               content: { text: '............= ٤ أحد + ٣ عشرات + ٢ مئات ' },
               language: 'ar-EG',
               options: [
-                { type: 'text', value: '٢٣٤' },
+               
                 { type: 'text', value: '٣٢٤' },
+                 { type: 'text', value: '٢٣٤' },
                 { type: 'text', value: '٢٤٣' }
               ],
               correctAnswer: '٢٣٤'
@@ -8282,8 +8285,9 @@ export const questionsData = {
               content: { text: '...........= ٠ أحد + ٥ عشرات + ٦ مئات' },
               language: 'ar-EG',
               options: [
-                { type: 'text', value: '٦٥٨' },
+           
                 { type: 'text', value: '٥٦٠' },
+                     { type: 'text', value: '٦٥٨' },
                 { type: 'text', value: '٦٥٠' }
               ],
               correctAnswer: '٦٥٠'
@@ -8302,9 +8306,11 @@ export const questionsData = {
               content: { text: '............= ٨ × ٤' },
               language: 'ar-EG',
               options: [
-                { type: 'text', value: '٢٩' },
+              
                 { type: 'text', value: '٣٢' },
-                { type: 'text', value: '٢٤' }
+                { type: 'text', value: '٢٤' },
+                  { type: 'text', value: '٢٩' },
+                    { type: 'text', value: '٢٩' },
               ],
               correctAnswer: '٣٢'
             },
@@ -8353,8 +8359,9 @@ export const questionsData = {
               language: 'ar-EG',
               options: [
                 { type: 'text', value: '٧٣' },
+                
+                { type: 'text', value: '١٩' },
                 { type: 'text', value: '٣٦' },
-                { type: 'text', value: '١٩' }
               ],
               correctAnswer: '٣٦'
             },
@@ -8412,9 +8419,10 @@ export const questionsData = {
               content: { text: '........... = ٤٥١ + ٧٤ ' },
               language: 'ar-EG',
               options: [
-                { type: 'text', value: '٥٢٥' },
+             
                 { type: 'text', value: '٥١٥' },
-                { type: 'text', value: '٥٣٥' }
+                { type: 'text', value: '٥٣٥' },
+                   { type: 'text', value: '٥٢٥' },
               ],
               correctAnswer: '٥٢٥'
             },
@@ -8482,9 +8490,10 @@ export const questionsData = {
               content: { text: '............ تقريب العدد ٢٠٧ لأقرب مائة هو ' },
               language: 'ar-EG',
               options: [
-                { type: 'text', value: '٢٠٠' },
+              
                 { type: 'text', value: '١٠٠' },
-                { type: 'text', value: '٣٠٠' }
+                { type: 'text', value: '٣٠٠' },
+                  { type: 'text', value: '٢٠٠' },
               ],
               correctAnswer: '٢٠٠'
             },

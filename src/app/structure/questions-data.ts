@@ -4673,7 +4673,7 @@ export const questionsData = {
               correctAnswer: 'قمريه',
             },
             {
-              content: { text: '____ جَمِيل’’ لها تنوين' },
+              content: { text: '____ لها تنوين ( جَمِيلاً)' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'بالفتح' },
@@ -19048,7 +19048,7 @@ export const questionsData = {
               correctAnswer: 'مد بالواو',
             },
             {
-              content: { text: ' مُعَلَّمٌ____' },
+              content: { text: 'مُعَلِّمٌ___' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'هو' },
@@ -19246,7 +19246,7 @@ export const questionsData = {
               correctAnswer: 'قمريه',
             },
             {
-              content: { text: '____ جَمِيلاً لها تنوين' },
+              content: { text: '____لها تنوين ( جَمِيلاً)' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'بالفتح' },

@@ -20461,14 +20461,14 @@ export const questionsData = {
             },
             {
               content: {
-                text: "The book costs 20 LE and the bread costs 10 LE then tool costs = 30LE."
+                text: "The book costs 20 LE and the bread costs 10 LE then total cost = 30LE."
               },
               language: "en-US",
               options: [
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✕"
+              correctAnswer: "✔"
             },
             {
               content: {
@@ -20601,7 +20601,7 @@ export const questionsData = {
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✕"
+              correctAnswer: "✔"
             },
             {
               content: {
@@ -24357,9 +24357,9 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: "text", value: "Mining" },
-                { type: "text", value: "agriculture" }
+                { type: "text", value: "Agriculture" }
               ],
-              correctAnswer: "agriculture"
+              correctAnswer: "Agriculture"
             },
             {
               content: {
@@ -24541,7 +24541,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "From communication tools like cellphone."
+                text: "Communication tools like cellphone."
               },
               language: "en-US",
               options: [

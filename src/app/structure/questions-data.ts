@@ -4589,10 +4589,10 @@ export const questionsData = {
               content: { text: 'يَتَنَاوَلُ الطَّعَامُ ؟ أحْمَد ___' },
               language: "ar-EG",
               options: [
-                { type: 'text', value: 'من ما' },
+                { type: 'text', value: 'من' },
                 { type: 'text', value: 'أين' }
               ],
-              correctAnswer: 'أين',
+              correctAnswer: 'من',
             },
             {
               content: { text: 'يُسَافِرُ ___ سَالِمُ إِلَي بَلَاد الْعَالِمُ الْوَاِسِعُ' },
@@ -4652,7 +4652,7 @@ export const questionsData = {
                 { type: 'text', value: 'بالأحجار' },
                 { type: 'text', value: 'بالألعاب' }
               ],
-              correctAnswer: 'بالأشجار',
+              correctAnswer: 'بالأحجار',
             },
             {
               content: { text: ' ____ السَّبُورَة بها لام' },
@@ -4697,7 +4697,7 @@ export const questionsData = {
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'كتاتيب' },
-                { type: 'text', value: 'كتب' },
+                { type: 'text', value: 'كُتب' },
                 { type: 'text', value: 'اكتاب' }
               ],
               correctAnswer: 'كُتب',
@@ -5044,7 +5044,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '١٢' },
                 { type: 'text', value: '١٥' },
-                { type: 'text', value: '١٤' }
+                { type: 'text', value: '٢٤' }
               ],
               correctAnswer: '٢٤',
             },
@@ -5076,7 +5076,7 @@ export const questionsData = {
                 { type: 'text', value: '>' },
                 { type: 'text', value: '=' }
               ],
-              correctAnswer: '>',
+              correctAnswer: '<'
             },
             {
               content: { text: '٦٥ ..... ٩٧ ' },
@@ -5086,7 +5086,7 @@ export const questionsData = {
                 { type: 'text', value: '>' },
                 { type: 'text', value: '=' }
               ],
-              correctAnswer: '<',
+              correctAnswer: '>'
             },
             {
               content: { text: '٣ عشرات .... ٣٠' },
@@ -5254,7 +5254,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '٣١' },
                 { type: 'text', value: '٤١' },
-                { type: 'text', value: '٣١' }
+                { type: 'text', value: '٨١' }
               ],
               correctAnswer: '٨١',
             },
@@ -6147,7 +6147,7 @@ export const questionsData = {
                 { type: "text", value: "الثاني" },
                 { type: "text", value: "الثالث" }
               ],
-              correctAnswer: "الثاني"
+              correctAnswer: "الثالث"
             },
             {
               content: {
@@ -6155,12 +6155,11 @@ export const questionsData = {
               },
               language: "ar-EG",
               options: [
-                { type: "text", value: "التراب" },
-                { type: "text", value: "المبلل" },
+                { type: "text", value: "التراب المبلل" },
                 { type: "text", value: "المطر" },
                 { type: "text", value: "الماء" }
               ],
-              correctAnswer: "الماء"
+              correctAnswer: "التراب المبلل"
             },
             {
               content: {
@@ -6292,7 +6291,7 @@ export const questionsData = {
               content: { text: ".......من الاحتياجات" },
               language: "ar-EG",
               options: [
-                { type: "text", value: "النزه" },
+                { type: "text", value: "الرحلات" },
                 { type: "text", value: "شراء الألعاب" },
                 { type: "text", value: "الطعام" },
               ],
@@ -6362,11 +6361,11 @@ export const questionsData = {
               content: { text: "........يعمل الطبيب في" },
               language: "ar-EG",
               options: [
-                { type: "text", value: "البنك" },
+                { type: "text", value: "المستشفي" },
                 { type: "text", value: "المدرسة" },
                 { type: "text", value: "المخبز" },
               ],
-              correctAnswer: "المدرسة",
+              correctAnswer: "المستشفي",
             },
             {
               content: { text: "..........يعمل المعلم في" },
@@ -6437,14 +6436,14 @@ export const questionsData = {
               correctAnswer: "الميكرويف",
             },
             {
-              content: { text: "من الطعام الصحي ...." },
+              content: { text: "........من الطعام الغير صحي" },
               language: "ar-EG",
               options: [
                 { type: "text", value: "الفواكه" },
                 { type: "text", value: "الخضراوات" },
                 { type: "text", value: "البيتزا" },
               ],
-              correctAnswer: "الفواكه",
+              correctAnswer: "البيتزا",
             },
             {
               content: { text: "تساعدنا في تحديد الاتجاهات...." },
@@ -6619,11 +6618,11 @@ export const questionsData = {
               content: { text: "........اشتريت قميصا بمبلغ" },
               language: "ar-EG",
               options: [
-                { type: "text", value: "٣٠ ج" },
-                { type: "text", value: "١١٠" },
+                { type: "text", value: "٣٠" },
+                { type: "text", value: "١١٠ ج" },
                 { type: "text", value: "٧:٠٠ ص" },
               ],
-              correctAnswer: "٣٠ ج",
+              correctAnswer: "١١٠ ج",
             },
             {
               content: { text: "تستخدم في العمليات الحسابية المختلفة" },
@@ -8227,7 +8226,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: " ........= ۲۰۹ + ۳۹۱"
+                text: " ........= ۲٠۹ - ۳۹۱"
               },
               language: "ar-EG",
               options: [
@@ -8237,7 +8236,7 @@ export const questionsData = {
               correctAnswer: "۱۸٢"
             },
             {
-              content: { text: ' ............ = ٤ أحد + ٨ عشرات + ٧ مئات ' },
+              content: { text: '............ =  ٤ أحد + ٨ عشرات + ٧ مئات ' },
               language: 'ar-EG',
               options: [
                       { type: 'text', value: '٤٨٧' },
@@ -8245,7 +8244,7 @@ export const questionsData = {
           
                 { type: 'text', value: '٧٨٤' }
               ],
-              correctAnswer: '٨٧٤'
+              correctAnswer: '٧٨٤'
             },
 
             {
@@ -8352,7 +8351,7 @@ export const questionsData = {
                 { type: 'text', value: '٤١' },
                 { type: 'text', value: '١' }
               ],
-              correctAnswer: '٤١'
+              correctAnswer:'٤١'
             },
             {
               content: { text: '............ = ٧٢ ÷ ٢ ' },
@@ -8646,10 +8645,10 @@ export const questionsData = {
               },
               language: "en-US",
               options: [
-                { type: "text", value: "where" },
-                { type: "text", value: "how" }
+                { type: "text", value: "Where" },
+                { type: "text", value: "How" }
               ],
-              correctAnswer: "how"
+              correctAnswer: "How"
             },
             {
               content: {
@@ -8712,10 +8711,10 @@ export const questionsData = {
               },
               language: "en-US",
               options: [
-                { type: "text", value: "how" },
-                { type: "text", value: "where" }
+                { type: "text", value: "How" },
+                { type: "text", value: "Where" }
               ],
-              correctAnswer: "where"
+              correctAnswer: "Where"
             },
             {
               content: {
@@ -8745,10 +8744,10 @@ export const questionsData = {
               },
               language: "en-US",
               options: [
-                { type: "text", value: "where" },
-                { type: "text", value: "what" }
+                { type: "text", value: "Where" },
+                { type: "text", value: "What" }
               ],
-              correctAnswer: "where"
+              correctAnswer: "Where"
             },
             {
               content: {
@@ -8803,10 +8802,10 @@ export const questionsData = {
               content: { text: "______ many hens are there?" },
               language: "en-US",
               options: [
-                { type: "text", value: "where" },
-                { type: "text", value: "how" }
+                { type: "text", value: "Where" },
+                { type: "text", value: "How" }
               ],
-              correctAnswer: "how"
+              correctAnswer: "How"
             },
             {
               content: { text: "How many ducks ______ there?" },
@@ -8827,7 +8826,7 @@ export const questionsData = {
               correctAnswer: "coat"
             },
             {
-              content: { text: "The ______ in the sky." },
+              content: { text: "The ______ is in the sky." },
               language: "en-US",
               options: [
                 { type: "text", value: "rainbow" },
@@ -8899,7 +8898,7 @@ export const questionsData = {
               correctAnswer: "museum"
             },
             {
-              content: { text: "My dad buys fruits at ______." },
+              content: { text: "My dad buys fruits at the______." },
               language: "en-US",
               options: [
                 { type: "text", value: "library" },
@@ -8944,7 +8943,7 @@ export const questionsData = {
               correctAnswer: "of"
             },
             {
-              content: { text: "Library is ______ the park." },
+              content: { text: "Library is ______to the park." },
               language: "en-US",
               options: [
                 { type: "text", value: "next" },
@@ -9025,7 +9024,7 @@ export const questionsData = {
               correctAnswer: "don't throw"
             },
             {
-              content: { text: "The ______ in river." },
+              content: { text: "The ______ is in river." },
               language: "en-US",
               options: [
                 { type: "text", value: "cow" },
@@ -9906,9 +9905,9 @@ export const questionsData = {
               options: [
                 { type: "text", value: "هرم واحد فقط" },
                 { type: "text", value: "ثلاث أهرامات فقط" },
-                { type: "text", value: "أكثر من ١٠ أهرام" }
+                { type: "text", value: "أكثر من ١٠٠ أهرام" }
               ],
-              correctAnswer: "أكثر من ١٠ هرم"
+              correctAnswer: "أكثر من ١٠٠ أهرام"
             },
             {
               content: { text: "جهاز يستخدم في قياس سرعة الرياح" },
@@ -19247,7 +19246,7 @@ export const questionsData = {
               correctAnswer: 'قمريه',
             },
             {
-              content: { text: '____ جَمِيل’’ لها تنوين' },
+              content: { text: '____ جَمِيلاً لها تنوين' },
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'بالفتح' },
@@ -19271,7 +19270,7 @@ export const questionsData = {
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'كتاتيب' },
-                { type: 'text', value: 'كتب' },
+                { type: 'text', value: 'كُتب' },
                 { type: 'text', value: 'اكتاب' }
               ],
               correctAnswer: 'كُتب',
@@ -19519,9 +19518,10 @@ export const questionsData = {
               content: { text: '2 tens + 9 ones = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '29' },
+             
                 { type: 'text', value: '20' },
-                { type: 'text', value: '32' }
+                { type: 'text', value: '32' },
+                   { type: 'text', value: '29' },
               ],
               correctAnswer: '29',
             },
@@ -19529,8 +19529,9 @@ export const questionsData = {
               content: { text: '8 tens + 0 ones = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '80' },
+              
                 { type: 'text', value: '8' },
+                  { type: 'text', value: '80' },
                 { type: 'text', value: '800' }
               ],
               correctAnswer: '80',
@@ -19549,9 +19550,10 @@ export const questionsData = {
               content: { text: '8 ones = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '8' },
+              
                 { type: 'text', value: '80' },
-                { type: 'text', value: '800' }
+                { type: 'text', value: '800' },
+                  { type: 'text', value: '8' },
               ],
               correctAnswer: '8',
             },
@@ -19559,9 +19561,10 @@ export const questionsData = {
               content: { text: '3 tens = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '30' },
+              
                 { type: 'text', value: '3' },
-                { type: 'text', value: '300' }
+                { type: 'text', value: '300' },
+                  { type: 'text', value: '30' },
               ],
               correctAnswer: '30',
             },
@@ -19579,8 +19582,9 @@ export const questionsData = {
               content: { text: '…… tens + …… ones = 57' },
               language: "en-US",
               options: [
-                { type: 'text', value: '5 tens + 7 ones' },
+
                 { type: 'text', value: '3 tens + 7 ones' },
+                                { type: 'text', value: '5 tens + 7 ones' },
                 { type: 'text', value: '7 tens + 5 ones' }
               ],
               correctAnswer: '5 tens + 7 ones',
@@ -19599,9 +19603,10 @@ export const questionsData = {
               content: { text: '80 + 7 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '87' },
+              
                 { type: 'text', value: '80' },
-                { type: 'text', value: '7' }
+                { type: 'text', value: '7' },
+                  { type: 'text', value: '87' },
               ],
               correctAnswer: '87',
             },
@@ -19629,9 +19634,10 @@ export const questionsData = {
               content: { text: '2 + 10 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '12' },
+               
                 { type: 'text', value: '10' },
-                { type: 'text', value: '2' }
+                { type: 'text', value: '2' },
+                 { type: 'text', value: '12' },
               ],
               correctAnswer: '12',
             },
@@ -19639,9 +19645,10 @@ export const questionsData = {
               content: { text: '6 + 30 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '36' },
+              
                 { type: 'text', value: '30' },
-                { type: 'text', value: '6' }
+                { type: 'text', value: '6' },
+                  { type: 'text', value: '36' },
               ],
               correctAnswer: '36',
             },
@@ -19649,9 +19656,10 @@ export const questionsData = {
               content: { text: '73 = …… + ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '70 + 3' },
                 { type: 'text', value: '70 + 2' },
-                { type: 'text', value: '70 + 7' }
+                { type: 'text', value: '70 + 7' },
+                                { type: 'text', value: '70 + 3' },
+
               ],
               correctAnswer: '70 + 3',
             },
@@ -19659,9 +19667,10 @@ export const questionsData = {
               content: { text: '54 = …… + ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '50 + 4' },
                 { type: 'text', value: '40 + 4' },
-                { type: 'text', value: '50 + 5' }
+                { type: 'text', value: '50 + 5' },
+                                { type: 'text', value: '50 + 4' },
+
               ],
               correctAnswer: '50 + 4',
             },
@@ -19669,8 +19678,9 @@ export const questionsData = {
               content: { text: '30 = …… + ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '30 + 0' },
+             
                 { type: 'text', value: '25 + 5' },
+                   { type: 'text', value: '30 + 0' },
                 { type: 'text', value: '10 + 20' }
               ],
               correctAnswer: '30 + 0',
@@ -19699,9 +19709,10 @@ export const questionsData = {
               content: { text: '8 tens ______ 7 ones' },
               language: "en-US",
               options: [
-                { type: 'text', value: '>' },
                 { type: 'text', value: '<' },
-                { type: 'text', value: '=' }
+                { type: 'text', value: '=' },
+                                { type: 'text', value: '>' },
+
               ],
               correctAnswer: '>',
             },
@@ -19723,7 +19734,7 @@ export const questionsData = {
                 { type: 'text', value: '<' },
                 { type: 'text', value: '=' }
               ],
-              correctAnswer: '>',
+              correctAnswer: '<'
             },
             {
               content: { text: '40 + 7 ______ 4 tens , 7 ones' },
@@ -19743,14 +19754,15 @@ export const questionsData = {
                 { type: 'text', value: '<' },
                 { type: 'text', value: '=' }
               ],
-              correctAnswer: '>',
+              correctAnswer: '<',
             },
             {
               content: { text: '9 ones ______ 1 tens' },
               language: "en-US",
               options: [
-                { type: 'text', value: '>' },
+        
                 { type: 'text', value: '<' },
+                        { type: 'text', value: '>' },
                 { type: 'text', value: '=' }
               ],
               correctAnswer: '<',
@@ -19773,7 +19785,7 @@ export const questionsData = {
                 { type: 'text', value: '<' },
                 { type: 'text', value: '=' }
               ],
-              correctAnswer: '=',
+              correctAnswer: '<'
             },
             {
               content: { text: '19 ______ 20' },
@@ -19809,8 +19821,9 @@ export const questionsData = {
               content: { text: '70 - 30 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '40' },
                 { type: 'text', value: '30' },
+                                { type: 'text', value: '40' },
+
                 { type: 'text', value: '20' }
               ],
               correctAnswer: '40',
@@ -19839,8 +19852,9 @@ export const questionsData = {
               content: { text: '40 - 30 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '10' },
                 { type: 'text', value: '20' },
+                                { type: 'text', value: '10' },
+
                 { type: 'text', value: '30' }
               ],
               correctAnswer: '10',
@@ -19859,9 +19873,10 @@ export const questionsData = {
               content: { text: '60 - 50 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '10' },
                 { type: 'text', value: '20' },
-                { type: 'text', value: '30' }
+                { type: 'text', value: '30' },
+                                { type: 'text', value: '10' },
+
               ],
               correctAnswer: '10',
             },
@@ -19879,8 +19894,9 @@ export const questionsData = {
               content: { text: '90 - 80 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '10' },
                 { type: 'text', value: '20' },
+                { type: 'text', value: '10' },
+                
                 { type: 'text', value: '30' }
               ],
               correctAnswer: '10',
@@ -19909,9 +19925,10 @@ export const questionsData = {
               content: { text: '…… + 9 = 18' },
               language: "en-US",
               options: [
-                { type: 'text', value: '9' },
+              
                 { type: 'text', value: '8' },
-                { type: 'text', value: '10' }
+                { type: 'text', value: '10' },
+                  { type: 'text', value: '9' },
               ],
               correctAnswer: '9',
             },
@@ -19919,8 +19936,9 @@ export const questionsData = {
               content: { text: '…… + 12 = 20' },
               language: "en-US",
               options: [
-                { type: 'text', value: '8' },
+             
                 { type: 'text', value: '7' },
+                   { type: 'text', value: '8' },
                 { type: 'text', value: '9' }
               ],
               correctAnswer: '8',
@@ -19939,9 +19957,10 @@ export const questionsData = {
               content: { text: '7 + …… = 15' },
               language: "en-US",
               options: [
-                { type: 'text', value: '8' },
+               
                 { type: 'text', value: '9' },
-                { type: 'text', value: '10' }
+                { type: 'text', value: '10' },
+                 { type: 'text', value: '8' },
               ],
               correctAnswer: '8',
             },
@@ -19969,8 +19988,9 @@ export const questionsData = {
               content: { text: '…… + 6 = 19' },
               language: "en-US",
               options: [
-                { type: 'text', value: '13' },
+             
                 { type: 'text', value: '14' },
+                   { type: 'text', value: '13' },
                 { type: 'text', value: '15' }
               ],
               correctAnswer: '13',
@@ -19989,9 +20009,10 @@ export const questionsData = {
               content: { text: '19 - …… = 9' },
               language: "en-US",
               options: [
-                { type: 'text', value: '10' },
                 { type: 'text', value: '11' },
-                { type: 'text', value: '9' }
+                { type: 'text', value: '9' },
+                                { type: 'text', value: '10' },
+
               ],
               correctAnswer: '10',
             },
@@ -20009,9 +20030,10 @@ export const questionsData = {
               content: { text: '18 - …… = 12' },
               language: "en-US",
               options: [
-                { type: 'text', value: '6' },
                 { type: 'text', value: '7' },
-                { type: 'text', value: '8' }
+                { type: 'text', value: '8' },
+                                { type: 'text', value: '6' },
+
               ],
               correctAnswer: '6',
             },
@@ -20029,8 +20051,9 @@ export const questionsData = {
               content: { text: '18 - …… = 10' },
               language: "en-US",
               options: [
+                                { type: 'text', value: '7' },
+
                 { type: 'text', value: '8' },
-                { type: 'text', value: '7' },
                 { type: 'text', value: '9' }
               ],
               correctAnswer: '8',
@@ -20059,9 +20082,10 @@ export const questionsData = {
               content: { text: '14 - …… = 7' },
               language: "en-US",
               options: [
-                { type: 'text', value: '7' },
                 { type: 'text', value: '6' },
-                { type: 'text', value: '8' }
+                { type: 'text', value: '8' },
+                                { type: 'text', value: '7' },
+
               ],
               correctAnswer: '7',
             },
@@ -20079,8 +20103,9 @@ export const questionsData = {
               content: { text: '17 - …… = 8' },
               language: "en-US",
               options: [
-                { type: 'text', value: '9' },
                 { type: 'text', value: '10' },
+                                { type: 'text', value: '9' },
+
                 { type: 'text', value: '8' }
               ],
               correctAnswer: '9',
@@ -20099,9 +20124,10 @@ export const questionsData = {
               content: { text: '…… Is 1 more than 64' },
               language: "en-US",
               options: [
-                { type: 'text', value: '65' },
                 { type: 'text', value: '66' },
-                { type: 'text', value: '64' }
+                { type: 'text', value: '64' },
+                                { type: 'text', value: '65' },
+
               ],
               correctAnswer: '65',
             },
@@ -20129,8 +20155,9 @@ export const questionsData = {
               content: { text: '…… Is 10 more than 45' },
               language: "en-US",
               options: [
-                { type: 'text', value: '55' },
                 { type: 'text', value: '54' },
+                                { type: 'text', value: '55' },
+
                 { type: 'text', value: '56' }
               ],
               correctAnswer: '55',
@@ -20159,9 +20186,10 @@ export const questionsData = {
               content: { text: '…… Is 10 less than 92' },
               language: "en-US",
               options: [
-                { type: 'text', value: '82' },
                 { type: 'text', value: '83' },
-                { type: 'text', value: '81' }
+                { type: 'text', value: '81' },
+                                { type: 'text', value: '82' },
+
               ],
               correctAnswer: '82',
             },
@@ -20199,9 +20227,10 @@ export const questionsData = {
               content: { text: '91 L.E. – 10 L.E. = …… L.E.' },
               language: "en-US",
               options: [
-                { type: 'text', value: '81' },
                 { type: 'text', value: '80' },
-                { type: 'text', value: '82' }
+                { type: 'text', value: '82' },
+                                { type: 'text', value: '81' },
+
               ],
               correctAnswer: '81',
             },
@@ -20219,8 +20248,9 @@ export const questionsData = {
               content: { text: '95 L.E. – 60 L.E. = …… L.E.' },
               language: "en-US",
               options: [
-                { type: 'text', value: '35' },
                 { type: 'text', value: '36' },
+                                { type: 'text', value: '35' },
+
                 { type: 'text', value: '34' }
               ],
               correctAnswer: '35',
@@ -20239,9 +20269,10 @@ export const questionsData = {
               content: { text: '…………. has 4 sides' },
               language: "en-US",
               options: [
-                { type: 'text', value: 'Square' },
                 { type: 'text', value: 'Triangle' },
-                { type: 'text', value: 'Circle' }
+                { type: 'text', value: 'Circle' },
+                                { type: 'text', value: 'Square' },
+
               ],
               correctAnswer: 'Square',
             },
@@ -20259,8 +20290,9 @@ export const questionsData = {
               content: { text: '…………. has 4 equal sides' },
               language: "en-US",
               options: [
-                { type: 'text', value: 'Square' },
                 { type: 'text', value: 'Rectangle' },
+                                { type: 'text', value: 'Square' },
+
                 { type: 'text', value: 'Circle' }
               ],
               correctAnswer: 'Square',
@@ -20279,9 +20311,10 @@ export const questionsData = {
               content: { text: 'The number of edges of a cube is ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '12' },
                 { type: 'text', value: '10' },
-                { type: 'text', value: '14' }
+                { type: 'text', value: '14' },
+                                { type: 'text', value: '12' },
+
               ],
               correctAnswer: '12',
             },
@@ -20299,8 +20332,9 @@ export const questionsData = {
               content: { text: '7 + 25 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '32' },
                 { type: 'text', value: '33' },
+                                { type: 'text', value: '32' },
+
                 { type: 'text', value: '31' }
               ],
               correctAnswer: '32',
@@ -20329,9 +20363,10 @@ export const questionsData = {
               content: { text: '35 + 8 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '43' },
                 { type: 'text', value: '44' },
-                { type: 'text', value: '45' }
+                { type: 'text', value: '45' },
+                                { type: 'text', value: '43' },
+
               ],
               correctAnswer: '43',
             },
@@ -20349,8 +20384,9 @@ export const questionsData = {
               content: { text: '18 + 3 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '21' },
                 { type: 'text', value: '22' },
+                                { type: 'text', value: '21' },
+
                 { type: 'text', value: '20' }
               ],
               correctAnswer: '21',
@@ -20369,8 +20405,9 @@ export const questionsData = {
               content: { text: '12 + 13 = ……' },
               language: "en-US",
               options: [
-                { type: 'text', value: '25' },
                 { type: 'text', value: '24' },
+                                { type: 'text', value: '25' },
+
                 { type: 'text', value: '26' }
               ],
               correctAnswer: '25',
@@ -20523,17 +20560,6 @@ export const questionsData = {
             },
             {
               content: {
-                text: "The modern calculator is a technology."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "✔" },
-                { type: "text", value: "✕" }
-              ],
-              correctAnswer: "✔"
-            },
-            {
-              content: {
                 text: "The bread costs 5LE and the honey costs 5LE then tool cost = 12 LE."
               },
               language: "en-US",
@@ -20589,31 +20615,10 @@ export const questionsData = {
               ],
               correctAnswer: "✔"
             },
+           
             {
               content: {
-                text: "The modern calculator is a technology."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "✔" },
-                { type: "text", value: "✕" }
-              ],
-              correctAnswer: "✔"
-            },
-            {
-              content: {
-                text: "Technology means tool designed to solve problem."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "✔" },
-                { type: "text", value: "✕" }
-              ],
-              correctAnswer: "✔"
-            },
-            {
-              content: {
-                text: "The adding machine was invented over 300 years ago."
+                text: "The Pascal's calculator was invented over 300 years ago."
               },
               language: "en-US",
               options: [
@@ -20719,7 +20724,7 @@ export const questionsData = {
                 { type: "text", value: "coins" },
                 { type: "text", value: "wood" }
               ],
-              correctAnswer: "wood"
+              correctAnswer: "coins"
             },
             {
               content: {
@@ -20734,7 +20739,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "The baker can use ........ to bake bread."
+                text: "The baker can use ........ "
               },
               language: "en-US",
               options: [
@@ -20840,7 +20845,7 @@ export const questionsData = {
                 { type: "text", value: "harvesting machine" },
                 { type: "text", value: "gin machine" }
               ],
-              correctAnswer: "gin machine"
+              correctAnswer: "harvesting machine"
             },
             {
               content: {
@@ -21819,7 +21824,7 @@ export const questionsData = {
                 { type: "text", value: "الثاني" },
                 { type: "text", value: "الثالث" }
               ],
-              correctAnswer: "الثاني"
+              correctAnswer: "الثالث"
             },
             {
               content: {
@@ -21827,12 +21832,11 @@ export const questionsData = {
               },
               language: "ar-EG",
               options: [
-                { type: "text", value: "التراب" },
-                { type: "text", value: "المبلل" },
+                { type: "text", value: "التراب المبلل" },
                 { type: "text", value: "المطر" },
                 { type: "text", value: "الماء" }
               ],
-              correctAnswer: "الماء"
+              correctAnswer: "التراب المبلل"
             },
             {
               content: {
@@ -22455,11 +22459,11 @@ export const questionsData = {
               content: { text: '…… are skirts' },
               language: 'en-US',
               options: [
-                { type: 'text', value: 'this' },
-                { type: 'text', value: 'these' },
-                { type: 'text', value: 'that' }
+                { type: 'text', value: 'This' },
+                { type: 'text', value: 'These' },
+                { type: 'text', value: 'That' }
               ],
-              correctAnswer: 'these'
+              correctAnswer: 'These'
             },
             {
               content: { text: 'What are …… ?' },
@@ -22472,17 +22476,18 @@ export const questionsData = {
               correctAnswer: 'those'
             },
             {
-              content: { text: 'What is …..' },
+              content: { text: 'What is ………?' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'those' },
                 { type: 'text', value: 'that' },
-                { type: 'text', value: 'that' }
+                { type: 'text', value: 'these ' },
+
               ],
               correctAnswer: 'that'
             },
             {
-              content: { text: 'That ….. a dress' },
+              content: { text: 'That ……… a dress' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'am' },
@@ -22495,11 +22500,11 @@ export const questionsData = {
               content: { text: '…… is a shirt' },
               language: 'en-US',
               options: [
-                { type: 'text', value: 'those' },
-                { type: 'text', value: 'this' },
-                { type: 'text', value: 'these' }
+                { type: 'text', value: 'Those' },
+                { type: 'text', value: 'This' },
+                { type: 'text', value: 'These' }
               ],
-              correctAnswer: 'this'
+              correctAnswer: 'This'
             },
             {
               content: { text: 'Are those ….. socks?' },
@@ -22519,7 +22524,7 @@ export const questionsData = {
                 { type: 'text', value: 'milk' },
                 { type: 'text', value: 'flowers' }
               ],
-              correctAnswer: 'milk'
+              correctAnswer: 'flowers'
             },
             {
               content: { text: 'These are …. gloves' },
@@ -22545,11 +22550,11 @@ export const questionsData = {
               content: { text: '……. is he wearing?' },
               language: 'en-US',
               options: [
-                { type: 'text', value: 'what' },
-                { type: 'text', value: 'how' },
-                { type: 'text', value: 'when' }
+                { type: 'text', value: 'What' },
+                { type: 'text', value: 'How' },
+                { type: 'text', value: 'When' }
               ],
-              correctAnswer: 'what'
+              correctAnswer: 'What'
             },
             {
               content: { text: 'Is …… skirt plain?' },
@@ -22750,7 +22755,7 @@ export const questionsData = {
               correctAnswer: 'bakery'
             },
             {
-              content: { text: 'A …. writes a computer' },
+              content: { text: 'A …. writes on a computer' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'doctor' },
@@ -22783,7 +22788,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: 'fig' },
                 { type: 'text', value: 'figs' },
-                { type: 'text', value: 'carrot' }
+                { type: 'text', value: 'carrots' }
               ],
               correctAnswer: 'fig'
             },
@@ -22811,10 +22816,10 @@ export const questionsData = {
               content: { text: '……. I have six figs, please?' },
               language: 'en-US',
               options: [
-                { type: 'text', value: 'can' },
-                { type: 'text', value: 'haw' }
+                { type: 'text', value: 'Can' },
+                { type: 'text', value: 'How' }
               ],
-              correctAnswer: 'can'
+              correctAnswer: 'Can'
             },
             {
               content: { text: 'The …. is a fruit' },
@@ -23747,7 +23752,7 @@ export const questionsData = {
               correctAnswer: '297',
             },
             {
-              content: { text: '	Choose the following numbers to the nearest:   87 is closer to ……' },
+              content: { text: '	Choose the following numbers to the nearest 10:   87 is closer to ……' },
               language: "en-US",
               options: [
                 { type: 'text', value: '90' },
@@ -24176,18 +24181,7 @@ export const questionsData = {
               ],
               correctAnswer: "Aquatic"
             },
-            {
-              content: {
-                text: "______ is a way of communication."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "e-mail" },
-                { type: "text", value: "cell phone" },
-                { type: "text", value: "all of them" }
-              ],
-              correctAnswer: "all of them"
-            },
+           
             {
               content: {
                 text: "Objects that allow light to pass through like ______."
@@ -24260,18 +24254,7 @@ export const questionsData = {
               ],
               correctAnswer: "traditions"
             },
-            {
-              content: {
-                text: "______ means the way of life for a group of people."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "Culture" },
-                { type: "text", value: "folktale" },
-                { type: "text", value: "traditions" }
-              ],
-              correctAnswer: "Culture"
-            },
+           
             {
               content: {
                 text: "______ is a way of communication."
@@ -24363,7 +24346,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: "text", value: "Mining" },
-                { type: "text", value: "agriculture" }
+                { type: "text", value: "Agriculture" }
               ],
               correctAnswer: "Mining"
             },
@@ -24488,17 +24471,7 @@ export const questionsData = {
               ],
               correctAnswer: "✔"
             },
-            {
-              content: {
-                text: "A pencil and paper are form of technology."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "✔" },
-                { type: "text", value: "✕" }
-              ],
-              correctAnswer: "✔"
-            },
+           
             {
               content: {
                 text: "Communication means of sharing ideas."
@@ -24510,17 +24483,7 @@ export const questionsData = {
               ],
               correctAnswer: "✔"
             },
-            {
-              content: {
-                text: "Colorful houses are popular at Aswan."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "✔" },
-                { type: "text", value: "✕" }
-              ],
-              correctAnswer: "✔"
-            },
+         
             {
               content: {
                 text: "Braille is a special code for blind people."
@@ -24567,7 +24530,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Rules to make a strong password are doing contain numbers and letters."
+                text: "Rules to make a strong password are doing contain numbers and letters and symbols ."
               },
               language: "en-US",
               options: [
@@ -24578,7 +24541,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "From communication tools are phone cell."
+                text: "From communication tools like cellphone."
               },
               language: "en-US",
               options: [
@@ -26188,7 +26151,7 @@ export const questionsData = {
               correctAnswer: 'look'
             },
             {
-              content: { text: 'I type words to send (phone calls - video calls - text messages).' },
+              content: { text: 'I type words to send ........' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'phone calls' },

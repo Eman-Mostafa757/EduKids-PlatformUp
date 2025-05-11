@@ -26,7 +26,7 @@ export const schoolStructure: Record<SectionType, { phases: Record<'حضانة' 
       },
       ابتدائي: {
         grades: ['Grade 1', 'Grade 2', 'Grade 3'],
-        subjects: ['عربي', 'Math', 'English Connect +','الماني', 'دين إسلامي','دين مسيحي','Discover'],
+        subjects: ['Arabic', 'Math', 'English Connect +','German', 'دين إسلامي','دين مسيحي','Discover'],
       },
     },
   },

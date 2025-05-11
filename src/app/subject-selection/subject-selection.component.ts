@@ -55,6 +55,15 @@ export class SubjectSelectionComponent implements OnInit {
   getGrades(): string[] {
     if (!this.selectedSection || !this.selectedPhase) return [];
     const structure = this.schoolStructure[this.selectedSection];
+    if(this.selectedSection==='عربي'&& this.selectedPhase==='ابتدائي')
+    {
+        return structure.phases[this.selectedPhase].grades.filter(grade=> grade!=='تالتة')
+    }
+     if(this.selectedSection=== 'لغات'&& this.selectedPhase==='ابتدائي')
+    {
+        return structure.phases[this.selectedPhase].grades.filter(grade=> grade!=='Grade 3')
+    }
+    else
     return structure.phases[this.selectedPhase].grades;
   }
 

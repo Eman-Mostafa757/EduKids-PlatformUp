@@ -7137,9 +7137,10 @@ export const questionsData = {
               correctAnswer: 'red',
             },
             {
-              content: { text: 'Welche Farbe ist die Banane?',
-                image:"assets/الماني/موزة.jpg"
-               },
+              content: {
+                text: 'Welche Farbe ist die Banane?',
+                image: "assets/الماني/موزة.jpg"
+              },
               language: 'de-DE',
               options: [
                 { type: 'text', value: 'blau' },
@@ -7150,8 +7151,9 @@ export const questionsData = {
               correctAnswer: 'gelb',
             },
             {
-              content: { text: 'Welche Farbe hat der Himmel?' ,
-                image:"assets/الماني/سما.jpg"
+              content: {
+                text: 'Welche Farbe hat der Himmel?',
+                image: "assets/الماني/سما.jpg"
               },
               language: 'de-DE',
               options: [
@@ -7163,8 +7165,9 @@ export const questionsData = {
               correctAnswer: 'blau',
             },
             {
-              content: { text: 'Welche Farbe ist Schnee?' ,
-                image:"assets/الماني/ثلجي.jpg"
+              content: {
+                text: 'Welche Farbe ist Schnee?',
+                image: "assets/الماني/ثلجي.jpg"
               },
               language: 'de-DE',
               options: [
@@ -8211,8 +8214,333 @@ export const questionsData = {
           ],
           رياضيات: [
             {
+              content: {
+                text: " ........عدد أيام الأسبوع تمثل عدداً"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "فردي" },
+                { type: "text", value: "زوجي" },
+                { type: "text", value: "غير ذلك" }
+              ],
+              correctAnswer: "فردي"
+            },
+            {
+              content: {
+                text: " ........= ۲۰۹ + ۳۹۱"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "۱۸۸" },
+                { type: "text", value: "۱۹۸" },
+              ],
+              correctAnswer: "۱۸۸"
+            },
+            {
+              content: { text: ' ............ = ٤ أحد + ٨ عشرات + ٧ مئات ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٨٧٤' },
+                { type: 'text', value: '٤٨٧' },
+                { type: 'text', value: '٧٨٤' }
+              ],
+              correctAnswer: '٨٧٤'
+            },
 
-            }
+            {
+              content: { text: '...........= ٦ + ٠ + ٤ + ٠ + ٧' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '١٧' },
+                { type: 'text', value: '٢٧' },
+                { type: 'text', value: '٢٠' }
+              ],
+              correctAnswer: '١٧'
+            },
+
+            {
+              content: { text: '............= ٤ أحد + ٣ عشرات + ٢ مئات ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢٣٤' },
+                { type: 'text', value: '٣٢٤' },
+                { type: 'text', value: '٢٤٣' }
+              ],
+              correctAnswer: '٢٣٤'
+            },
+            {
+              content: { text: '...........= ٢ أحد + ٩ عشرات + ٦ مئات ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٦٩٢' },
+                { type: 'text', value: '٢٦٩' },
+                { type: 'text', value: '٦٢٩' }
+              ],
+              correctAnswer: '٦٩٢'
+            },
+            {
+              content: { text: '...........= ٠ أحد + ٥ عشرات + ٦ مئات' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٦٥٨' },
+                { type: 'text', value: '٥٦٠' },
+                { type: 'text', value: '٦٥٠' }
+              ],
+              correctAnswer: '٦٥٠'
+            },
+            {
+              content: { text: '= ............ = ٧ × ٥ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢٥' },
+                { type: 'text', value: '٤٥' },
+                { type: 'text', value: '٣٥' }
+              ],
+              correctAnswer: '٣٥'
+            },
+            {
+              content: { text: '............= ٨ × ٤' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢٩' },
+                { type: 'text', value: '٣٢' },
+                { type: 'text', value: '٢٤' }
+              ],
+              correctAnswer: '٣٢'
+            },
+            {
+              content: { text: '...........= ٩ × ٣ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢٩' },
+                { type: 'text', value: '٢٧' },
+                { type: 'text', value: '١٧' }
+              ],
+              correctAnswer: '٢٧'
+            },
+            {
+              content: { text: '............ قيمة الرقم ٢ في العدد ٢٧٨ هي ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢' },
+                { type: 'text', value: '٢٠٠' },
+                { type: 'text', value: '٢٠' }
+              ],
+              correctAnswer: '٢٠٠'
+            },
+            {
+              content: { text: '............= ٧ × ٨ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٤٩' },
+                { type: 'text', value: '٧٠' },
+                { type: 'text', value: '٥٦' }
+              ],
+              correctAnswer: '٥٦'
+            },
+            {
+              content: { text: '............= ٤١ ÷ ١ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٨٩' },
+                { type: 'text', value: '٤١' },
+                { type: 'text', value: '١' }
+              ],
+              correctAnswer: '٤١'
+            },
+            {
+              content: { text: '............ = ٧٢ ÷ ٢ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٧٣' },
+                { type: 'text', value: '٣٦' },
+                { type: 'text', value: '١٩' }
+              ],
+              correctAnswer: '٣٦'
+            },
+            {
+              content: { text: '............ قيمة الرقم ٥ في العدد ٥٨١ هي ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٥' },
+                { type: 'text', value: '٥٠٠' },
+                { type: 'text', value: '٥٠' }
+              ],
+              correctAnswer: '٥٠٠'
+            },
+            {
+              content: { text: '٣٠٠ -------- ٤٠٠' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '=' },
+                { type: 'text', value: '<' }
+              ],
+              correctAnswer: '>'
+            },
+            {
+              content: { text: '٣٢٧ = ............ + ٢٣٧' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٩٠' },
+                { type: 'text', value: '١٠٠' },
+                { type: 'text', value: '٨٠' }
+              ],
+              correctAnswer: '٩٠'
+            },
+            {
+              content: { text: '٥٨٠  ------  ٤٥٨' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '>' },
+                { type: 'text', value: '<' },
+                { type: 'text', value: '=' }
+              ],
+              correctAnswer: '<'
+            },
+            {
+              content: { text: '............ قيمة الرقم ٦ في العدد ٦١٣ هي ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٦٠٠' },
+                { type: 'text', value: '٦٠' },
+                { type: 'text', value: '٦' }
+              ],
+              correctAnswer: '٦٠٠'
+            },
+            {
+              content: { text: '........... = ٤٥١ + ٧٤ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٥٢٥' },
+                { type: 'text', value: '٥١٥' },
+                { type: 'text', value: '٥٣٥' }
+              ],
+              correctAnswer: '٥٢٥'
+            },
+            {
+              content: { text: '...........= ٩٠٠ - ٦٠ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٨٤٠' },
+                { type: 'text', value: '٨٦٠' },
+                { type: 'text', value: '٨٢٠' }
+              ],
+              correctAnswer: '٨٤٠'
+            },
+            {
+              content: { text: '............ العدد الفردي التالي مباشرةً للعدد ٣٧ هو ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٣٩' },
+                { type: 'text', value: '٣٨' },
+                { type: 'text', value: '٤٠' }
+              ],
+              correctAnswer: '٣٩'
+            },
+            {
+              content: { text: '٢٢٥ جنيهًا + ٧٥ جنيهًا = ............ جنيهًا' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢٨٠' },
+                { type: 'text', value: '٣٠٠' },
+                { type: 'text', value: '٢٩٠' }
+              ],
+              correctAnswer: '٣٠٠'
+            },
+            {
+              content: { text: '........... = ٢٤٩ + ١٢١ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٣٦٠' },
+                { type: 'text', value: '٣٥٠' },
+                { type: 'text', value: '٣٧٠' }
+              ],
+              correctAnswer: '٣٧٠'
+            },
+            {
+              content: { text: '٢٠٠ ج + ٢٠ ج + ١٠ ج = ............ ج' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢٣٠' },
+                { type: 'text', value: '٢٢٠' },
+                { type: 'text', value: '٢٤٠' }
+              ],
+              correctAnswer: '٢٣٠'
+            },
+            {
+              content: { text: 'العدد ٧٠ ............ عدد زوجي' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: 'هو' },
+                { type: 'text', value: 'ليس' },
+                { type: 'text', value: 'قد يكون' }
+              ],
+              correctAnswer: 'هو'
+            },
+            {
+              content: { text: '............ تقريب العدد ٢٠٧ لأقرب مائة هو ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢٠٠' },
+                { type: 'text', value: '١٠٠' },
+                { type: 'text', value: '٣٠٠' }
+              ],
+              correctAnswer: '٢٠٠'
+            },
+            {
+              content: { text: '..........= ٦٠ + ٢٧ ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٨٧' },
+                { type: 'text', value: '٧٧' },
+                { type: 'text', value: '٨٠' }
+              ],
+              correctAnswer: '٨٧'
+            },
+            {
+              content: { text: 'قاعدة النمط ١٢٢٠ ، ١١١١ ، ............ هي' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '١٠٠٢' },
+                { type: 'text', value: '١٠١١' },
+                { type: 'text', value: '١٠٢٠' }
+              ],
+              correctAnswer: '١٠٠٢'
+            },
+            {
+              content: { text: '.......... ضعف العدد ١٢ هو' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٢١' },
+                { type: 'text', value: '٢٢' },
+                { type: 'text', value: '٢٤' }
+              ],
+              correctAnswer: '٢٤'
+            },
+            {
+              content: { text: '........ يقدر ثمن القلم الرصاص بـ' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٥' },
+                { type: 'text', value: '٥٠' },
+                { type: 'text', value: '۱۰۰' }
+              ],
+              correctAnswer: '٥'
+            },
+            {
+              content: { text: '....... = ٦٠ - ٣٧' },
+              language: 'ar-EG',
+              options: [
+                { type: 'text', value: '٥' },
+                { type: 'text', value: '١٤' },
+                { type: 'text', value: '٢٣' }
+              ],
+              correctAnswer: '٢٣'
+            },
+
+
+
           ],
           'English Connect': [
             {
@@ -10276,7 +10604,7 @@ export const questionsData = {
                 { type: 'text', value: 'ie' },
                 { type: 'text', value: 'eu' }
               ],
-              correctAnswer: 'ie' 
+              correctAnswer: 'ie'
             },
             {
               content: { text: 'Wie heißt die Zahl 0 auf Deutsch?' },
@@ -10478,7 +10806,7 @@ export const questionsData = {
               ],
               correctAnswer: 'die'
             }
-          
+
           ],
         },
         تالتة: {
@@ -18669,8 +18997,8 @@ export const questionsData = {
         }
       },
       ابتدائي: {
-       'Grade 1': {
-          عربي: [
+        'Grade 1': {
+          Arabic: [
             {
               content: { text: 'رَائِعَةٌ_____' },
               language: "ar-EG",
@@ -19147,7 +19475,7 @@ export const questionsData = {
           Math: [
             {
               content: {
-                image :"assets/mathPrim/الاول.png"
+                image: "assets/mathPrim/الاول.png"
               },
               language: "en-US",
               options: [
@@ -19158,7 +19486,7 @@ export const questionsData = {
             },
             {
               content: {
-                image :"assets/mathPrim/التاني.png"
+                image: "assets/mathPrim/التاني.png"
               },
               language: "en-US",
               options: [
@@ -19169,7 +19497,7 @@ export const questionsData = {
             },
             {
               content: {
-                image :"assets/mathPrim/التالت.png"
+                image: "assets/mathPrim/التالت.png"
               },
               language: "en-US",
               options: [
@@ -21622,7 +21950,7 @@ export const questionsData = {
 
 
           ],
-          'الماني': [
+          'German': [
             {
               content: { text: 'Welche Zahl ist fünfundvierzig?' },
               language: 'de-DE',
@@ -21679,9 +22007,10 @@ export const questionsData = {
               correctAnswer: 'red',
             },
             {
-              content: { text: 'Welche Farbe ist die Banane?',
-                image:"assets/الماني/موزة.jpg"
-               },
+              content: {
+                text: 'Welche Farbe ist die Banane?',
+                image: "assets/الماني/موزة.jpg"
+              },
               language: 'de-DE',
               options: [
                 { type: 'text', value: 'blau' },
@@ -21692,8 +22021,9 @@ export const questionsData = {
               correctAnswer: 'gelb',
             },
             {
-              content: { text: 'Welche Farbe hat der Himmel?' ,
-                image:"assets/الماني/سما.jpg"
+              content: {
+                text: 'Welche Farbe hat der Himmel?',
+                image: "assets/الماني/سما.jpg"
               },
               language: 'de-DE',
               options: [
@@ -21705,8 +22035,9 @@ export const questionsData = {
               correctAnswer: 'blau',
             },
             {
-              content: { text: 'Welche Farbe ist Schnee?' ,
-                image:"assets/الماني/ثلجي.jpg"
+              content: {
+                text: 'Welche Farbe ist Schnee?',
+                image: "assets/الماني/ثلجي.jpg"
               },
               language: 'de-DE',
               options: [
@@ -22110,7 +22441,7 @@ export const questionsData = {
               correctAnswer: 'ein',
             },
           ],
-          'English Connect +':[
+          'English Connect +': [
             {
               content: { text: '…… are skirts' },
               language: 'en-US',
@@ -22595,8 +22926,8 @@ export const questionsData = {
             }
           ],
         },
-       'Grade 2': {
-          عربي: [
+        'Grade 2': {
+          Arabic: [
             {
               content: {
                 audio: "assets/audio/question/ابتدائي/عربي2/ما أروع أبناء مصر.mp3",
@@ -25165,7 +25496,7 @@ export const questionsData = {
 
 
           ],
-          'الماني': [
+          'German': [
             {
               content: { text: 'Wähle den richtigen Buchstaben: __gypten' },
               language: 'de-DE',
@@ -25464,7 +25795,7 @@ export const questionsData = {
                 { type: 'text', value: 'ie' },
                 { type: 'text', value: 'eu' }
               ],
-              correctAnswer: 'ie' 
+              correctAnswer: 'ie'
             },
             {
               content: { text: 'Wie heißt die Zahl 0 auf Deutsch?' },
@@ -25666,11 +25997,382 @@ export const questionsData = {
               ],
               correctAnswer: 'die'
             }
-          
+
+          ],
+          'English Connect +': [
+            {
+              content: { text: '........ ، she had to tidy her books.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'Today' },
+                { type: 'text', value: 'Yesterday' },
+                { type: 'text', value: 'Tomorrow' }
+              ],
+              correctAnswer: 'Yesterday'
+            },
+            {
+              content: { text: 'The ......... is the tallest land animal.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'giraffe' },
+                { type: 'text', value: 'rhino' },
+                { type: 'text', value: 'elephant' }
+              ],
+              correctAnswer: 'giraffe'
+            },
+            {
+              content: { text: 'I talked ............ than the other students in my class.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'more loudly' },
+                { type: 'text', value: 'e loudly' },
+                { type: 'text', value: 'loudly' },
+                { type: 'text', value: 'loud' }
+              ],
+              correctAnswer: 'more loudly'
+            },
+            {
+              content: { text: '........... help animals to be healthy.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'Vets' },
+                { type: 'text', value: 'Teachers' },
+                { type: 'text', value: 'Engineers' }
+              ],
+              correctAnswer: 'Vets'
+            },
+            {
+              content: { text: 'Cans and pots are made of ....' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'paper' },
+                { type: 'text', value: 'metal' }
+              ],
+              correctAnswer: 'metal'
+            },
+            {
+              content: { text: 'I have two pencils and a .... in my pencil case.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'ruler' },
+                { type: 'text', value: 'boat' }
+              ],
+              correctAnswer: 'ruler'
+            },
+            {
+              content: { text: '...... throw trash in the river.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: "Aren't" },
+                { type: 'text', value: "Don't" }
+              ],
+              correctAnswer: "Don't"
+            },
+            {
+              content: { text: 'People .......... Sham El Nessim in the park.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'celebrate' },
+                { type: 'text', value: 'give' },
+                { type: 'text', value: 'visit' }
+              ],
+              correctAnswer: 'celebrate'
+            },
+            {
+              content: { text: 'A ....... is a group of musicians.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'meal' },
+                { type: 'text', value: 'picnic' },
+                { type: 'text', value: 'band' }
+              ],
+              correctAnswer: 'band'
+            },
+            {
+              content: { text: 'A: ...... is your favorite instrument? \nB: I like the violin.  -B: I like the violin' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'What' },
+                { type: 'text', value: 'When' },
+                { type: 'text', value: 'Who' }
+              ],
+              correctAnswer: 'What'
+            },
+            {
+              content: { text: 'I need a ......... on the envelope to post the letter.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'map' },
+                { type: 'text', value: 'compass' },
+                { type: 'text', value: 'stamp' }
+              ],
+              correctAnswer: 'stamp'
+            },
+            {
+              content: { text: 'It was very late, ......... we took a taxi.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'so' },
+                { type: 'text', value: 'because' },
+                { type: 'text', value: 'and' }
+              ],
+              correctAnswer: 'so'
+            },
+            {
+              content: { text: 'Firefighters can help in the emergency ...........' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'electricity' },
+                { type: 'text', value: 'shopping' },
+                { type: 'text', value: 'fire' }
+              ],
+              correctAnswer: 'fire'
+            },
+            {
+              content: { text: 'We ......... the game last Friday.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'enjoy' },
+                { type: 'text', value: 'enjoyed' },
+                { type: 'text', value: 'enjoying' }
+              ],
+              correctAnswer: 'enjoyed'
+            },
+            {
+              content: { text: '.......... sell us food and clothes.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'Doctors' },
+                { type: 'text', value: 'Teachers' },
+                { type: 'text', value: 'Storekeepers' }
+              ],
+              correctAnswer: 'Storekeepers'
+            },
+            {
+              content: { text: 'A group of musicians is called a .......' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'band' },
+                { type: 'text', value: 'string' },
+                { type: 'text', value: 'picnic' }
+              ],
+              correctAnswer: 'band'
+            },
+            {
+              content: { text: 'A: ........ is the hotel, please?  -B: Go straight, then turn left.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'When' },
+                { type: 'text', value: 'Who' },
+                { type: 'text', value: 'Where' }
+              ],
+              correctAnswer: 'Where'
+            },
+            {
+              content: { text: 'We recycle paper and plastic to ........ after the environment.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'looks' },
+                { type: 'text', value: 'look' },
+                { type: 'text', value: 'looking' }
+              ],
+              correctAnswer: 'look'
+            },
+            {
+              content: { text: 'I type words to send (phone calls - video calls - text messages).' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'phone calls' },
+                { type: 'text', value: 'video calls' },
+                { type: 'text', value: 'text messages' }
+              ],
+              correctAnswer: 'text messages'
+            },
+            {
+              content: { text: 'I didn’t use to ....... to music.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'listen' },
+                { type: 'text', value: 'listens' },
+                { type: 'text', value: 'listening' }
+              ],
+              correctAnswer: 'listen'
+            },
+            {
+              content: { text: 'My sister is very ...... . She wants to know everything.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'angry' },
+                { type: 'text', value: 'kind' },
+                { type: 'text', value: 'curious' }
+              ],
+              correctAnswer: 'curious'
+            },
+            {
+              content: { text: 'We get ___ from chickens.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'wood' },
+                { type: 'text', value: 'meat' },
+                { type: 'text', value: 'milk' },
+              ],
+              correctAnswer: 'meat',
+            },
+            {
+              content: { text: 'We went to the supermarket to buy some fruit ___ vegetables.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'so' },
+                { type: 'text', value: 'but' },
+                { type: 'text', value: 'and' },
+              ],
+              correctAnswer: 'and',
+            },
+            {
+              content: { text: "Let's ___ a song together." },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'sing' },
+                { type: 'text', value: 'sings' },
+                { type: 'text', value: 'singing' },
+              ],
+              correctAnswer: 'sing',
+            },
+            {
+              content: { text: 'A ___ checks the passengers’ tickets.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'conductor' },
+                { type: 'text', value: 'mechanic' },
+                { type: 'text', value: 'pilot' },
+              ],
+              correctAnswer: 'conductor',
+            },
+            {
+              content: { text: 'A: What ___ she buy? B: She bought a nice dress.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'did' },
+                { type: 'text', value: 'do' },
+                { type: 'text', value: 'does' },
+              ],
+              correctAnswer: 'did',
+            },
+            {
+              content: { text: 'The duck has got ___.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'hands' },
+                { type: 'text', value: 'wings' },
+                { type: 'text', value: 'arms' },
+              ],
+              correctAnswer: 'wings',
+            },
+            {
+              content: { text: 'The energy from the dam is changed into ___.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'water' },
+                { type: 'text', value: 'gases' },
+                { type: 'text', value: 'electricity' },
+              ],
+              correctAnswer: 'electricity',
+            },
+            {
+              content: { text: "They don't prefer ___ pizza." },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'eat' },
+                { type: 'text', value: 'eats' },
+                { type: 'text', value: 'eating' },
+              ],
+              correctAnswer: 'eating',
+            },
+            {
+              content: { text: 'I like shopping at the ___.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'supermarket' },
+                { type: 'text', value: 'school' },
+                { type: 'text', value: 'office' },
+              ],
+              correctAnswer: 'supermarket',
+            },
+            {
+              content: { text: '___ an amazing show!' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'What' },
+                { type: 'text', value: 'Which' },
+                { type: 'text', value: 'When' },
+              ],
+              correctAnswer: 'What',
+            },
+            {
+              content: { text: 'The museum is ___ to the park.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'opposite' },
+                { type: 'text', value: 'left' },
+                { type: 'text', value: 'next' },
+              ],
+              correctAnswer: 'next',
+            },
+            {
+              content: { text: "A: What's the ___? B: It's five twenty-five." },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'time' },
+                { type: 'text', value: 'kind' },
+                { type: 'text', value: 'color' },
+              ],
+              correctAnswer: 'time',
+            },
+            {
+              content: { text: 'A: Is there ___ juice? B: No, there isn’t.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'some' },
+                { type: 'text', value: 'any' },
+                { type: 'text', value: 'a' },
+              ],
+              correctAnswer: 'any',
+            },
+            {
+              content: { text: 'Go ___, then turn left.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'street' },
+                { type: 'text', value: 'straight' },
+                { type: 'text', value: 'string' },
+              ],
+              correctAnswer: 'straight',
+            },
+            {
+              content: { text: 'I would like to go to Cairo ___ car.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'by' },
+                { type: 'text', value: 'next' },
+                { type: 'text', value: 'near' },
+              ],
+              correctAnswer: 'by',
+            },
+            {
+              content: { text: 'We exercise to ___.' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'get fit' },
+                { type: 'text', value: 'learn' },
+                { type: 'text', value: 'swimming' },
+              ],
+              correctAnswer: 'get fit',
+            },
+
           ],
         },
-       'Grade 3': {
-          عربي: [
+        'Grade 3': {
+          Arabic: [
             {
               content: {
                 text: "يلعب خالد الكرة ) نوع الفعل في الجملة )",
@@ -27517,7 +28219,7 @@ export const questionsData = {
             }
 
           ],
-          'الماني': [
+          'German': [
 
             {
               content: {

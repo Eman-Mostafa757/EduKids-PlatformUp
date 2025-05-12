@@ -5,7 +5,7 @@ body {
   padding: 0;
   background-attachment: fixed;
 }
-.english-text {
+.question-text {
   font-family: 'Fredoka', sans-serif;
 }
 .question-box {
@@ -28,6 +28,7 @@ body {
   color: #4b5fab;
   font-size: 30px;
   margin-bottom: 10px;
+  word-spacing: 0.1em;
 }
 .question-box h1 {
   color: #000000;

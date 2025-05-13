@@ -11375,8 +11375,17 @@ export const questionsData = {
           ],
           رياضيات: [
             {
-
-            }
+              content: {
+                text: ""
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "الماء" },
+                { type: "text", value: "ضوء الشمس" },
+                { type: "text", value: "التربة" }
+              ],
+              correctAnswer: "ضوء الشمس"
+            },
           ],
           'اكتشف': [
             {
@@ -20498,18 +20507,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Technology means any tool designed to solve problem."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "✔" },
-                { type: "text", value: "✕" }
-              ],
-              correctAnswer: "✔"
-            },
-            {
-              content: {
-                text: "The bread costs 5LE and the honey costs 5LE then tool cost = 12 LE."
+                text: "The bread costs 5LE and the honey costs 5LE then total cost = 12 LE."
               },
               language: "en-US",
               options: [
@@ -20575,17 +20573,6 @@ export const questionsData = {
                 { type: "text", value: "✕" }
               ],
               correctAnswer: "✔"
-            },
-            {
-              content: {
-                text: "The pencil and paper are a technology."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "✔" },
-                { type: "text", value: "✕" }
-              ],
-              correctAnswer: "✕"
             },
             {
               content: {
@@ -20776,18 +20763,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "The baker can use ........ to bake bread."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "mixer" },
-                { type: "text", value: "calculator" }
-              ],
-              correctAnswer: "mixer"
-            },
-            {
-              content: {
-                text: "We collect cotton by using a ………. ........"
+                text: "We collect cotton by using a ........"
               },
               language: "en-US",
               options: [
@@ -20833,15 +20809,15 @@ export const questionsData = {
             },
             {
               content: {
-                text: "We can buy book in ........"
+                text: "We can buy book from ........"
               },
               language: "en-US",
               options: [
                 { type: "text", value: "pharmacy" },
-                { type: "text", value: "books store" },
+                { type: "text", value: "book store" },
                 { type: "text", value: "grocery store" }
               ],
-              correctAnswer: "books store"
+              correctAnswer: "book store"
             },
             {
               content: {
@@ -24161,11 +24137,11 @@ export const questionsData = {
               },
               language: "en-US",
               options: [
-                { type: "text", value: "light" },
-                { type: "text", value: "mosaic" },
-                { type: "text", value: "braille" }
+                { type: "text", value: "Light" },
+                { type: "text", value: "Music" },
+                { type: "text", value: "Braille" }
               ],
-              correctAnswer: "braille"
+              correctAnswer: "Braille"
             },
             {
               content: {
@@ -24210,11 +24186,11 @@ export const questionsData = {
               },
               language: "en-US",
               options: [
-                { type: "text", value: "e-mail" },
-                { type: "text", value: "cell phone" },
-                { type: "text", value: "all of them" }
+                { type: "text", value: "E-mail" },
+                { type: "text", value: "Cell phone" },
+                { type: "text", value: "All of them" }
               ],
-              correctAnswer: "all of them"
+              correctAnswer: "All of them"
             },
             {
               content: {
@@ -24234,11 +24210,11 @@ export const questionsData = {
               },
               language: "en-US",
               options: [
-                { type: "text", value: "tourists" },
-                { type: "text", value: "aquatic biologist" },
-                { type: "text", value: "ecosystem" }
+                { type: "text", value: "Tourists" },
+                { type: "text", value: "Aquatic biologist" },
+                { type: "text", value: "Ecosystem" }
               ],
-              correctAnswer: "aquatic biologist"
+              correctAnswer: "Aquatic biologist"
             },
             {
               content: {
@@ -24246,11 +24222,11 @@ export const questionsData = {
               },
               language: "en-US",
               options: [
-                { type: "text", value: "river" },
-                { type: "text", value: "filtering water" },
-                { type: "text", value: "gravel" }
+                { type: "text", value: "River" },
+                { type: "text", value: "Filtering water" },
+                { type: "text", value: "Gravel" }
               ],
-              correctAnswer: "filtering water"
+              correctAnswer: "Filtering water"
             },
             {
               content: {
@@ -24282,11 +24258,11 @@ export const questionsData = {
               },
               language: "en-US",
               options: [
-                { type: "text", value: "legend" },
-                { type: "text", value: "weather" },
-                { type: "text", value: "water" }
+                { type: "text", value: "Legend" },
+                { type: "text", value: "Weather" },
+                { type: "text", value: "Water" }
               ],
-              correctAnswer: "weather"
+              correctAnswer: "Weather"
             },
             {
               content: {
@@ -24356,7 +24332,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Tradition passed from one generation to another by humans."
+                text: "Traditions passed from one generation to another by humans."
               },
               language: "en-US",
               options: [
@@ -24433,17 +24409,7 @@ export const questionsData = {
               correctAnswer: "✔"
             },
          
-            {
-              content: {
-                text: "Braille is a special code for blind people."
-              },
-              language: "en-US",
-              options: [
-                { type: "text", value: "✔" },
-                { type: "text", value: "✕" }
-              ],
-              correctAnswer: "✔"
-            },
+        
             {
               content: {
                 text: "Objects that allow light to pass through like glass."
@@ -26899,7 +26865,9 @@ export const questionsData = {
               correctAnswer: 'نبات',
             },
           ],
-          Math: [],
+          Math: [
+          
+          ],
           'English Connect +': [
             {
               content: { text: "We can see the ______ at the museum." },

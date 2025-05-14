@@ -1,19 +1,30 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 @Pipe({
   name: 'fraction'
 })
 export class FractionPipe implements PipeTransform {
 
-  toArabic(num: string): string {
-    return num.replace(/\d/g, d => '٠١٢٣٤٥٦٧٨٩'[parseInt(d)]);
-  }
+  constructor(private sanitizer: DomSanitizer) {}
 
-  transform(value: string): string {
-    // بيحوّل كل حاجة زي 1\2 إلى شكل كسر HTML
-    return value.replace(/(\d)\\(\d)/g, (_match, numerator, denominator) => {
-      return `<sup>${this.toArabic(numerator)}</sup>&frasl;<sub>${this.toArabic(denominator)}</sub>`;
-    });
+  transform(value: string): SafeHtml {
+    // نبحث عن جميع الكسور في النص
+    const fractionRegex = /\d+⁄\d+|\d+\/\d+/g;
+    return this.sanitizer.bypassSecurityTrustHtml(
+      value.replace(fractionRegex, (match) => {
+        const parts = match.split(/[\/⁄]/); // يقبل كلاً من / و ⁄
+        if (parts.length === 2) {
+          const [numerator, denominator] = parts;
+          return `
+            <span style="display: inline-block; text-align: center; line-height: 1;">
+              <span>${numerator}</span><br />
+              <span style="border-top: 2px solid #000; display: block;">${denominator}</span>
+            </span>
+          `;
+        }
+        return match; // لو مش كسر نرجع النص زي ما هو
+      })
+    );
   }
-
 }

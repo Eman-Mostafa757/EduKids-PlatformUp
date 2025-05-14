@@ -15,10 +15,13 @@
     <h1>Question {{ currentQuestionIndex + 1 }}</h1>
   </ng-template>
 
-  
-  <h2 class="question-text" *ngIf="filteredQuestions[currentQuestionIndex]?.content?.text">
-    {{ filteredQuestions[currentQuestionIndex].content.text }}
-  </h2>
+<h2 class="question-text" *ngIf="filteredQuestions[currentQuestionIndex]?.content?.text">
+  <span [innerHTML]="filteredQuestions[currentQuestionIndex]?.content?.text | fraction"></span>
+</h2>
+
+
+
+
   <!-- عرض النص والصورة معًا داخل السؤال -->
   <div class="question-media">
     <img *ngIf="filteredQuestions[currentQuestionIndex]?.content?.image" 
@@ -40,7 +43,8 @@
             (click)="checkAnswer(option.value)">
       
       <ng-container [ngSwitch]="option.type">
-        <span *ngSwitchCase="'text'">{{ option.value }}</span>
+      <span *ngSwitchCase="'text'" [innerHTML]="option.value | fraction"></span>
+
         <img *ngSwitchCase="'image'" [src]="option.value" alt="Option Image" class="option-image">
       </ng-container>
 

@@ -4,9 +4,10 @@ import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
 import { questionsData } from '../structure/questions-data';
 import { Router } from '@angular/router';
+import { FractionPipe } from '../pipes/fraction.pipe';
 @Component({
   selector: 'app-question',
-  imports: [CommonModule],
+  imports: [CommonModule,FractionPipe],
   templateUrl: './question.component.html',
   styleUrls: ['./question.component.css'],
 
@@ -20,7 +21,6 @@ export class QuestionComponent {
   timerInterval: any;
   timeUp = false;
   currentAudio: HTMLAudioElement | null = null;
-
   questionsData: any = questionsData;
   filteredQuestions: any[] = [];
   section: string = '';
@@ -60,6 +60,7 @@ export class QuestionComponent {
       };
     });
   }
+  
 
   startTimer() {
     this.warningStarted = false;

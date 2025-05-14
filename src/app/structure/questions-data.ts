@@ -8239,9 +8239,9 @@ export const questionsData = {
               content: { text: '............ =  ٤ أحد + ٨ عشرات + ٧ مئات ' },
               language: 'ar-EG',
               options: [
-                      { type: 'text', value: '٤٨٧' },
+                { type: 'text', value: '٤٨٧' },
                 { type: 'text', value: '٨٧٤' },
-          
+
                 { type: 'text', value: '٧٨٤' }
               ],
               correctAnswer: '٧٨٤'
@@ -8251,10 +8251,10 @@ export const questionsData = {
               content: { text: '...........= ٦ + ٠ + ٤ + ٠ + ٧' },
               language: 'ar-EG',
               options: [
-              
+
                 { type: 'text', value: '٢٧' },
                 { type: 'text', value: '٢٠' },
-                  { type: 'text', value: '١٧' },
+                { type: 'text', value: '١٧' },
               ],
               correctAnswer: '١٧'
             },
@@ -8263,9 +8263,9 @@ export const questionsData = {
               content: { text: '............= ٤ أحد + ٣ عشرات + ٢ مئات ' },
               language: 'ar-EG',
               options: [
-               
+
                 { type: 'text', value: '٣٢٤' },
-                 { type: 'text', value: '٢٣٤' },
+                { type: 'text', value: '٢٣٤' },
                 { type: 'text', value: '٢٤٣' }
               ],
               correctAnswer: '٢٣٤'
@@ -8284,9 +8284,9 @@ export const questionsData = {
               content: { text: '...........= ٠ أحد + ٥ عشرات + ٦ مئات' },
               language: 'ar-EG',
               options: [
-           
+
                 { type: 'text', value: '٥٦٠' },
-                     { type: 'text', value: '٦٥٨' },
+                { type: 'text', value: '٦٥٨' },
                 { type: 'text', value: '٦٥٠' }
               ],
               correctAnswer: '٦٥٠'
@@ -8301,7 +8301,7 @@ export const questionsData = {
               ],
               correctAnswer: '٣٥'
             },
-           
+
             {
               content: { text: '............ قيمة الرقم ٢ في العدد ٢٧٨ هي ' },
               language: 'ar-EG',
@@ -8312,7 +8312,7 @@ export const questionsData = {
               ],
               correctAnswer: '٢٠٠'
             },
-          
+
             {
               content: { text: '............ قيمة الرقم ٥ في العدد ٥٨١ هي ' },
               language: 'ar-EG',
@@ -8367,10 +8367,10 @@ export const questionsData = {
               content: { text: '........... = ٤٥١ + ٧٤ ' },
               language: 'ar-EG',
               options: [
-             
+
                 { type: 'text', value: '٥١٥' },
                 { type: 'text', value: '٥٣٥' },
-                   { type: 'text', value: '٥٢٥' },
+                { type: 'text', value: '٥٢٥' },
               ],
               correctAnswer: '٥٢٥'
             },
@@ -8438,10 +8438,10 @@ export const questionsData = {
               content: { text: '............ تقريب العدد ٢٠٧ لأقرب مائة هو ' },
               language: 'ar-EG',
               options: [
-              
+
                 { type: 'text', value: '١٠٠' },
                 { type: 'text', value: '٣٠٠' },
-                  { type: 'text', value: '٢٠٠' },
+                { type: 'text', value: '٢٠٠' },
               ],
               correctAnswer: '٢٠٠'
             },
@@ -8502,7 +8502,7 @@ export const questionsData = {
           'English Connect': [
             {
               content: {
-                text: "Ice is ______."
+                text: "Ice is ......"
               },
               language: "en-US",
               options: [
@@ -8513,7 +8513,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Steam is ______."
+                text: "Steam is ......"
               },
               language: "en-US",
               options: [
@@ -8524,7 +8524,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "We play in the ______."
+                text: "We play in the ......."
               },
               language: "en-US",
               options: [
@@ -8535,7 +8535,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Book is made of ______."
+                text: "Book is made of ......."
               },
               language: "en-US",
               options: [
@@ -8546,7 +8546,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Sharpener is made of ______."
+                text: "Sharpener is made of ....."
               },
               language: "en-US",
               options: [
@@ -8557,7 +8557,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "She sits on ______."
+                text: "She sits on ......."
               },
               language: "en-US",
               options: [
@@ -8568,7 +8568,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "I write in my ______."
+                text: "I write in my ......"
               },
               language: "en-US",
               options: [
@@ -8579,7 +8579,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "She has 3 ______."
+                text: "She has 3 ......"
               },
               language: "en-US",
               options: [
@@ -8590,7 +8590,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ much is it?"
+                text: "..... much is it?"
               },
               language: "en-US",
               options: [
@@ -8601,7 +8601,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Pounds is ______."
+                text: "Pounds is ......"
               },
               language: "en-US",
               options: [
@@ -8612,7 +8612,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "I have a bed in my ______."
+                text: "I have a bed in my ......"
               },
               language: "en-US",
               options: [
@@ -8623,7 +8623,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "We watch T.V at ______."
+                text: "We watch T.V at ......."
               },
               language: "en-US",
               options: [
@@ -8634,7 +8634,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "I put clothes in ______."
+                text: "I put clothes in ......"
               },
               language: "en-US",
               options: [
@@ -8645,7 +8645,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "My dad parks his car in ______."
+                text: "My dad parks his car in ......."
               },
               language: "en-US",
               options: [
@@ -8656,7 +8656,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ is my picture?"
+                text: "...... is my picture?"
               },
               language: "en-US",
               options: [
@@ -8667,7 +8667,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "There is ______ in the farm."
+                text: "There is ...... in the farm."
               },
               language: "en-US",
               options: [
@@ -8678,7 +8678,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "There is ______ donkey."
+                text: "There is ...... donkey."
               },
               language: "en-US",
               options: [
@@ -8689,7 +8689,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ are the animals?"
+                text: "....... are the animals?"
               },
               language: "en-US",
               options: [
@@ -8700,7 +8700,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Cow gives us ______."
+                text: "Cow gives us ......."
               },
               language: "en-US",
               options: [
@@ -8711,7 +8711,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Hen gives us ______."
+                text: "Hen gives us ......"
               },
               language: "en-US",
               options: [
@@ -8721,7 +8721,7 @@ export const questionsData = {
               correctAnswer: "eggs"
             },
             {
-              content: { text: "Animals need ______." },
+              content: { text: "Animals need ......" },
               language: "en-US",
               options: [
                 { type: "text", value: "food" },
@@ -8730,7 +8730,7 @@ export const questionsData = {
               correctAnswer: "food"
             },
             {
-              content: { text: "Goat need ______." },
+              content: { text: "Goat need ......." },
               language: "en-US",
               options: [
                 { type: "text", value: "shelter" },
@@ -8739,7 +8739,7 @@ export const questionsData = {
               correctAnswer: "shelter"
             },
             {
-              content: { text: "The horse is ______." },
+              content: { text: "The horse is ......" },
               language: "en-US",
               options: [
                 { type: "text", value: "big" },
@@ -8748,7 +8748,7 @@ export const questionsData = {
               correctAnswer: "big"
             },
             {
-              content: { text: "______ many hens are there?" },
+              content: { text: "....... many hens are there?" },
               language: "en-US",
               options: [
                 { type: "text", value: "Where" },
@@ -8757,7 +8757,7 @@ export const questionsData = {
               correctAnswer: "How"
             },
             {
-              content: { text: "How many ducks ______ there?" },
+              content: { text: "How many ducks ..... there?" },
               language: "en-US",
               options: [
                 { type: "text", value: "is" },
@@ -8766,7 +8766,7 @@ export const questionsData = {
               correctAnswer: "are"
             },
             {
-              content: { text: "I wear a beautiful ______." },
+              content: { text: "I wear a beautiful ......." },
               language: "en-US",
               options: [
                 { type: "text", value: "boat" },
@@ -8775,7 +8775,7 @@ export const questionsData = {
               correctAnswer: "coat"
             },
             {
-              content: { text: "The ______ is in the sky." },
+              content: { text: "The ...... is in the sky." },
               language: "en-US",
               options: [
                 { type: "text", value: "rainbow" },
@@ -8784,7 +8784,7 @@ export const questionsData = {
               correctAnswer: "rainbow"
             },
             {
-              content: { text: "We swim in ______." },
+              content: { text: "We swim in ....." },
               language: "en-US",
               options: [
                 { type: "text", value: "sea" },
@@ -8793,7 +8793,7 @@ export const questionsData = {
               correctAnswer: "sea"
             },
             {
-              content: { text: "She ______ a car." },
+              content: { text: "She ..... a car." },
               language: "en-US",
               options: [
                 { type: "text", value: "drive" },
@@ -8802,7 +8802,7 @@ export const questionsData = {
               correctAnswer: "drives"
             },
             {
-              content: { text: "He rides a ______." },
+              content: { text: "He rides a ....." },
               language: "en-US",
               options: [
                 { type: "text", value: "bike" },
@@ -8811,7 +8811,7 @@ export const questionsData = {
               correctAnswer: "bike"
             },
             {
-              content: { text: "I ______ to home." },
+              content: { text: "I ..... to home." },
               language: "en-US",
               options: [
                 { type: "text", value: "walk" },
@@ -8820,7 +8820,7 @@ export const questionsData = {
               correctAnswer: "walk"
             },
             {
-              content: { text: "We ______ a taxi." },
+              content: { text: "We ..... a taxi." },
               language: "en-US",
               options: [
                 { type: "text", value: "take" },
@@ -8829,7 +8829,7 @@ export const questionsData = {
               correctAnswer: "take"
             },
             {
-              content: { text: "She reads at the ______." },
+              content: { text: "She reads at the ......" },
               language: "en-US",
               options: [
                 { type: "text", value: "library" },
@@ -8838,7 +8838,7 @@ export const questionsData = {
               correctAnswer: "library"
             },
             {
-              content: { text: "Sara sees old things at ______." },
+              content: { text: "Sara sees old things at ......" },
               language: "en-US",
               options: [
                 { type: "text", value: "museum" },
@@ -8847,7 +8847,7 @@ export const questionsData = {
               correctAnswer: "museum"
             },
             {
-              content: { text: "My dad buys fruits at the______." },
+              content: { text: "My dad buys fruits at the......" },
               language: "en-US",
               options: [
                 { type: "text", value: "library" },
@@ -8856,7 +8856,7 @@ export const questionsData = {
               correctAnswer: "store"
             },
             {
-              content: { text: "The dog is next ______ the door." },
+              content: { text: "The dog is next ..... the door." },
               language: "en-US",
               options: [
                 { type: "text", value: "to" },
@@ -8865,7 +8865,7 @@ export const questionsData = {
               correctAnswer: "to"
             },
             {
-              content: { text: "The dog is ______ the door." },
+              content: { text: "The dog is ..... the door." },
               language: "en-US",
               options: [
                 { type: "text", value: "next" },
@@ -8874,7 +8874,7 @@ export const questionsData = {
               correctAnswer: "behind"
             },
             {
-              content: { text: "This ______ my house." },
+              content: { text: "This ..... my house." },
               language: "en-US",
               options: [
                 { type: "text", value: "is" },
@@ -8883,7 +8883,7 @@ export const questionsData = {
               correctAnswer: "is"
             },
             {
-              content: { text: "Library is in front ______ the museum." },
+              content: { text: "Library is in front ..... the museum." },
               language: "en-US",
               options: [
                 { type: "text", value: "of" },
@@ -8892,7 +8892,7 @@ export const questionsData = {
               correctAnswer: "of"
             },
             {
-              content: { text: "Library is ______to the park." },
+              content: { text: "Library is ......to the park." },
               language: "en-US",
               options: [
                 { type: "text", value: "next" },
@@ -8901,7 +8901,7 @@ export const questionsData = {
               correctAnswer: "next"
             },
             {
-              content: { text: "Window is made of ______." },
+              content: { text: "Window is made of ......." },
               language: "en-US",
               options: [
                 { type: "text", value: "glass" },
@@ -8910,7 +8910,7 @@ export const questionsData = {
               correctAnswer: "glass"
             },
             {
-              content: { text: "Chair is made of ______." },
+              content: { text: "Chair is made of ........." },
               language: "en-US",
               options: [
                 { type: "text", value: "wood" },
@@ -8919,7 +8919,7 @@ export const questionsData = {
               correctAnswer: "wood"
             },
             {
-              content: { text: "T-shirt is made of ______." },
+              content: { text: "T-shirt is made of ......." },
               language: "en-US",
               options: [
                 { type: "text", value: "fabric" },
@@ -8928,7 +8928,7 @@ export const questionsData = {
               correctAnswer: "fabric"
             },
             {
-              content: { text: "She wears a beautiful ______." },
+              content: { text: "She wears a beautiful ......." },
               language: "en-US",
               options: [
                 { type: "text", value: "skirt" },
@@ -8937,7 +8937,7 @@ export const questionsData = {
               correctAnswer: "skirt"
             },
             {
-              content: { text: "How ______ money is there?" },
+              content: { text: "How ..... money is there?" },
               language: "en-US",
               options: [
                 { type: "text", value: "much" },
@@ -8946,7 +8946,7 @@ export const questionsData = {
               correctAnswer: "much"
             },
             {
-              content: { text: "I use ______ to count." },
+              content: { text: "I use ...... to count." },
               language: "en-US",
               options: [
                 { type: "text", value: "ruler" },
@@ -8955,7 +8955,7 @@ export const questionsData = {
               correctAnswer: "calculator"
             },
             {
-              content: { text: "I use ______ to cut paper." },
+              content: { text: "I use ...... to cut paper." },
               language: "en-US",
               options: [
                 { type: "text", value: "brush" },
@@ -8964,7 +8964,7 @@ export const questionsData = {
               correctAnswer: "scissors"
             },
             {
-              content: { text: "I ______ trash." },
+              content: { text: "I ..... trash." },
               language: "en-US",
               options: [
                 { type: "text", value: "throw" },
@@ -8973,7 +8973,7 @@ export const questionsData = {
               correctAnswer: "don't throw"
             },
             {
-              content: { text: "The ______ is in river." },
+              content: { text: "The ..... is in river." },
               language: "en-US",
               options: [
                 { type: "text", value: "cow" },
@@ -8982,7 +8982,7 @@ export const questionsData = {
               correctAnswer: "fish"
             },
             {
-              content: { text: "The waves ______ high." },
+              content: { text: "The waves ...... high." },
               language: "en-US",
               options: [
                 { type: "text", value: "is" },
@@ -11375,18 +11375,557 @@ export const questionsData = {
           ],
           رياضيات: [
             {
+              content: { text: " (٢×...) + (٢×٢) = ٢×١٢" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "١٠" },
+                { type: "text", value: "١١" },
+                { type: "text", value: "١٢" }
+              ],
+              correctAnswer: "١٠"
+            },
+
+            {
+              content: { text: "نصف مساحة مستطيل مساحته الكلية ٥٠ سم هي " },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "١٥" },
+                { type: "text", value: "٢٥" },
+                { type: "text", value: "٢٠" }
+              ],
+              correctAnswer: "٢٥"
+            },
+            {
+              content: { text: ".......×محيط المربع = طول الضلع " },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٢" },
+                { type: "text", value: "٣" },
+                { type: "text", value: "٤" }
+              ],
+              correctAnswer: "٤"
+            },
+            {
+              content: { text: "مربع طول ضلعه ٥ سم فإن مساحته تكون" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٢٠" },
+                { type: "text", value: "٢٥" },
+                { type: "text", value: "٣٠" }
+              ],
+              correctAnswer: "٢٥"
+            },
+            {
+              content: { text: "....=٧ عشرات الألوف" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٧٠٠٠" },
+                { type: "text", value: "٧٠" },
+                { type: "text", value: "٧٠٠٠٠" }
+              ],
+              correctAnswer: "٧٠٠٠٠"
+            },
+            {
+              content: { text: ".....=٨ مئات" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٩٠" },
+                { type: "text", value: "٨٠٠" },
+                { type: "text", value: "٨٠٠٠٠" }
+              ],
+              correctAnswer: "٨٠٠"
+            },
+            {
+              content: { text: ".....=٦٤÷٨" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٦" },
+                { type: "text", value: "٧" },
+                { type: "text", value: "٨" }
+              ],
+              correctAnswer: "٨"
+            },
+            {
+              content: { text: "٢×.... =١٨" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٨" },
+                { type: "text", value: "٩" },
+                { type: "text", value: "١٠" }
+              ],
+              correctAnswer: "٩"
+            },
+            {
+              content: { text: "......=مستطيل طوله ٧ سم وعرضه ٣ سم فإن مساحته" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "١٦" },
+                { type: "text", value: "١٤" },
+                { type: "text", value: "٢١" }
+              ],
+              correctAnswer: "٢١"
+            },
+            {
+              content: { text: "الواحد الصحيح به.....أخماس" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٤" },
+                { type: "text", value: "٥" },
+                { type: "text", value: "٦" }
+              ],
+              correctAnswer: "٥"
+            },
+            {
               content: {
-                text: ""
+                image: "assets/mathPrim/يقرأ.png"
               },
               language: "ar-EG",
               options: [
-                { type: "text", value: "الماء" },
-                { type: "text", value: "ضوء الشمس" },
-                { type: "text", value: "التربة" }
+                { type: "text", value: "ربع" },
+                { type: "text", value: "خمس" },
+                { type: "text", value: "ثمن" }
               ],
-              correctAnswer: "ضوء الشمس"
+              correctAnswer: "ثمن"
+            },
+            {
+              content: {
+                text: "النصف يكتب"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/نص.png" },
+                { type: "image", value: "assets/mathPrim/ربع.png" },
+                { type: "image", value: "assets/mathPrim/تلت.png" }
+              ],
+              correctAnswer: "assets/mathPrim/نص.png"
+            },
+            {
+              content: { text: "....=٧×٤" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٢٥" },
+                { type: "text", value: "٢٦" },
+                { type: "text", value: "٢٨" }
+              ],
+              correctAnswer: "٢٨"
+            },
+            {
+              content: { text: "٢×(٥×...) = ٥٠" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٥" },
+                { type: "text", value: "٦" },
+                { type: "text", value: "٧" }
+              ],
+              correctAnswer: "٥"
+            },
+            {
+              content: { text: "(٨×٣)×...... = ٤٨" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٣" },
+                { type: "text", value: "٤" },
+                { type: "text", value: "٢" }
+              ],
+              correctAnswer: "٢"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/تمن ال24.png"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٣" },
+                { type: "text", value: "٤" },
+                { type: "text", value: "٢" }
+              ],
+              correctAnswer: "٣"
+            },
+            {
+              content: { text: "......×مساحة المستطيل = الطول" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "العرض" },
+                { type: "text", value: "×٤" },
+                { type: "text", value: "×٢" }
+              ],
+              correctAnswer: "العرض"
+            },
+            {
+              content: { text: "....=٤٢ ÷ ٦" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٦" },
+                { type: "text", value: "٧" },
+                { type: "text", value: "٨" }
+              ],
+              correctAnswer: "٧"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/خمس وتلت.png"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "<" },
+                { type: "text", value: ">" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: ">"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/نص وربع.png"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "<" },
+                { type: "text", value: ">" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: "<"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/واحد وتسع.png"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "<" },
+                { type: "text", value: ">" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: "<"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/ستة علي التسعة.png"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "<" },
+                { type: "text", value: ">" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: ">"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/تلت اربع وتلت .png"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "<" },
+                { type: "text", value: ">" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: "<"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/سبعة علي تمنية.png"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "<" },
+                { type: "text", value: ">" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: "<"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/تسعة علي التسعة.png"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "<" },
+                { type: "text", value: ">" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: "="
+            },
+            {
+              content: {
+                image: "assets/mathPrim/نص يساوي.png",
+
+              },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/تلت.png" },
+                { type: "image", value: "assets/mathPrim/ربعين.png" },
+                { type: "image", value: "assets/mathPrim/تلت اربع.png" }
+              ],
+              correctAnswer: "assets/mathPrim/ربعين.png"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/نص يساوي.png",
+
+              },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/تلت.png" },
+                { type: "image", value: "assets/mathPrim/ربعين.png" },
+                { type: "image", value: "assets/mathPrim/تلت اربع.png" }
+              ],
+              correctAnswer: "assets/mathPrim/ربعين.png"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/سؤال تلاتين.png",
+
+              },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/السؤال التلاتين الاختيارالاول.png" },
+                { type: "image", value: "assets/mathPrim/السؤال تلاتين الاختيارالتالت.png" },
+                { type: "image", value: "assets/mathPrim/السؤال تلاتين الاختيارالثاني.png" }
+              ],
+              correctAnswer: "assets/mathPrim/السؤال تلاتين الاختيارالثاني.png"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/السؤال واحد وتلاتين.png",
+              },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/السؤال واحد وتلاتين اختياراول.png" },
+                { type: "image", value: "assets/mathPrim/واحدوتلاتين اختيار تاني.png" },
+                { type: "image", value: "assets/mathPrim/واحد وتلاتين تالت.png" }
+              ],
+              correctAnswer: "assets/mathPrim/واحد وتلاتين تالت.png"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/السؤال اتنين وتلاتين.png",
+              },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/خمسة وتلاتين تالت.png" },
+                { type: "image", value: "assets/mathPrim/اتنين وتلاتين تاني.png" },
+                { type: "image", value: "assets/mathPrim/اتين وتلاتين تالت.png" }
+              ],
+              correctAnswer: "assets/mathPrim/اتنين وتلاتين تاني.png"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/السؤال تلاتة وتلاتين.png",
+              },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين اول.png" },
+                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين تاني.png" },
+                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين تالت.png" }
+              ],
+              correctAnswer: "assets/mathPrim/تلاتة وتلاتين تاني.png"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/السؤال تلاتة وتلاتين.png",
+              },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين اول.png" },
+                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين تاني.png" },
+                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين تالت.png" }
+              ],
+              correctAnswer: "assets/mathPrim/تلاتة وتلاتين تاني.png"
+            },
+            {
+              content: { text: " ......= ٢٤ ÷ ٤" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٦" },
+                { type: "text", value: "٧" },
+                { type: "text", value: "٨" }
+              ],
+              correctAnswer: "٦"
+            },
+            {
+              content: { text: "......= ٢ × ٦ × ٥ " },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٣٠" },
+                { type: "text", value: "٦٠" },
+                { type: "text", value: "٩٠" }
+              ],
+              correctAnswer: "٦٠"
+            },
+            {
+              content: { text: "......= ١" },
+              language: "ar-EG",
+              options: [
+                { type: "image", value: "assets/mathPrim/خمسة وتلاتين اول.png" },
+                { type: "image", value: "assets/mathPrim/خمسة وتلاتين تاني.png" },
+                { type: "image", value: "src\assets\mathPrim\خمسة وتلاتين تالت.png" }
+              ],
+              correctAnswer: "assets/mathPrim/خمسة وتلاتين اول.png"
+            },
+            {
+              content: { text: "..... = ٨ × ٦ " },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٤٢" },
+                { type: "text", value: "٤٩" },
+                { type: "text", value: "٤٨" }
+              ],
+              correctAnswer: "٤٨"
+            },
+            {
+              content: { text: "مستطيل مساحته ٣٠ سم² وعرضه ٦ سم، فإن طوله يساوي " },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٦" },
+                { type: "text", value: "٥" },
+                { type: "text", value: "٧" }
+              ],
+              correctAnswer: "٥"
+            },
+            {
+              content: { text: "نصف مساحة مستطيل مساحته الكلية ١٠٠ سم² هي" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٤٠" },
+                { type: "text", value: "٥٠" },
+                { type: "text", value: "٨٠" }
+              ],
+              correctAnswer: "٥٠"
+            },
+            {
+              content: { text: "الوقت المنقضي من الساعة ٩ صباحاً حتى الساعة ٢ مساءاً هو ...... ساعة" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٦" },
+                { type: "text", value: "٥" },
+                { type: "text", value: "٧" }
+              ],
+              correctAnswer: "٥"
+            },
+            {
+              content: {
+                text: "......= ٤٠ ÷ ٤"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٨" },
+                { type: "text", value: "١٠" },
+                { type: "text", value: "٩" }
+              ],
+              correctAnswer: "١٠"
+            },
+            {
+              content: {
+                text: "......= ٢٨ ÷ ٤"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٦" },
+                { type: "text", value: "٧" },
+                { type: "text", value: "٨" }
+              ],
+              correctAnswer: "٧"
+            },
+            {
+              content: {
+                text: "...... = ٩÷٣"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٢" },
+                { type: "text", value: "٣" },
+                { type: "text", value: "٤" }
+              ],
+              correctAnswer: "٣"
+            },
+            {
+              content: { text: "قيمة الرقم ٥ في العدد ٥٦٣٩١ هي " },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٥" },
+                { type: "text", value: "٥٠٠٠" },
+                { type: "text", value: "٥٠٠٠٠" }
+              ],
+              correctAnswer: "٥٠٠٠٠"
+            },
+            {
+              content: {
+                text: "...... = ٦٦÷٦"
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "١٠" },
+                { type: "text", value: "١١" },
+                { type: "text", value: "١٢" }
+              ],
+              correctAnswer: "١١"
+            },
+            {
+              content: { text: "٢٣ ألفاً تُكتب" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٢٣٠٠" },
+                { type: "text", value: "٢٣٠٠٠" },
+                { type: "text", value: "٢٣٠" }
+              ],
+              correctAnswer: "٢٣٠٠٠"
+            },
+            {
+              content: { text: "٧٥ ألفاً ...... ٧٥٠ مائة" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: ">" },
+                { type: "text", value: "<" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: ">"
+            },
+            {
+              content: { text: "٩٩٩ ...... ٩٠ عشرة" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: ">" },
+                { type: "text", value: "<" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: ">"
+            },
+            {
+              content: { text: "......= ٣٦ مائة" },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٣٦٠" },
+                { type: "text", value: "٣٦٠٠" },
+                { type: "text", value: "٣٦٠٠٠" }
+              ],
+              correctAnswer: "٣٦٠٠"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/تلتين يقرأ.png",
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "ربعان" },
+                { type: "text", value: "ثلثان" },
+                { type: "text", value: "خمسان" }
+              ],
+              correctAnswer: "ثلثان"
+            },
+            {
+              content: {
+                image: "assets/mathPrim/ربع الاربعةوعشرين.png",
+              },
+              language: "ar-EG",
+              options: [
+                { type: "text", value: "٦" },
+                { type: "text", value: "٧" },
+                { type: "text", value: "٨" }
+              ],
+              correctAnswer: "٦"
             },
           ],
+
           'اكتشف': [
             {
               content: {
@@ -13320,6 +13859,248 @@ export const questionsData = {
 
 
           ],
+          'English Connect': [
+            {
+              content: {
+                text: "What did you .....at the bazaar?"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "buy" },
+                { type: "text", value: "bought" },
+                { type: "text", value: "buys" }
+              ],
+              correctAnswer: "bought"
+            },
+            {
+              content: {
+                text: "I saw Tutankhamen's necklace at the....."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "museum" },
+                { type: "text", value: "school" },
+                { type: "text", value: "cafe" }
+              ],
+              correctAnswer: "museum"
+            },
+            {
+              content: {
+                text: "Nour.....Egyptian"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "am" },
+                { type: "text", value: "is" },
+                { type: "text", value: "are" }
+              ],
+              correctAnswer: "is"
+            },
+            {
+              content: {
+                text: "Women wear .....in their ears."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "rings" },
+                { type: "text", value: "earrings" },
+                { type: "text", value: "bracelets" }
+              ],
+              correctAnswer: "earrings"
+            },
+            {
+              content: {
+                text: "Can you .... videos on your tablet?"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "watch" },
+                { type: "text", value: "watching" },
+                { type: "text", value: "watches" }
+              ],
+              correctAnswer: "watch"
+            },
+            {
+              content: {
+                text: "Where..... you from?"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "am" },
+                { type: "text", value: "is" },
+                { type: "text", value: "are" }
+              ],
+              correctAnswer: "are"
+            },
+            {
+              content: {
+                text: "We ....happy to be here."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "is" },
+                { type: "text", value: "am" },
+                { type: "text", value: "are" }
+              ],
+              correctAnswer: "are"
+            },
+            {
+              content: {
+                text: "She is......She is from Chinese."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "China" },
+                { type: "text", value: "America" },
+                { type: "text", value: "France" }
+              ],
+              correctAnswer: "China"
+            },
+            {
+              content: {
+                text: "Ancient Egyptians wore gold...."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "paper" },
+                { type: "text", value: "jewelry" },
+                { type: "text", value: "animals" }
+              ],
+              correctAnswer: "jewelry"
+            },
+            {
+              content: {
+                text: "We use a.....to move on the screen."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "printer" },
+                { type: "text", value: "screen" },
+                { type: "text", value: "mouse" }
+              ],
+              correctAnswer: "mouse"
+            },
+            {
+              content: {
+                text: "We can download photos from the....."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "internet" },
+                { type: "text", value: "museum" },
+                { type: "text", value: "keyboard" }
+              ],
+              correctAnswer: "internet"
+            },
+            {
+              content: {
+                text: "I am happy to.....here."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "am" },
+                { type: "text", value: "is" },
+                { type: "text", value: "be" }
+              ],
+              correctAnswer: "be"
+            },
+            {
+              content: {
+                text: "They....from France."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "am" },
+                { type: "text", value: "is" },
+                { type: "text", value: "are" }
+              ],
+              correctAnswer: "are"
+            },
+            {
+              content: {
+                text: "My .... is Samy."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "color" },
+                { type: "text", value: "food" },
+                { type: "text", value: "name" }
+              ],
+              correctAnswer: "name"
+            },
+            {
+              content: {
+                text: "She ......dinner yesterday."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "cook" },
+                { type: "text", value: "cooked" },
+                { type: "text", value: "cooking" }
+              ],
+              correctAnswer: "cooked"
+            },
+            {
+              content: {
+                text: "I didn't.......to the club yesterday."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "go" },
+                { type: "text", value: "went" },
+                { type: "text", value: "goes" }
+              ],
+              correctAnswer: "go"
+            },
+            {
+              content: {
+                text: "What's your favorite month? It's...."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "Saturday" },
+                { type: "text", value: "winter" },
+                { type: "text", value: "December" }
+              ],
+              correctAnswer: "December"
+            },
+            {
+              content: {
+                text: "I like July and August best because it's hot and we can go to the....."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "school" },
+                { type: "text", value: "beach" },
+                { type: "text", value: "hospital" }
+              ],
+              correctAnswer: "beach"
+            },
+            {
+              content: {
+                text: "In spring, the weather is....."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "foggy" },
+                { type: "text", value: "sunny" },
+                { type: "text", value: "cold" }
+              ],
+              correctAnswer: "sunny"
+            },
+            {
+              content: {
+                text: "I like the..... because it is not too hot."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "fall" },
+                { type: "text", value: "winter" },
+                { type: "text", value: "summer" }
+              ],
+              correctAnswer: "fall"
+            }
+          ]
 
         }
       }
@@ -19476,10 +20257,10 @@ export const questionsData = {
               content: { text: '2 tens + 9 ones = ……' },
               language: "en-US",
               options: [
-             
+
                 { type: 'text', value: '20' },
                 { type: 'text', value: '32' },
-                   { type: 'text', value: '29' },
+                { type: 'text', value: '29' },
               ],
               correctAnswer: '29',
             },
@@ -19487,9 +20268,9 @@ export const questionsData = {
               content: { text: '8 tens + 0 ones = ……' },
               language: "en-US",
               options: [
-              
+
                 { type: 'text', value: '8' },
-                  { type: 'text', value: '80' },
+                { type: 'text', value: '80' },
                 { type: 'text', value: '800' }
               ],
               correctAnswer: '80',
@@ -19508,10 +20289,10 @@ export const questionsData = {
               content: { text: '8 ones = ……' },
               language: "en-US",
               options: [
-              
+
                 { type: 'text', value: '80' },
                 { type: 'text', value: '800' },
-                  { type: 'text', value: '8' },
+                { type: 'text', value: '8' },
               ],
               correctAnswer: '8',
             },
@@ -19519,10 +20300,10 @@ export const questionsData = {
               content: { text: '3 tens = ……' },
               language: "en-US",
               options: [
-              
+
                 { type: 'text', value: '3' },
                 { type: 'text', value: '300' },
-                  { type: 'text', value: '30' },
+                { type: 'text', value: '30' },
               ],
               correctAnswer: '30',
             },
@@ -19542,7 +20323,7 @@ export const questionsData = {
               options: [
 
                 { type: 'text', value: '3 tens + 7 ones' },
-                                { type: 'text', value: '5 tens + 7 ones' },
+                { type: 'text', value: '5 tens + 7 ones' },
                 { type: 'text', value: '7 tens + 5 ones' }
               ],
               correctAnswer: '5 tens + 7 ones',
@@ -19561,10 +20342,10 @@ export const questionsData = {
               content: { text: '80 + 7 = ……' },
               language: "en-US",
               options: [
-              
+
                 { type: 'text', value: '80' },
                 { type: 'text', value: '7' },
-                  { type: 'text', value: '87' },
+                { type: 'text', value: '87' },
               ],
               correctAnswer: '87',
             },
@@ -19592,10 +20373,10 @@ export const questionsData = {
               content: { text: '2 + 10 = ……' },
               language: "en-US",
               options: [
-               
+
                 { type: 'text', value: '10' },
                 { type: 'text', value: '2' },
-                 { type: 'text', value: '12' },
+                { type: 'text', value: '12' },
               ],
               correctAnswer: '12',
             },
@@ -19603,10 +20384,10 @@ export const questionsData = {
               content: { text: '6 + 30 = ……' },
               language: "en-US",
               options: [
-              
+
                 { type: 'text', value: '30' },
                 { type: 'text', value: '6' },
-                  { type: 'text', value: '36' },
+                { type: 'text', value: '36' },
               ],
               correctAnswer: '36',
             },
@@ -19616,7 +20397,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '70 + 2' },
                 { type: 'text', value: '70 + 7' },
-                                { type: 'text', value: '70 + 3' },
+                { type: 'text', value: '70 + 3' },
 
               ],
               correctAnswer: '70 + 3',
@@ -19627,7 +20408,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '40 + 4' },
                 { type: 'text', value: '50 + 5' },
-                                { type: 'text', value: '50 + 4' },
+                { type: 'text', value: '50 + 4' },
 
               ],
               correctAnswer: '50 + 4',
@@ -19636,9 +20417,9 @@ export const questionsData = {
               content: { text: '30 = …… + ……' },
               language: "en-US",
               options: [
-             
+
                 { type: 'text', value: '25 + 5' },
-                   { type: 'text', value: '30 + 0' },
+                { type: 'text', value: '30 + 0' },
                 { type: 'text', value: '10 + 20' }
               ],
               correctAnswer: '30 + 0',
@@ -19654,7 +20435,7 @@ export const questionsData = {
               correctAnswer: '10 + 2',
             },
             {
-              content: { text: '75 ______ 36' },
+              content: { text: '75 ...... 36' },
               language: "en-US",
               options: [
                 { type: 'text', value: '>' },
@@ -19664,18 +20445,18 @@ export const questionsData = {
               correctAnswer: '>',
             },
             {
-              content: { text: '8 tens ______ 7 ones' },
+              content: { text: '8 tens ...... 7 ones' },
               language: "en-US",
               options: [
                 { type: 'text', value: '<' },
                 { type: 'text', value: '=' },
-                                { type: 'text', value: '>' },
+                { type: 'text', value: '>' },
 
               ],
               correctAnswer: '>',
             },
             {
-              content: { text: '80 ______ 9 tens' },
+              content: { text: '80 ....... 9 tens' },
               language: "en-US",
               options: [
                 { type: 'text', value: '>' },
@@ -19685,7 +20466,7 @@ export const questionsData = {
               correctAnswer: '>',
             },
             {
-              content: { text: '36 ______ 4 tens' },
+              content: { text: '36 ....... 4 tens' },
               language: "en-US",
               options: [
                 { type: 'text', value: '>' },
@@ -19695,7 +20476,7 @@ export const questionsData = {
               correctAnswer: '<'
             },
             {
-              content: { text: '40 + 7 ______ 4 tens , 7 ones' },
+              content: { text: '40 + 7 .... 4 tens , 7 ones' },
               language: "en-US",
               options: [
                 { type: 'text', value: '>' },
@@ -19705,7 +20486,7 @@ export const questionsData = {
               correctAnswer: '=',
             },
             {
-              content: { text: '42 ______ 6 tens' },
+              content: { text: '42 ...... 6 tens' },
               language: "en-US",
               options: [
                 { type: 'text', value: '>' },
@@ -19715,18 +20496,18 @@ export const questionsData = {
               correctAnswer: '<',
             },
             {
-              content: { text: '9 ones ______ 1 tens' },
+              content: { text: '9 ones .... 1 tens' },
               language: "en-US",
               options: [
-        
+
                 { type: 'text', value: '<' },
-                        { type: 'text', value: '>' },
+                { type: 'text', value: '>' },
                 { type: 'text', value: '=' }
               ],
               correctAnswer: '<',
             },
             {
-              content: { text: '96 ______ 9 tens , 6 ones' },
+              content: { text: '96 ..... 9 tens , 6 ones' },
               language: "en-US",
               options: [
                 { type: 'text', value: '>' },
@@ -19736,7 +20517,7 @@ export const questionsData = {
               correctAnswer: '=',
             },
             {
-              content: { text: '50 + 7 ______ 5 + 70' },
+              content: { text: '50 + 7 ....... 5 + 70' },
               language: "en-US",
               options: [
                 { type: 'text', value: '>' },
@@ -19746,7 +20527,7 @@ export const questionsData = {
               correctAnswer: '<'
             },
             {
-              content: { text: '19 ______ 20' },
+              content: { text: '19 ..... 20' },
               language: "en-US",
               options: [
                 { type: 'text', value: '>' },
@@ -19780,7 +20561,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: '30' },
-                                { type: 'text', value: '40' },
+                { type: 'text', value: '40' },
 
                 { type: 'text', value: '20' }
               ],
@@ -19811,7 +20592,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: '20' },
-                                { type: 'text', value: '10' },
+                { type: 'text', value: '10' },
 
                 { type: 'text', value: '30' }
               ],
@@ -19833,7 +20614,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '20' },
                 { type: 'text', value: '30' },
-                                { type: 'text', value: '10' },
+                { type: 'text', value: '10' },
 
               ],
               correctAnswer: '10',
@@ -19854,7 +20635,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '20' },
                 { type: 'text', value: '10' },
-                
+
                 { type: 'text', value: '30' }
               ],
               correctAnswer: '10',
@@ -19883,10 +20664,10 @@ export const questionsData = {
               content: { text: '…… + 9 = 18' },
               language: "en-US",
               options: [
-              
+
                 { type: 'text', value: '8' },
                 { type: 'text', value: '10' },
-                  { type: 'text', value: '9' },
+                { type: 'text', value: '9' },
               ],
               correctAnswer: '9',
             },
@@ -19894,9 +20675,9 @@ export const questionsData = {
               content: { text: '…… + 12 = 20' },
               language: "en-US",
               options: [
-             
+
                 { type: 'text', value: '7' },
-                   { type: 'text', value: '8' },
+                { type: 'text', value: '8' },
                 { type: 'text', value: '9' }
               ],
               correctAnswer: '8',
@@ -19915,10 +20696,10 @@ export const questionsData = {
               content: { text: '7 + …… = 15' },
               language: "en-US",
               options: [
-               
+
                 { type: 'text', value: '9' },
                 { type: 'text', value: '10' },
-                 { type: 'text', value: '8' },
+                { type: 'text', value: '8' },
               ],
               correctAnswer: '8',
             },
@@ -19946,9 +20727,9 @@ export const questionsData = {
               content: { text: '…… + 6 = 19' },
               language: "en-US",
               options: [
-             
+
                 { type: 'text', value: '14' },
-                   { type: 'text', value: '13' },
+                { type: 'text', value: '13' },
                 { type: 'text', value: '15' }
               ],
               correctAnswer: '13',
@@ -19969,7 +20750,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '11' },
                 { type: 'text', value: '9' },
-                                { type: 'text', value: '10' },
+                { type: 'text', value: '10' },
 
               ],
               correctAnswer: '10',
@@ -19990,7 +20771,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '7' },
                 { type: 'text', value: '8' },
-                                { type: 'text', value: '6' },
+                { type: 'text', value: '6' },
 
               ],
               correctAnswer: '6',
@@ -20009,7 +20790,7 @@ export const questionsData = {
               content: { text: '18 - …… = 10' },
               language: "en-US",
               options: [
-                                { type: 'text', value: '7' },
+                { type: 'text', value: '7' },
 
                 { type: 'text', value: '8' },
                 { type: 'text', value: '9' }
@@ -20042,7 +20823,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '6' },
                 { type: 'text', value: '8' },
-                                { type: 'text', value: '7' },
+                { type: 'text', value: '7' },
 
               ],
               correctAnswer: '7',
@@ -20062,7 +20843,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: '10' },
-                                { type: 'text', value: '9' },
+                { type: 'text', value: '9' },
 
                 { type: 'text', value: '8' }
               ],
@@ -20084,7 +20865,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '66' },
                 { type: 'text', value: '64' },
-                                { type: 'text', value: '65' },
+                { type: 'text', value: '65' },
 
               ],
               correctAnswer: '65',
@@ -20114,7 +20895,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: '54' },
-                                { type: 'text', value: '55' },
+                { type: 'text', value: '55' },
 
                 { type: 'text', value: '56' }
               ],
@@ -20146,7 +20927,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '83' },
                 { type: 'text', value: '81' },
-                                { type: 'text', value: '82' },
+                { type: 'text', value: '82' },
 
               ],
               correctAnswer: '82',
@@ -20187,7 +20968,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '80' },
                 { type: 'text', value: '82' },
-                                { type: 'text', value: '81' },
+                { type: 'text', value: '81' },
 
               ],
               correctAnswer: '81',
@@ -20207,7 +20988,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: '36' },
-                                { type: 'text', value: '35' },
+                { type: 'text', value: '35' },
 
                 { type: 'text', value: '34' }
               ],
@@ -20229,7 +21010,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: 'Triangle' },
                 { type: 'text', value: 'Circle' },
-                                { type: 'text', value: 'Square' },
+                { type: 'text', value: 'Square' },
 
               ],
               correctAnswer: 'Square',
@@ -20249,7 +21030,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: 'Rectangle' },
-                                { type: 'text', value: 'Square' },
+                { type: 'text', value: 'Square' },
 
                 { type: 'text', value: 'Circle' }
               ],
@@ -20271,7 +21052,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '10' },
                 { type: 'text', value: '14' },
-                                { type: 'text', value: '12' },
+                { type: 'text', value: '12' },
 
               ],
               correctAnswer: '12',
@@ -20291,7 +21072,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: '33' },
-                                { type: 'text', value: '32' },
+                { type: 'text', value: '32' },
 
                 { type: 'text', value: '31' }
               ],
@@ -20323,7 +21104,7 @@ export const questionsData = {
               options: [
                 { type: 'text', value: '44' },
                 { type: 'text', value: '45' },
-                                { type: 'text', value: '43' },
+                { type: 'text', value: '43' },
 
               ],
               correctAnswer: '43',
@@ -20343,7 +21124,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: '22' },
-                                { type: 'text', value: '21' },
+                { type: 'text', value: '21' },
 
                 { type: 'text', value: '20' }
               ],
@@ -20364,7 +21145,7 @@ export const questionsData = {
               language: "en-US",
               options: [
                 { type: 'text', value: '24' },
-                                { type: 'text', value: '25' },
+                { type: 'text', value: '25' },
 
                 { type: 'text', value: '26' }
               ],
@@ -20562,7 +21343,7 @@ export const questionsData = {
               ],
               correctAnswer: "✔"
             },
-           
+
             {
               content: {
                 text: "The Pascal's calculator was invented over 300 years ago."
@@ -24073,7 +24854,7 @@ export const questionsData = {
           'Discover': [
             {
               content: {
-                text: "The ______ tells us what the color and symbols on the map."
+                text: "The ....... tells us what the color and symbols on the map."
               },
               language: "en-US",
               options: [
@@ -24084,7 +24865,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ means the way of life for a group of people."
+                text: "..... means the way of life for a group of people."
               },
               language: "en-US",
               options: [
@@ -24096,7 +24877,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ is anything related to water."
+                text: "...... is anything related to water."
               },
               language: "en-US",
               options: [
@@ -24106,10 +24887,10 @@ export const questionsData = {
               ],
               correctAnswer: "Aquatic"
             },
-           
+
             {
               content: {
-                text: "Objects that allow light to pass through like ______."
+                text: "Objects that allow light to pass through like ......."
               },
               language: "en-US",
               options: [
@@ -24121,7 +24902,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Aswan is located in the ______ of Egypt."
+                text: "Aswan is located in the ...... of Egypt."
               },
               language: "en-US",
               options: [
@@ -24133,7 +24914,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ is a special code for blind people."
+                text: "....... is a special code for blind people."
               },
               language: "en-US",
               options: [
@@ -24145,7 +24926,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Strong password consists of ______ characters."
+                text: "Strong password consists of ...... characters."
               },
               language: "en-US",
               options: [
@@ -24157,7 +24938,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Light travels in a ______ line."
+                text: "Light travels in a ..... line."
               },
               language: "en-US",
               options: [
@@ -24169,7 +24950,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Beliefs or behaviors which are passed down from one generation to the next are ______."
+                text: "Beliefs or behaviors which are passed down from one generation to the next are ......"
               },
               language: "en-US",
               options: [
@@ -24179,10 +24960,10 @@ export const questionsData = {
               ],
               correctAnswer: "traditions"
             },
-           
+
             {
               content: {
-                text: "______ is a way of communication."
+                text: "..... is a way of communication."
               },
               language: "en-US",
               options: [
@@ -24194,7 +24975,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "Non-verbal communication describes our feelings without using ______."
+                text: "Non-verbal communication describes our feelings without using ......"
               },
               language: "en-US",
               options: [
@@ -24206,7 +24987,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ is the scientist who studies animals and plants that live in or near water."
+                text: "....... is the scientist who studies animals and plants that live in or near water."
               },
               language: "en-US",
               options: [
@@ -24218,7 +24999,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ means clean the water."
+                text: "...... means clean the water."
               },
               language: "en-US",
               options: [
@@ -24230,7 +25011,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "The person who fixes the bus is called ______."
+                text: "The person who fixes the bus is called ......"
               },
               language: "en-US",
               options: [
@@ -24242,7 +25023,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "We used ______ to build bridges."
+                text: "We used ...... to build bridges."
               },
               language: "en-US",
               options: [
@@ -24254,7 +25035,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ means it is a state of air in a short period of time."
+                text: "....... means it is a state of air in a short period of time."
               },
               language: "en-US",
               options: [
@@ -24266,7 +25047,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ means it is the process of digging into the earth to find materials."
+                text: "......... means it is the process of digging into the earth to find materials."
               },
               language: "en-US",
               options: [
@@ -24277,7 +25058,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "______ includes crops grown and animals raised on a farm."
+                text: "...... includes crops grown and animals raised on a farm."
               },
               language: "en-US",
               options: [
@@ -24396,7 +25177,7 @@ export const questionsData = {
               ],
               correctAnswer: "✔"
             },
-           
+
             {
               content: {
                 text: "Communication means of sharing ideas."
@@ -24408,8 +25189,8 @@ export const questionsData = {
               ],
               correctAnswer: "✔"
             },
-         
-        
+
+
             {
               content: {
                 text: "Objects that allow light to pass through like glass."
@@ -26096,7 +26877,7 @@ export const questionsData = {
               correctAnswer: 'curious'
             },
             {
-              content: { text: 'We get ___ from chickens.' },
+              content: { text: 'We get .... from chickens.' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'wood' },
@@ -26106,7 +26887,7 @@ export const questionsData = {
               correctAnswer: 'meat',
             },
             {
-              content: { text: 'We went to the supermarket to buy some fruit ___ vegetables.' },
+              content: { text: 'We went to the supermarket to buy some fruit ..... vegetables.' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'so' },
@@ -26116,7 +26897,7 @@ export const questionsData = {
               correctAnswer: 'and',
             },
             {
-              content: { text: "Let's ___ a song together." },
+              content: { text: "Let's .... a song together." },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'sing' },
@@ -26126,7 +26907,7 @@ export const questionsData = {
               correctAnswer: 'sing',
             },
             {
-              content: { text: 'A ___ checks the passengers’ tickets.' },
+              content: { text: 'A ...... checks the passengers’ tickets.' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'conductor' },
@@ -26136,7 +26917,7 @@ export const questionsData = {
               correctAnswer: 'conductor',
             },
             {
-              content: { text: 'A: What ___ she buy? B: She bought a nice dress.' },
+              content: { text: 'A: What .......... she buy? B: She bought a nice dress.' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'did' },
@@ -26146,7 +26927,7 @@ export const questionsData = {
               correctAnswer: 'did',
             },
             {
-              content: { text: 'The duck has got ___.' },
+              content: { text: 'The duck has got ..........' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'hands' },
@@ -26156,7 +26937,7 @@ export const questionsData = {
               correctAnswer: 'wings',
             },
             {
-              content: { text: 'The energy from the dam is changed into ___.' },
+              content: { text: 'The energy from the dam is changed into .......' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'water' },
@@ -26166,7 +26947,7 @@ export const questionsData = {
               correctAnswer: 'electricity',
             },
             {
-              content: { text: "They don't prefer ___ pizza." },
+              content: { text: "They don't prefer ........ pizza." },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'eat' },
@@ -26176,7 +26957,7 @@ export const questionsData = {
               correctAnswer: 'eating',
             },
             {
-              content: { text: 'I like shopping at the ___.' },
+              content: { text: 'I like shopping at the .........' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'supermarket' },
@@ -26186,7 +26967,7 @@ export const questionsData = {
               correctAnswer: 'supermarket',
             },
             {
-              content: { text: '___ an amazing show!' },
+              content: { text: '...... an amazing show!' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'What' },
@@ -26196,7 +26977,7 @@ export const questionsData = {
               correctAnswer: 'What',
             },
             {
-              content: { text: 'The museum is ___ to the park.' },
+              content: { text: 'The museum is ......... to the park.' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'opposite' },
@@ -26206,7 +26987,7 @@ export const questionsData = {
               correctAnswer: 'next',
             },
             {
-              content: { text: "A: What's the ___? B: It's five twenty-five." },
+              content: { text: "A: What's the .........? B: It's five twenty-five." },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'time' },
@@ -26216,7 +26997,7 @@ export const questionsData = {
               correctAnswer: 'time',
             },
             {
-              content: { text: 'A: Is there ___ juice? B: No, there isn’t.' },
+              content: { text: 'A: Is there ...... juice? B: No, there isn’t.' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'some' },
@@ -26226,7 +27007,7 @@ export const questionsData = {
               correctAnswer: 'any',
             },
             {
-              content: { text: 'Go ___, then turn left.' },
+              content: { text: 'Go ........., then turn left.' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'street' },
@@ -26236,7 +27017,7 @@ export const questionsData = {
               correctAnswer: 'straight',
             },
             {
-              content: { text: 'I would like to go to Cairo ___ car.' },
+              content: { text: 'I would like to go to Cairo ........ car.' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'by' },
@@ -26246,7 +27027,7 @@ export const questionsData = {
               correctAnswer: 'by',
             },
             {
-              content: { text: 'We exercise to ___.' },
+              content: { text: 'We exercise to ...........' },
               language: 'en-US',
               options: [
                 { type: 'text', value: 'get fit' },
@@ -26866,11 +27647,238 @@ export const questionsData = {
             },
           ],
           Math: [
-          
+            {
+              content: {
+                text: "7/10 - 5/10 = ...."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "2/10" },
+                { type: "text", value: "2/5" },
+                { type: "text", value: "2/2" }
+              ],
+              correctAnswer: "2/10"
+            },
+            {
+              content: {
+                text: "6/21 + 7/21 = ...."
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "1/21" },
+                { type: "text", value: "13/21" },
+                { type: "text", value: "10/21" }
+              ],
+              correctAnswer: "13/21"
+            },
+            {
+              content: {
+                text: "7 × 13 = ........"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "87" },
+                { type: "text", value: "91" },
+                { type: "text", value: "84" }
+              ],
+              correctAnswer: "91"
+            },
+            {
+              content: {
+                text: "1/2 = ……"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "4/8" },
+                { type: "text", value: "5/9" },
+                { type: "text", value: "1/4" }
+              ],
+              correctAnswer: "4/8"
+            },
+            {
+              content: {
+                text: "3/7 = 18 / …"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "42" },
+                { type: "text", value: "21" },
+                { type: "text", value: "18" }
+              ],
+              correctAnswer: "42"
+            },
+            {
+              content: {
+                text: "175,500 …… 175,055"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: ">" },
+                { type: "text", value: "<" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: ">"
+            },
+            {
+              content: {
+                text: "9 × 16 = ……"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "144" },
+                { type: "text", value: "140" },
+                { type: "text", value: "160" }
+              ],
+              correctAnswer: "144"
+            },
+            {
+              content: {
+                text: "1/6 = ……"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "3/9" },
+                { type: "text", value: "2/3" },
+                { type: "text", value: "5/30" }
+              ],
+              correctAnswer: "5/30"
+            },
+            {
+              content: {
+                text: "72 ÷ 8 = ……"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "8" },
+                { type: "text", value: "7" },
+                { type: "text", value: "9" }
+              ],
+              correctAnswer: "9"
+            },
+            {
+              content: {
+                text: "6 × 7 = ……"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "42" },
+                { type: "text", value: "45" },
+                { type: "text", value: "46" }
+              ],
+              correctAnswer: "42"
+            },
+            {
+              content: {
+                text: "6 × 7 × 8 = 6 × (… × 8)"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "6" },
+                { type: "text", value: "8" },
+                { type: "text", value: "7" }
+              ],
+              correctAnswer: "7"
+            },
+            {
+              content: {
+                text: "1/3 … 1/5"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: ">" },
+                { type: "text", value: "=" },
+                { type: "text", value: "<" }
+              ],
+              correctAnswer: ">"
+            },
+            {
+              content: {
+                text: "…… < 1/6"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "1/2" },
+                { type: "text", value: "1/3" },
+                { type: "text", value: "1/10" }
+              ],
+              correctAnswer: "1/10"
+            },
+            {
+              content: {
+                text: "The square of perimeter = …… Cm"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "4" },
+                { type: "text", value: "5" },
+                { type: "text", value: "6" }
+              ],
+              correctAnswer: "6"
+            },
+            {
+              content: {
+                text: "One whole has …… sevenths"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "6" },
+                { type: "text", value: "4" },
+                { type: "text", value: "7" }
+              ],
+              correctAnswer: "7"
+            },
+            {
+              content: {
+                text: "5 × 9 × 8 = ……"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "360" },
+                { type: "text", value: "720" },
+                { type: "text", value: "400" }
+              ],
+              correctAnswer: "360"
+            },
+            {
+              content: {
+                text: "1/9 … 1/6"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: ">" },
+                { type: "text", value: "<" },
+                { type: "text", value: "=" }
+              ],
+              correctAnswer: "<"
+            },
+            {
+              content: {
+                text: "5 × 7 = (5 × 41 + (5 + …))"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "3" },
+                { type: "text", value: "5" },
+                { type: "text", value: "2" }
+              ],
+              correctAnswer: "2"
+            },
+            {
+              content: {
+                text: "1 = …… sixths"
+              },
+              language: "en-US",
+              options: [
+                { type: "text", value: "6" },
+                { type: "text", value: "8" },
+                { type: "text", value: "9" }
+              ],
+              correctAnswer: "6"
+            }
           ],
           'English Connect +': [
             {
-              content: { text: "We can see the ______ at the museum." },
+              content: { text: "We can see the ......... at the museum." },
               language: "en-US",
               options: [
                 { type: "text", value: "monuments" },
@@ -26880,7 +27888,7 @@ export const questionsData = {
               correctAnswer: "monuments"
             },
             {
-              content: { text: "They ______ to Luxor Museum last week." },
+              content: { text: "They .......... to Luxor Museum last week." },
               language: "en-US",
               options: [
                 { type: "text", value: "went" },
@@ -26890,7 +27898,7 @@ export const questionsData = {
               correctAnswer: "went"
             },
             {
-              content: { text: "Did she ______ a good day yesterday?" },
+              content: { text: "Did she ............ a good day yesterday?" },
               language: "en-US",
               options: [
                 { type: "text", value: "has" },
@@ -26900,7 +27908,7 @@ export const questionsData = {
               correctAnswer: "had"
             },
             {
-              content: { text: "I ______ watch videos." },
+              content: { text: "I ....... watch videos." },
               language: "en-US",
               options: [
                 { type: "text", value: "can" },
@@ -26910,7 +27918,7 @@ export const questionsData = {
               correctAnswer: "can"
             },
             {
-              content: { text: "She has an exam, ______ she plays with her toys." },
+              content: { text: "She has an exam, ............ she plays with her toys." },
               language: "en-US",
               options: [
                 { type: "text", value: "and" },
@@ -26920,7 +27928,7 @@ export const questionsData = {
               correctAnswer: "but"
             },
             {
-              content: { text: "Rana wants to do ______." },
+              content: { text: "Rana wants to do ..........." },
               language: "en-US",
               options: [
                 { type: "text", value: "research" },
@@ -26930,7 +27938,7 @@ export const questionsData = {
               correctAnswer: "research"
             },
             {
-              content: { text: "Adam has milk ______ cake." },
+              content: { text: "Adam has milk ..... cake." },
               language: "en-US",
               options: [
                 { type: "text", value: "and" },
@@ -26940,7 +27948,7 @@ export const questionsData = {
               correctAnswer: "and"
             },
             {
-              content: { text: "What's your ______? - 21 Nabil Shohdy St." },
+              content: { text: "What's your ........? - 21 Nabil Shohdy St." },
               language: "en-US",
               options: [
                 { type: "text", value: "address" },
@@ -26950,7 +27958,7 @@ export const questionsData = {
               correctAnswer: "address"
             },
             {
-              content: { text: "He gave his mom a present, ______ she is happy." },
+              content: { text: "He gave his mom a present, .......... she is happy." },
               language: "en-US",
               options: [
                 { type: "text", value: "but" },
@@ -26960,7 +27968,7 @@ export const questionsData = {
               correctAnswer: "so"
             },
             {
-              content: { text: "I can use the ______ to write on the computer." },
+              content: { text: "I can use the ......... to write on the computer." },
               language: "en-US",
               options: [
                 { type: "text", value: "mouse" },
@@ -26970,7 +27978,7 @@ export const questionsData = {
               correctAnswer: "keyboard"
             },
             {
-              content: { text: "I can ride a bike,  ______ I can't drive a car." },
+              content: { text: "I can ride a bike,  ............ I can't drive a car." },
               language: "en-US",
               options: [
                 { type: "text", value: "but" },
@@ -26980,7 +27988,7 @@ export const questionsData = {
               correctAnswer: "but"
             },
             {
-              content: { text: "I use the ______ to clean the floor." },
+              content: { text: "I use the ....... to clean the floor." },
               language: "en-US",
               options: [
                 { type: "text", value: "brush" },
@@ -26990,7 +27998,7 @@ export const questionsData = {
               correctAnswer: "broom"
             },
             {
-              content: { text: "I use the cell phone to ______ my grandma." },
+              content: { text: "I use the cell phone to ......... my grandma." },
               language: "en-US",
               options: [
                 { type: "text", value: "move" },
@@ -27000,7 +28008,7 @@ export const questionsData = {
               correctAnswer: "call"
             },
             {
-              content: { text: "My brother ______ things from different websites." },
+              content: { text: "My brother .............. things from different websites." },
               language: "en-US",
               options: [
                 { type: "text", value: "learns" },
@@ -27010,7 +28018,7 @@ export const questionsData = {
               correctAnswer: "sends"
             },
             {
-              content: { text: "We use a ______ to write on a computer." },
+              content: { text: "We use a ...... to write on a computer." },
               language: "en-US",
               options: [
                 { type: "text", value: "mouse" },
@@ -27020,7 +28028,7 @@ export const questionsData = {
               correctAnswer: "keyboard"
             },
             {
-              content: { text: "We can read and find ______ on the internet." },
+              content: { text: "We can read and find ............ on the internet." },
               language: "en-US",
               options: [
                 { type: "text", value: "information" },
@@ -27030,7 +28038,7 @@ export const questionsData = {
               correctAnswer: "information"
             },
             {
-              content: { text: "A ______ is a small device used for calling people." },
+              content: { text: "A ........ is a small device used for calling people." },
               language: "en-US",
               options: [
                 { type: "text", value: "mouse" },
@@ -28651,8 +29659,457 @@ export const questionsData = {
 
 
           ],
-          Discover:[
-
+          Discover: [
+            {
+              content: { text: "The word “origin” is used to describe the source or cause of something." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "The “timeline” shows important events in order over a period of time." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Inherited traits are traits that not passed from parents." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "When a new baby is born it’s called an offspring." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Reading is an inherited trait." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Eye color is not inherited trait." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Cactus plants have thorns to protect them to survive." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "The blubber is thick fat with many blood vessels." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Camel has blubber to help it survive in cold weather." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Camels can live without water for 7 days." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Fact is something that is told or written and it’s true." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Camouflage is the act of blending into the environment through the use of colors or pattern." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Spoon beak van eat small fish and small plants." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Scissor beak can eat fish and insects." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Tweezer beak can eat fish and insects." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Clothespin beak can eat seed." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Gradient is the gradual blending from one color to another." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "There are 7 main colors." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Fact is something that is told or written and it’s not true." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Visiting a doctor to get better is a fact." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Fiction is something that is told or written and it’s not true." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Visiting a doctor to get better is fiction." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Drinking warm tea to get well is fiction." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Opinion is what a person feels or believes." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "My friend’s shoes are good, is my opinion." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Edwin Smith Papyrus painting describes almost 100 terms of body parts." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Edwin Smith Papyrus painting describes 48 injuries." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Primary source is an artifact that comes from a time being studied." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Edwin Smith Papyrus is a primary source." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "An interview with a famous person is a primary source." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Photographs are primary source." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Secondary source is anything that describe information from primary source." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Books are secondary sources." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Articles are secondary sources." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Encyclopedias are secondary sources." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Hospitals in the past could hold more than 4000 patients." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Hospitals in the past had mosque." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Hospital in the past had church." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Hospitals in the past had school." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Hospitals nowadays can serve 800 people." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Hospitals nowadays have pharmacy, laboratory, physical therapy department." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Hospitals in the past provide training for doctors." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Magdy Yacob is known for his study for lungs." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✕"
+            },
+            {
+              content: { text: "Stethoscope is used to listen to heart and lungs." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Blood pressure cuff is used to measure how hard is your heart pumping." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Thermometer used to measure temperature." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Syringe and ampoule used to give shots." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "X-ray image is used to look at you bones." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "Otoscope is used to look into your ears." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            },
+            {
+              content: { text: "There are two types of forces: push and pull." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "✔" },
+                { type: "text", value: "✕" }
+              ],
+              correctAnswer: "✔"
+            }
           ],
 
         }

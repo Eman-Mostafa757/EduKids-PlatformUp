@@ -11658,7 +11658,7 @@ export const questionsData = {
               ],
               correctAnswer: "assets/mathPrim/ربعين.png"
             },
-          
+
             {
               content: {
                 image: "assets/mathPrim/سؤال تلاتين.png",
@@ -11696,7 +11696,7 @@ export const questionsData = {
               ],
               correctAnswer: "assets/mathPrim/اتنين وتلاتين تاني.png"
             },
-           
+
             {
               content: {
                 image: "assets/mathPrim/السؤال تلاتة وتلاتين.png",
@@ -27882,7 +27882,7 @@ export const questionsData = {
                 { type: "text", value: "have" },
                 { type: "text", value: "had" }
               ],
-              correctAnswer: "had"
+              correctAnswer: "have"
             },
             {
               content: { text: "I ....... watch videos." },
@@ -27992,7 +27992,7 @@ export const questionsData = {
                 { type: "text", value: "sends" },
                 { type: "text", value: "call" }
               ],
-              correctAnswer: "sends"
+              correctAnswer: "learns"
             },
             {
               content: { text: "We use a ...... to write on a computer." },
@@ -28025,284 +28025,326 @@ export const questionsData = {
               correctAnswer: "cell phone"
             },
             {
-              text: "The ........ is an electronic device.",
+              content: { text: "A ........ is a small device used for calling people." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'website' },
-                { type: 'text', value: 'arrow' },
-                { type: 'text', value: 'computer' },
+                { type: "text", value: "mouse" },
+                { type: "text", value: "telephone" },
+                { type: "text", value: "cell phone" }
               ],
-              correctAnswer: 'computer',
+              correctAnswer: "cell phone"
+            },
+
+            {
+              content: { text: "The ........ is an electronic device." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "website" },
+                { type: "text", value: "arrow" },
+                { type: "text", value: "computer" }
+              ],
+              correctAnswer: "computer"
             },
             {
-              text: "We use a........for moving the arrow on the screen.",
+              content: { text: "We use a........for moving the arrow on the screen." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'website' },
-                { type: 'text', value: 'keyboard' },
-                { type: 'text', value: 'mouse' },
+                { type: "text", value: "website" },
+                { type: "text", value: "keyboard" },
+                { type: "text", value: "mouse" }
               ],
-              correctAnswer: 'mouse',
+              correctAnswer: "mouse"
             },
             {
-              text: "I will do ......... for my school project.",
+              content: { text: "I will do ......... for my school project." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'research' },
-                { type: 'text', value: 'website' },
-                { type: 'text', value: 'password' },
+                { type: "text", value: "research" },
+                { type: "text", value: "website" },
+                { type: "text", value: "password" }
               ],
-              correctAnswer: 'research',
+              correctAnswer: "research"
             },
             {
-              text: "Adam answered all the ........ in the exam.",
+              content: { text: "Adam answered all the ........ in the exam." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'addresses' },
-                { type: 'text', value: 'websites' },
-                { type: 'text', value: 'questions' },
+                { type: "text", value: "addresses" },
+                { type: "text", value: "websites" },
+                { type: "text", value: "questions" }
               ],
-              correctAnswer: 'questions',
+              correctAnswer: "questions"
             },
             {
-              text: "She should use a search ........ for her research.",
+              content: { text: "She should use a search ........ for her research." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'engine' },
-                { type: 'text', value: 'think' },
-                { type: 'text', value: 'keyboard' },
+                { type: "text", value: "engine" },
+                { type: "text", value: "think" },
+                { type: "text", value: "keyboard" }
               ],
-              correctAnswer: 'engine',
+              correctAnswer: "engine"
             },
             {
-              text: "This is my.......I play games on it.",
+              content: { text: "This is my.......I play games on it." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'arrow' },
-                { type: 'text', value: 'tablet' },
-                { type: 'text', value: 'mouse' },
+                { type: "text", value: "arrow" },
+                { type: "text", value: "tablet" },
+                { type: "text", value: "mouse" }
               ],
-              correctAnswer: 'tablet',
+              correctAnswer: "tablet"
             },
             {
-              text: "We use the........ for writing on a computer.",
+              content: { text: "We use the........ for writing on a computer." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'website' },
-                { type: 'text', value: 'screen' },
-                { type: 'text', value: 'keyboard' },
+                { type: "text", value: "website" },
+                { type: "text", value: "screen" },
+                { type: "text", value: "keyboard" }
               ],
-              correctAnswer: 'keyboard',
+              correctAnswer: "keyboard"
             },
             {
-              text: "We can find all the ....... we need on the internet.",
+              content: { text: "We can find all the ....... we need on the internet." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'engine' },
-                { type: 'text', value: 'password' },
-                { type: 'text', value: 'information' },
+                { type: "text", value: "engine" },
+                { type: "text", value: "password" },
+                { type: "text", value: "information" }
               ],
-              correctAnswer: 'information',
+              correctAnswer: "information"
             },
             {
-              text: "Eyad is very ...... he likes helping his friends.",
+              content: { text: "Eyad is very ...... he likes helping his friends." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'sad' },
-                { type: 'text', value: 'sick' },
-                { type: 'text', value: 'helpful' },
+                { type: "text", value: "sad" },
+                { type: "text", value: "sick" },
+                { type: "text", value: "helpful" }
               ],
-              correctAnswer: 'helpful',
+              correctAnswer: "helpful"
             },
             {
-              text: "The important words you search for are called.........",
+              content: { text: "The important words you search for are called........." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'keywords' },
-                { type: 'text', value: 'cellphone' },
-                { type: 'text', value: 'keyboard' },
+                { type: "text", value: "keywords" },
+                { type: "text", value: "cellphone" },
+                { type: "text", value: "keyboard" }
               ],
-              correctAnswer: 'keywords',
+              correctAnswer: "keywords"
             },
             {
-              text: "She didn't do her school.......",
+              content: { text: "She didn't do her school......." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'information' },
-                { type: 'text', value: 'homework' },
-                { type: 'text', value: 'mouse' },
+                { type: "text", value: "information" },
+                { type: "text", value: "homework" },
+                { type: "text", value: "mouse" }
               ],
-              correctAnswer: 'homework',
+              correctAnswer: "homework"
             },
             {
-              text: "I watch videos on my.........",
+              content: { text: "I watch videos on my........." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'mouse' },
-                { type: 'text', value: 'tablet' },
-                { type: 'text', value: 'keyboard' },
+                { type: "text", value: "mouse" },
+                { type: "text", value: "tablet" },
+                { type: "text", value: "keyboard" }
               ],
-              correctAnswer: 'tablet',
+              correctAnswer: "tablet"
             },
             {
-              text: "What's your cell phone's ......... ?",
+              content: { text: "What's your cell phone's ......... ?" },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'research' },
-                { type: 'text', value: 'password' },
-                { type: 'text', value: 'information' },
+                { type: "text", value: "research" },
+                { type: "text", value: "password" },
+                { type: "text", value: "information" }
               ],
-              correctAnswer: 'password',
+              correctAnswer: "password"
             },
             {
-              text: "I will........this information from the internet to my research.",
+              content: { text: "I will........this information from the internet to my research." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'copy' },
-                { type: 'text', value: 'help' },
-                { type: 'text', value: 'think' },
+                { type: "text", value: "copy" },
+                { type: "text", value: "help" },
+                { type: "text", value: "think" }
               ],
-              correctAnswer: 'copy',
+              correctAnswer: "copy"
             },
             {
-              text: "What's your telephone ........?",
+              content: { text: "What's your telephone ........?" },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'number' },
-                { type: 'text', value: 'engine' },
-                { type: 'text', value: 'address' },
+                { type: "text", value: "number" },
+                { type: "text", value: "engine" },
+                { type: "text", value: "address" }
               ],
-              correctAnswer: 'number',
+              correctAnswer: "number"
             },
             {
-              text: "We sometimes have a ......... between meals.",
+              content: { text: "We sometimes have a ......... between meals." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'snack' },
-                { type: 'text', value: 'breakfast' },
-                { type: 'text', value: 'dinner' },
+                { type: "text", value: "snack" },
+                { type: "text", value: "breakfast" },
+                { type: "text", value: "dinner" }
               ],
-              correctAnswer: 'snack',
+              correctAnswer: "snack"
             },
             {
-              text: "....... breakfast, I eat falafel.",
+              content: { text: "....... breakfast, I eat falafel." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'At' },
-                { type: 'text', value: 'For' },
-                { type: 'text', value: 'To' },
+                { type: "text", value: "At" },
+                { type: "text", value: "For" },
+                { type: "text", value: "To" }
               ],
-              correctAnswer: 'For',
+              correctAnswer: "For"
             },
             {
-              text: "Some deaf people use ...... language to talk to each other because they can't hear.",
+              content: { text: "Some deaf people use ...... language to talk to each other because they can't hear." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'tool' },
-                { type: 'text', value: 'machine' },
-                { type: 'text', value: 'sign' },
+                { type: "text", value: "tool" },
+                { type: "text", value: "machine" },
+                { type: "text", value: "sign" }
               ],
-              correctAnswer: 'sign',
+              correctAnswer: "sign"
             },
             {
-              text: "The new shoes are fifty.......",
+              content: { text: "The new shoes are fifty......." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'dollars' },
-                { type: 'text', value: 'pieces' },
-                { type: 'text', value: 'cards' },
+                { type: "text", value: "dollars" },
+                { type: "text", value: "pieces" },
+                { type: "text", value: "cards" }
               ],
-              correctAnswer: 'dollars',
+              correctAnswer: "dollars"
             },
             {
-              text: "Today, it ..... cold.",
+              content: { text: "Today, it ..... cold." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'is' },
-                { type: 'text', value: 'can' },
-                { type: 'text', value: 'was' },
+                { type: "text", value: "is" },
+                { type: "text", value: "can" },
+                { type: "text", value: "was" }
               ],
-              correctAnswer: 'is',
+              correctAnswer: "is"
             },
             {
-              text: "Tomorrow, it........ cloudy.",
+              content: { text: "Tomorrow, it........ cloudy." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'be' },
-                { type: 'text', value: 'will be' },
-                { type: 'text', value: 'was' },
+                { type: "text", value: "be" },
+                { type: "text", value: "will be" },
+                { type: "text", value: "was" }
               ],
-              correctAnswer: 'will be',
+              correctAnswer: "will be"
             },
             {
-              text: "The......... today reaches 25°C.",
+              content: { text: "The......... today reaches 25°C." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'temperature' },
-                { type: 'text', value: 'weather' },
-                { type: 'text', value: 'hot' },
+                { type: "text", value: "temperature" },
+                { type: "text", value: "weather" },
+                { type: "text", value: "hot" }
               ],
-              correctAnswer: 'temperature',
+              correctAnswer: "temperature"
             },
             {
-              text: "I'm going to.......my car this weekend.",
+              content: { text: "I'm going to.......my car this weekend." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'call' },
-                { type: 'text', value: 'wash' },
-                { type: 'text', value: 'play' },
+                { type: "text", value: "call" },
+                { type: "text", value: "wash" },
+                { type: "text", value: "play" }
               ],
-              correctAnswer: 'wash',
+              correctAnswer: "wash"
             },
             {
-              text: "The........jam on my toast tastes delicious.",
+              content: { text: "The........jam on my toast tastes delicious." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'strawberry' },
-                { type: 'text', value: 'milk' },
-                { type: 'text', value: 'fish' },
+                { type: "text", value: "strawberry" },
+                { type: "text", value: "milk" },
+                { type: "text", value: "fish" }
               ],
-              correctAnswer: 'strawberry',
+              correctAnswer: "strawberry"
             },
             {
-              text: "This morning, I ....... a very tasty breakfast.",
+              content: { text: "This morning, I ....... a very tasty breakfast." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'have' },
-                { type: 'text', value: 'has' },
-                { type: 'text', value: 'had' },
+                { type: "text", value: "have" },
+                { type: "text", value: "has" },
+                { type: "text", value: "had" }
               ],
-              correctAnswer: 'had',
+              correctAnswer: "had"
             },
             {
-              text: "Yesterday, my mom .......her new dress.",
+              content: { text: "Yesterday, my mom .......her new dress." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'wears' },
-                { type: 'text', value: 'wear' },
-                { type: 'text', value: 'wore' },
+                { type: "text", value: "wears" },
+                { type: "text", value: "wear" },
+                { type: "text", value: "wore" }
               ],
-              correctAnswer: 'wore',
+              correctAnswer: "wore"
             },
             {
-              text: "Heba ......... to the museum last week.",
+              content: { text: "Heba ......... to the museum last week." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'go' },
-                { type: 'text', value: 'going' },
-                { type: 'text', value: 'went' },
+                { type: "text", value: "go" },
+                { type: "text", value: "going" },
+                { type: "text", value: "went" }
               ],
-              correctAnswer: 'went',
+              correctAnswer: "went"
             },
             {
-              text: "I .......... Tutankhamen's tomb last year.",
+              content: { text: "I .......... Tutankhamen's tomb last year." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'visiting' },
-                { type: 'text', value: 'visits' },
-                { type: 'text', value: 'visited' },
+                { type: "text", value: "visiting" },
+                { type: "text", value: "visits" },
+                { type: "text", value: "visited" }
               ],
-              correctAnswer: 'visited',
+              correctAnswer: "visited"
             },
             {
-              text: ".......... you travel to Aswan last winter?",
+              content: { text: ".......... you travel to Aswan last winter?" },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'Did' },
-                { type: 'text', value: 'Do' },
-                { type: 'text', value: 'Does' },
+                { type: "text", value: "Did" },
+                { type: "text", value: "Do" },
+                { type: "text", value: "Does" }
               ],
-              correctAnswer: 'Did',
+              correctAnswer: "Did"
             },
             {
-              text: "We didn't .........any jewelry at the bazar.",
+              content: { text: "We didn't .........any jewelry at the bazar." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'buy' },
-                { type: 'text', value: 'bought' },
-                { type: 'text', value: 'buying' },
+                { type: "text", value: "buy" },
+                { type: "text", value: "bought" },
+                { type: "text", value: "buying" }
               ],
-              correctAnswer: 'buy',
+              correctAnswer: "buy"
             },
             {
-              text: "Last night, we ........ at the club.",
+              content: { text: "Last night, we ........ at the club." },
+              language: "en-US",
               options: [
-                { type: 'text', value: 'was' },
-                { type: 'text', value: 'is' },
-                { type: 'text', value: 'were' },
+                { type: "text", value: "was" },
+                { type: "text", value: "is" },
+                { type: "text", value: "were" }
               ],
-              correctAnswer: 'were',
-            },
+              correctAnswer: "were"
+            }
 
           ],
           'دين مسيحي': [

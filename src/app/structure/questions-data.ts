@@ -10770,7 +10770,7 @@ export const questionsData = {
           عربي: [
             {
               content: {
-                text: "يلعب خالد الكرة ) نوع الفعل في الجملة )",
+                text: "يلعب خالد الكرة ",
               },
               language: "ar-EG",
               options: [
@@ -10806,19 +10806,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: ".......اشعت الأم فضول الأولاد من خلال",
-              },
-              language: "ar-EG",
-              options: [
-                { type: 'text', value: 'الطعام لذيذ' },
-                { type: 'text', value: 'لعبة الكنز' },
-                { type: 'text', value: 'ممارسة الرياضة' },
-              ],
-              correctAnswer: 'لعبة الكنز',
-            },
-            {
-              content: {
-                text: ".......كان الكنز عباره عن صندوق له",
+                text: ".......كان الكنز عباره عن صندوق به",
               },
               language: "ar-EG",
               options: [
@@ -10840,18 +10828,7 @@ export const questionsData = {
               ],
               correctAnswer: 'حجر',
             },
-            {
-              content: {
-                text: ".......تحتوي الغابة المتحجرة على أشجار",
-              },
-              language: "ar-EG",
-              options: [
-                { type: 'text', value: 'مثمرة' },
-                { type: 'text', value: 'خضراء' },
-                { type: 'text', value: 'متحجرة' },
-              ],
-              correctAnswer: 'متحجرة',
-            },
+           
             {
               content: {
                 text: "........كم عمر الغابة المتحجرة تقريباً",
@@ -11002,7 +10979,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "(أفتح الشباك الجو حار نوع) الفعل في جملة",
+                text: "(افتح الشباك الجو حار) نوع الفعل في جملة",
               },
               language: "ar-EG",
               options: [
@@ -11038,7 +11015,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "......اجتمعت العائلة يوم العيد في بيت",
+                text: "اجتمعت العائلة يوم العيد في بيت",
               },
               language: "ar-EG",
               options: [
@@ -11130,7 +11107,7 @@ export const questionsData = {
                 { type: 'text', value: 'فارغاً' },
                 { type: 'text', value: 'مزدحماً' },
               ],
-              correctAnswer: 'مزدحماً',
+              correctAnswer: 'فارغاً',
             },
             {
               content: {
@@ -11270,7 +11247,6 @@ export const questionsData = {
               },
               language: "ar-EG",
               options: [
-                { type: 'text', value: 'أنتم' },
                 { type: 'text', value: 'أنتم' },
                 { type: 'text', value: 'أنتما' },
               ],
@@ -12098,7 +12074,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "آلة وتريه لها صندوق واوتار ...."
+                text: "آلة وتريه لها صندوق واوتار "
               },
               language: "ar-EG",
               options: [
@@ -12106,7 +12082,7 @@ export const questionsData = {
                 { type: "text", value: "الناي" },
                 { type: "text", value: "السمسمية" }
               ],
-              correctAnswer: "الهارب"
+              correctAnswer: "السمسمية"
             },
             {
               content: {
@@ -12218,7 +12194,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "لتحريك الكرسي في اتجاهات عليك أن تقوم بـ"
+                text: "لتحريك الكرسي في اتجاهك عليك ان تقوم بـ"
               },
               language: "ar-EG",
               options: [
@@ -12226,7 +12202,7 @@ export const questionsData = {
                 { type: "text", value: "تنظيفه" },
                 { type: "text", value: "دفعة" }
               ],
-              correctAnswer: "دفعة"
+              correctAnswer: "جذبه"
             },
             {
               content: {
@@ -12422,7 +12398,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "وسيلة تساعد على نشر العادات السلبية بالمجتمع هي ..... الخدمة العامة"
+                text: "وسيلة تساعد على نشر العادات الصحية بالمجتمع هي ..... الخدمة العامة"
               },
               language: "ar-EG",
               options: [
@@ -27020,7 +26996,7 @@ export const questionsData = {
           Arabic: [
             {
               content: {
-                text: "يلعب خالد الكرة ) نوع الفعل في الجملة )",
+                text: "يلعب خالد الكرة ",
               },
               language: "ar-EG",
               options: [
@@ -27054,21 +27030,10 @@ export const questionsData = {
               ],
               correctAnswer: 'الديناصورات',
             },
+           
             {
               content: {
-                text: ".......اشعت الأم فضول الأولاد من خلال",
-              },
-              language: "ar-EG",
-              options: [
-                { type: 'text', value: 'الطعام لذيذ' },
-                { type: 'text', value: 'لعبة الكنز' },
-                { type: 'text', value: 'ممارسة الرياضة' },
-              ],
-              correctAnswer: 'لعبة الكنز',
-            },
-            {
-              content: {
-                text: ".......كان الكنز عباره عن صندوق له",
+                text: ".......كان الكنز عباره عن صندوق به",
               },
               language: "ar-EG",
               options: [
@@ -27090,18 +27055,7 @@ export const questionsData = {
               ],
               correctAnswer: 'حجر',
             },
-            {
-              content: {
-                text: ".......تحتوي الغابة المتحجرة على أشجار",
-              },
-              language: "ar-EG",
-              options: [
-                { type: 'text', value: 'مثمرة' },
-                { type: 'text', value: 'خضراء' },
-                { type: 'text', value: 'متحجرة' },
-              ],
-              correctAnswer: 'متحجرة',
-            },
+          
             {
               content: {
                 text: "........كم عمر الغابة المتحجرة تقريباً",
@@ -27109,11 +27063,11 @@ export const questionsData = {
               language: "ar-EG",
               options: [
                 { type: 'text', value: 'آلاف السنين' },
-                { type: 'text', value: 'ملاين السنين' },
+                { type: 'text', value: 'ملايين السنين' },
                 { type: 'text', value: 'مئة عام' },
                 { type: 'text', value: 'لا يوجد' },
               ],
-              correctAnswer: 'ملاين السنين',
+              correctAnswer: 'ملايين السنين',
             },
             {
               content: {
@@ -27288,7 +27242,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "......اجتمعت العائلة يوم العيد في بيت",
+                text: "اجتمعت العائلة يوم العيد في بيت",
               },
               language: "ar-EG",
               options: [
@@ -27380,7 +27334,7 @@ export const questionsData = {
                 { type: 'text', value: 'فارغاً' },
                 { type: 'text', value: 'مزدحماً' },
               ],
-              correctAnswer: 'مزدحماً',
+              correctAnswer: 'فارغاً',
             },
             {
               content: {
@@ -27520,7 +27474,6 @@ export const questionsData = {
               },
               language: "ar-EG",
               options: [
-                { type: 'text', value: 'أنتم' },
                 { type: 'text', value: 'أنتم' },
                 { type: 'text', value: 'أنتما' },
               ],
@@ -27782,15 +27735,15 @@ export const questionsData = {
             },
             {
               content: {
-                text: "The square of perimeter = …… Cm"
+                text: "The perimeter of square is ........"
               },
               language: "en-US",
               options: [
-                { type: "text", value: "4" },
-                { type: "text", value: "5" },
-                { type: "text", value: "6" }
+                { type: "text", value: "S+4" },
+                { type: "text", value: "Sx4" },
+                { type: "text", value: "SxS" }
               ],
-              correctAnswer: "6"
+              correctAnswer: "Sx4"
             },
             {
               content: {
@@ -29788,7 +29741,7 @@ export const questionsData = {
               correctAnswer: "✔"
             },
             {
-              content: { text: "Spoon beak van eat small fish and small plants." },
+              content: { text: "Spoon beak can eat small fish and small plants." },
               language: "en-US",
               options: [
                 { type: "text", value: "✔" },
@@ -29803,7 +29756,7 @@ export const questionsData = {
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✔"
+              correctAnswer: "✕"
             },
             {
               content: { text: "Tweezer beak can eat fish and insects." },
@@ -29812,7 +29765,7 @@ export const questionsData = {
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✕"
+              correctAnswer: "✔"
             },
             {
               content: { text: "Clothespin beak can eat seed." },
@@ -29884,7 +29837,7 @@ export const questionsData = {
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✕"
+              correctAnswer: "✔"
             },
             {
               content: { text: "Opinion is what a person feels or believes." },
@@ -30019,7 +29972,7 @@ export const questionsData = {
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✕"
+              correctAnswer: "✔"
             },
             {
               content: { text: "Hospitals in the past had school." },
@@ -30037,7 +29990,7 @@ export const questionsData = {
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✕"
+              correctAnswer: "✔"
             },
             {
               content: { text: "Hospitals nowadays have pharmacy, laboratory, physical therapy department." },
@@ -30055,7 +30008,7 @@ export const questionsData = {
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✔"
+              correctAnswer: "✕"
             },
             {
               content: { text: "Magdy Yacob is known for his study for lungs." },

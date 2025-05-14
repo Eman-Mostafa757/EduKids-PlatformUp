@@ -11456,7 +11456,7 @@ export const questionsData = {
               correctAnswer: "٩"
             },
             {
-              content: { text: "......=مستطيل طوله ٧ سم وعرضه ٣ سم فإن مساحته" },
+              content: { text: "مستطيل طوله ٧ سم وعرضه ٣ سم فإن مساحته تساوي" },
               language: "ar-EG",
               options: [
                 { type: "text", value: "١٦" },
@@ -11658,19 +11658,7 @@ export const questionsData = {
               ],
               correctAnswer: "assets/mathPrim/ربعين.png"
             },
-            {
-              content: {
-                image: "assets/mathPrim/نص يساوي.png",
-
-              },
-              language: "ar-EG",
-              options: [
-                { type: "image", value: "assets/mathPrim/تلت.png" },
-                { type: "image", value: "assets/mathPrim/ربعين.png" },
-                { type: "image", value: "assets/mathPrim/تلت اربع.png" }
-              ],
-              correctAnswer: "assets/mathPrim/ربعين.png"
-            },
+          
             {
               content: {
                 image: "assets/mathPrim/سؤال تلاتين.png",
@@ -11708,18 +11696,7 @@ export const questionsData = {
               ],
               correctAnswer: "assets/mathPrim/اتنين وتلاتين تاني.png"
             },
-            {
-              content: {
-                image: "assets/mathPrim/السؤال تلاتة وتلاتين.png",
-              },
-              language: "ar-EG",
-              options: [
-                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين اول.png" },
-                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين تاني.png" },
-                { type: "image", value: "assets/mathPrim/تلاتة وتلاتين تالت.png" }
-              ],
-              correctAnswer: "assets/mathPrim/تلاتة وتلاتين تاني.png"
-            },
+           
             {
               content: {
                 image: "assets/mathPrim/السؤال تلاتة وتلاتين.png",
@@ -11758,7 +11735,7 @@ export const questionsData = {
               options: [
                 { type: "image", value: "assets/mathPrim/خمسة وتلاتين اول.png" },
                 { type: "image", value: "assets/mathPrim/خمسة وتلاتين تاني.png" },
-                { type: "image", value: "src\assets\mathPrim\خمسة وتلاتين تالت.png" }
+                { type: "image", value: "assets/mathPrim/خمسة وتلاتين تالت.png" }
               ],
               correctAnswer: "assets/mathPrim/خمسة وتلاتين اول.png"
             },
@@ -11793,14 +11770,14 @@ export const questionsData = {
               correctAnswer: "٥٠"
             },
             {
-              content: { text: "الوقت المنقضي من الساعة ٩ صباحاً حتى الساعة ٢ مساءاً هو ...... ساعة" },
+              content: { text: "الوقت المنقضي من الساعة ٩ صباحاً حتى الساعة ٢ مساءاً هو" },
               language: "ar-EG",
               options: [
-                { type: "text", value: "٦" },
-                { type: "text", value: "٥" },
-                { type: "text", value: "٧" }
+                { type: "text", value: "٦ ساعات" },
+                { type: "text", value: "٥ ساعات" },
+                { type: "text", value: "٧ ساعات" }
               ],
-              correctAnswer: "٥"
+              correctAnswer: "٥ ساعات"
             },
             {
               content: {
@@ -11888,7 +11865,7 @@ export const questionsData = {
                 { type: "text", value: "<" },
                 { type: "text", value: "=" }
               ],
-              correctAnswer: ">"
+              correctAnswer: "<"
             },
             {
               content: { text: "......= ٣٦ مائة" },

@@ -11119,7 +11119,7 @@ export const questionsData = {
                 { type: 'text', value: 'السيارة' },
                 { type: 'text', value: 'الخلاط' },
               ],
-              correctAnswer: 'الخلاط',
+              correctAnswer: 'الجرار',
             },
             {
               content: {
@@ -27346,7 +27346,7 @@ export const questionsData = {
                 { type: 'text', value: 'السيارة' },
                 { type: 'text', value: 'الخلاط' },
               ],
-              correctAnswer: 'الخلاط',
+              correctAnswer: 'الجرار',
             },
             {
               content: {

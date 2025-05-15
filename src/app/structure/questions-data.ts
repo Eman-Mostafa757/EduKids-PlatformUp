@@ -14252,7 +14252,157 @@ export const questionsData = {
                 { type: "text", value: "summer" }
               ],
               correctAnswer: "fall"
-            }
+            },
+            {
+              content: { text: "We ..... to the cinema, today." },
+              language: "en",
+              options: [
+                { type: "text", value: "going" },
+                { type: "text", value: "go" },
+                { type: "text", value: "are going" },
+              ],
+              correctAnswer: "are going",
+            },
+            {
+              content: { text: "They ..... fun at the museum, yesterday." },
+              language: "en",
+              options: [
+                { type: "text", value: "had" },
+                { type: "text", value: "jump" },
+                { type: "text", value: "run" },
+              ],
+              correctAnswer: "had",
+            },
+            {
+              content: { text: "It ..... hot this morning." },
+              language: "en",
+              options: [
+                { type: "text", value: "was" },
+                { type: "text", value: "were" },
+                { type: "text", value: "is" },
+              ],
+              correctAnswer: "was",
+            },
+            {
+              content: { text: "There ..... beautiful colored leaves." },
+              language: "en",
+              options: [
+                { type: "text", value: "are" },
+                { type: "text", value: "is" },
+                { type: "text", value: "was" },
+              ],
+              correctAnswer: "are",
+            },
+            {
+              content: { text: "I ..... December, because the weather is cold." },
+              language: "en",
+              options: [
+                { type: "text", value: "like" },
+                { type: "text", value: "fall" },
+                { type: "text", value: "see" },
+              ],
+              correctAnswer: "like",
+            },
+            {
+              content: { text: "..... month is special to you? July." },
+              language: "en",
+              options: [
+                { type: "text", value: "which" },
+                { type: "text", value: "when" },
+                { type: "text", value: "where" },
+              ],
+              correctAnswer: "which",
+            },
+            {
+              content: { text: "My birthday is ..... July." },
+              language: "en",
+              options: [
+                { type: "text", value: "in" },
+                { type: "text", value: "on" },
+                { type: "text", value: "of" },
+              ],
+              correctAnswer: "in",
+            },
+            {
+              content: { text: "..... the water you need to make coffee." },
+              language: "en",
+              options: [
+                { type: "text", value: "use" },
+                { type: "text", value: "drink" },
+                { type: "text", value: "send" },
+              ],
+              correctAnswer: "use",
+            },
+            {
+              content: { text: "..... the faucet if it drips." },
+              language: "en",
+              options: [
+                { type: "text", value: "Fix" },
+                { type: "text", value: "Clean" },
+                { type: "text", value: "Break" },
+              ],
+              correctAnswer: "Fix",
+            },
+            {
+              content: { text: "..... take long baths." },
+              language: "en",
+              options: [
+                { type: "text", value: "Don't" },
+                { type: "text", value: "Do" },
+                { type: "text", value: "Will" },
+              ],
+              correctAnswer: "Don't",
+            },
+            {
+              content: { text: "The ..... is a place to buy and sell things." },
+              language: "en",
+              options: [
+                { type: "text", value: "bazar" },
+                { type: "text", value: "restaurant" },
+                { type: "text", value: "library" },
+              ],
+              correctAnswer: "bazar",
+            },
+            {
+              content: { text: "In Khan Al Khalili, we find many ..... ." },
+              language: "en",
+              options: [
+                { type: "text", value: "schools" },
+                { type: "text", value: "hospitals" },
+                { type: "text", value: "markets" },
+              ],
+              correctAnswer: "markets",
+            },
+            {
+              content: { text: "Grandma baked us a very ..... cake." },
+              language: "en",
+              options: [
+                { type: "text", value: "delicious" },
+                { type: "text", value: "sunny" },
+                { type: "text", value: "rainy" },
+              ],
+              correctAnswer: "delicious",
+            },
+            {
+              content: { text: "Sally wore a ..... on her finger." },
+              language: "en",
+              options: [
+                { type: "text", value: "bracelet" },
+                { type: "text", value: "necklace" },
+                { type: "text", value: "ring" },
+              ],
+              correctAnswer: "ring",
+            },
+            {
+              content: { text: "Lily bought a very nice ..... to wear on her neck." },
+              language: "en",
+              options: [
+                { type: "text", value: "ring" },
+                { type: "text", value: "necklace" },
+                { type: "text", value: "bracelet" },
+              ],
+              correctAnswer: "necklace",
+            },
 
           ]
 

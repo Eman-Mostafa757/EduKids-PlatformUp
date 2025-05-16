@@ -27783,7 +27783,7 @@ export const questionsData = {
             },
             {
               content: {
-                text: "5 × 7 = (5 × 41 + (5 + …))"
+                text: "5 × 7 = (5 × 4) + (5 + …)"
               },
               language: "en-US",
               options: [
@@ -27791,7 +27791,7 @@ export const questionsData = {
                 { type: "text", value: "5" },
                 { type: "text", value: "2" }
               ],
-              correctAnswer: "2"
+              correctAnswer: "3"
             },
             {
               content: {
@@ -29792,7 +29792,7 @@ export const questionsData = {
                 { type: "text", value: "✔" },
                 { type: "text", value: "✕" }
               ],
-              correctAnswer: "✔"
+              correctAnswer: "✕"
             },
             {
               content: { text: "Fact is something that is told or written and it’s not true." },

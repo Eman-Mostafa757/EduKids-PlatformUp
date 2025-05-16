@@ -10828,7 +10828,7 @@ export const questionsData = {
               ],
               correctAnswer: 'حجر',
             },
-           
+
             {
               content: {
                 text: "........كم عمر الغابة المتحجرة تقريباً",
@@ -11926,7 +11926,7 @@ export const questionsData = {
                 { type: "text", value: "الملعقة" },
                 { type: "text", value: "المشبك" }
               ],
-              correctAnswer: "المشبك"
+              correctAnswer: "الملعقة"
             },
             {
               content: {
@@ -14052,7 +14052,358 @@ export const questionsData = {
                 { type: "text", value: "summer" }
               ],
               correctAnswer: "fall"
-            }
+            },
+            {
+              content: { text: 'What did you .....at the bazaar?' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'buy' },
+                { type: 'text', value: 'bought' },
+                { type: 'text', value: 'buys' }
+              ],
+              correctAnswer: 'buy'
+            },
+            {
+              content: { text: "I saw Tutankhamen's necklace at the..." },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'museum' },
+                { type: 'text', value: 'school' },
+                { type: 'text', value: 'cafe' }
+              ],
+              correctAnswer: 'museum'
+            },
+            {
+              content: { text: 'Nour.....Egyptian' },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'am' },
+                { type: 'text', value: 'is' },
+                { type: 'text', value: 'are' }
+              ],
+              correctAnswer: 'is'
+            },
+            {
+              content: { text: "Women wear .....in their ears" },
+              language: "en-US",
+              options: [
+                { type: "text", value: "rings" },
+                { type: "text", value: "earrings" },
+                { type: "text", value: "bracelets" }
+              ],
+              correctAnswer: "earrings"
+            },
+            {
+              content: { text: "Can you ..... videos on your tablet?" },
+              language: "en-US",
+              options: [
+                { type: "text", value: "watch" },
+                { type: "text", value: "watching" },
+                { type: "text", value: "watches" }
+              ],
+              correctAnswer: "watch"
+            },
+            {
+              content: { text: "Where ..... you from?" },
+              language: "en-US",
+              options: [
+                { type: "text", value: "am" },
+                { type: "text", value: "is" },
+                { type: "text", value: "are" }
+              ],
+              correctAnswer: "are"
+            },
+            {
+              content: { text: "We ..... happy to be here." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "is" },
+                { type: "text", value: "am" },
+                { type: "text", value: "are" }
+              ],
+              correctAnswer: "are"
+            },
+            {
+              content: { text: "She is from ....." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "Chinese" },
+                { type: "text", value: "American" },
+                { type: "text", value: "French" }
+              ],
+              correctAnswer: "Chinese"
+            },
+            {
+              content: { text: "Ancient Egyptians wore gold ....." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "paper" },
+                { type: "text", value: "jewelry" },
+                { type: "text", value: "animals" }
+              ],
+              correctAnswer: "jewelry"
+            },
+            {
+              content: { text: "We use a ..... to move on the screen." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "printer" },
+                { type: "text", value: "screen" },
+                { type: "text", value: "mouse" }
+              ],
+              correctAnswer: "mouse"
+            },
+            {
+              content: { text: "We can download photos from the ....." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "internet" },
+                { type: "text", value: "museum" },
+                { type: "text", value: "keyboard" }
+              ],
+              correctAnswer: "internet"
+            },
+            {
+              content: { text: "I am happy to ..... here." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "am" },
+                { type: "text", value: "is" },
+                { type: "text", value: "be" }
+              ],
+              correctAnswer: "be"
+            },
+            {
+              content: { text: "They ..... from France." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "am" },
+                { type: "text", value: "is" },
+                { type: "text", value: "are" }
+              ],
+              correctAnswer: "are"
+            },
+            {
+              content: { text: "My ..... is Samy." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "color" },
+                { type: "text", value: "food" },
+                { type: "text", value: "name" }
+              ],
+              correctAnswer: "name"
+            },
+            {
+              content: { text: "She ..... dinner yesterday." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "cook" },
+                { type: "text", value: "cooked" },
+                { type: "text", value: "cooking" }
+              ],
+              correctAnswer: "cooked"
+            },
+            {
+              content: { text: "I didn't ..... to the club yesterday." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "go" },
+                { type: "text", value: "went" },
+                { type: "text", value: "goes" }
+              ],
+              correctAnswer: "go"
+            },
+            {
+              content: { text: "What's your favorite month? It's ....." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "Saturday" },
+                { type: "text", value: "winter" },
+                { type: "text", value: "December" }
+              ],
+              correctAnswer: "December"
+            },
+            {
+              content: { text: "I like July and August best because it's hot and we can go to the ....." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "school" },
+                { type: "text", value: "beach" },
+                { type: "text", value: "hospital" }
+              ],
+              correctAnswer: "beach"
+            },
+            {
+              content: { text: "In spring the weather is ....." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "foggy" },
+                { type: "text", value: "sunny" },
+                { type: "text", value: "cold" }
+              ],
+              correctAnswer: "sunny"
+            },
+            {
+              content: { text: "I like the ..... because it is not too hot." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "fall" },
+                { type: "text", value: "winter" },
+                { type: "text", value: "summer" }
+              ],
+              correctAnswer: "fall"
+            },
+            {
+              content: { text: "We ..... to the cinema, today." },
+              language: "en",
+              options: [
+                { type: "text", value: "going" },
+                { type: "text", value: "go" },
+                { type: "text", value: "are going" },
+              ],
+              correctAnswer: "are going",
+            },
+            {
+              content: { text: "They ..... fun at the museum, yesterday." },
+              language: "en",
+              options: [
+                { type: "text", value: "had" },
+                { type: "text", value: "jump" },
+                { type: "text", value: "run" },
+              ],
+              correctAnswer: "had",
+            },
+            {
+              content: { text: "It ..... hot this morning." },
+              language: "en",
+              options: [
+                { type: "text", value: "was" },
+                { type: "text", value: "were" },
+                { type: "text", value: "is" },
+              ],
+              correctAnswer: "was",
+            },
+            {
+              content: { text: "There ..... beautiful colored leaves." },
+              language: "en",
+              options: [
+                { type: "text", value: "are" },
+                { type: "text", value: "is" },
+                { type: "text", value: "was" },
+              ],
+              correctAnswer: "are",
+            },
+            {
+              content: { text: "I ..... December, because the weather is cold." },
+              language: "en",
+              options: [
+                { type: "text", value: "like" },
+                { type: "text", value: "fall" },
+                { type: "text", value: "see" },
+              ],
+              correctAnswer: "like",
+            },
+            {
+              content: { text: "..... month is special to you? July." },
+              language: "en",
+              options: [
+                { type: "text", value: "which" },
+                { type: "text", value: "when" },
+                { type: "text", value: "where" },
+              ],
+              correctAnswer: "which",
+            },
+            {
+              content: { text: "My birthday is ..... July." },
+              language: "en",
+              options: [
+                { type: "text", value: "in" },
+                { type: "text", value: "on" },
+                { type: "text", value: "of" },
+              ],
+              correctAnswer: "in",
+            },
+            {
+              content: { text: "..... the water you need to make coffee." },
+              language: "en",
+              options: [
+                { type: "text", value: "use" },
+                { type: "text", value: "drink" },
+                { type: "text", value: "send" },
+              ],
+              correctAnswer: "use",
+            },
+            {
+              content: { text: "..... the faucet if it drips." },
+              language: "en",
+              options: [
+                { type: "text", value: "Fix" },
+                { type: "text", value: "Clean" },
+                { type: "text", value: "Break" },
+              ],
+              correctAnswer: "Fix",
+            },
+            {
+              content: { text: "..... take long baths." },
+              language: "en",
+              options: [
+                { type: "text", value: "Don't" },
+                { type: "text", value: "Do" },
+                { type: "text", value: "Will" },
+              ],
+              correctAnswer: "Don't",
+            },
+            {
+              content: { text: "The ..... is a place to buy and sell things." },
+              language: "en",
+              options: [
+                { type: "text", value: "bazar" },
+                { type: "text", value: "restaurant" },
+                { type: "text", value: "library" },
+              ],
+              correctAnswer: "bazar",
+            },
+            {
+              content: { text: "In Khan Al Khalili, we find many ..... ." },
+              language: "en",
+              options: [
+                { type: "text", value: "schools" },
+                { type: "text", value: "hospitals" },
+                { type: "text", value: "markets" },
+              ],
+              correctAnswer: "markets",
+            },
+            {
+              content: { text: "Grandma baked us a very ..... cake." },
+              language: "en",
+              options: [
+                { type: "text", value: "delicious" },
+                { type: "text", value: "sunny" },
+                { type: "text", value: "rainy" },
+              ],
+              correctAnswer: "delicious",
+            },
+            {
+              content: { text: "Sally wore a ..... on her finger." },
+              language: "en",
+              options: [
+                { type: "text", value: "bracelet" },
+                { type: "text", value: "necklace" },
+                { type: "text", value: "ring" },
+              ],
+              correctAnswer: "ring",
+            },
+            {
+              content: { text: "Lily bought a very nice ..... to wear on her neck." },
+              language: "en",
+              options: [
+                { type: "text", value: "ring" },
+                { type: "text", value: "necklace" },
+                { type: "text", value: "bracelet" },
+              ],
+              correctAnswer: "necklace",
+            },
+
           ]
 
         }
@@ -27030,7 +27381,7 @@ export const questionsData = {
               ],
               correctAnswer: 'الديناصورات',
             },
-           
+
             {
               content: {
                 text: ".......كان الكنز عباره عن صندوق به",
@@ -27055,7 +27406,7 @@ export const questionsData = {
               ],
               correctAnswer: 'حجر',
             },
-          
+
             {
               content: {
                 text: "........كم عمر الغابة المتحجرة تقريباً",

@@ -15,7 +15,7 @@ import { FractionPipe } from '../pipes/fraction.pipe';
 })
 export class QuestionComponent {
   warningStarted: boolean = false;
-  timerSecondsPerQuestion = 10;
+  timerSecondsPerQuestion = 20;
   balloons: any[] = [];
   timeLeftInSeconds = 0;
   timerInterval: any;

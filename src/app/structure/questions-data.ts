@@ -13823,7 +13823,7 @@ export const questionsData = {
                 { type: "text", value: "bought" },
                 { type: "text", value: "buys" }
               ],
-              correctAnswer: "bought"
+              correctAnswer: "buy"
             },
             {
               content: {
@@ -14054,204 +14054,64 @@ export const questionsData = {
               correctAnswer: "fall"
             },
             {
-              content: { text: 'What did you .....at the bazaar?' },
-              language: 'en-US',
-              options: [
-                { type: 'text', value: 'buy' },
-                { type: 'text', value: 'bought' },
-                { type: 'text', value: 'buys' }
-              ],
-              correctAnswer: 'buy'
-            },
-            {
-              content: { text: "I saw Tutankhamen's necklace at the..." },
-              language: 'en-US',
-              options: [
-                { type: 'text', value: 'museum' },
-                { type: 'text', value: 'school' },
-                { type: 'text', value: 'cafe' }
-              ],
-              correctAnswer: 'museum'
-            },
-            {
-              content: { text: 'Nour.....Egyptian' },
-              language: 'en-US',
-              options: [
-                { type: 'text', value: 'am' },
-                { type: 'text', value: 'is' },
-                { type: 'text', value: 'are' }
-              ],
-              correctAnswer: 'is'
-            },
-            {
-              content: { text: "Women wear .....in their ears" },
+              content: { text: "What's your favorite.....? It's Sunday." },
               language: "en-US",
               options: [
-                { type: "text", value: "rings" },
-                { type: "text", value: "earrings" },
-                { type: "text", value: "bracelets" }
+                { type: "text", value: "month" },
+                { type: "text", value: "day" },
+                { type: "text", value: "season" }
               ],
-              correctAnswer: "earrings"
+              correctAnswer: "day"
             },
             {
-              content: { text: "Can you ..... videos on your tablet?" },
+              content: { text: "..... is the season, there are a lot of flowers and colorful trees." },
               language: "en-US",
               options: [
-                { type: "text", value: "watch" },
-                { type: "text", value: "watching" },
-                { type: "text", value: "watches" }
-              ],
-              correctAnswer: "watch"
-            },
-            {
-              content: { text: "Where ..... you from?" },
-              language: "en-US",
-              options: [
-                { type: "text", value: "am" },
-                { type: "text", value: "is" },
-                { type: "text", value: "are" }
-              ],
-              correctAnswer: "are"
-            },
-            {
-              content: { text: "We ..... happy to be here." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "is" },
-                { type: "text", value: "am" },
-                { type: "text", value: "are" }
-              ],
-              correctAnswer: "are"
-            },
-            {
-              content: { text: "She is from ....." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "Chinese" },
-                { type: "text", value: "American" },
-                { type: "text", value: "French" }
-              ],
-              correctAnswer: "Chinese"
-            },
-            {
-              content: { text: "Ancient Egyptians wore gold ....." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "paper" },
-                { type: "text", value: "jewelry" },
-                { type: "text", value: "animals" }
-              ],
-              correctAnswer: "jewelry"
-            },
-            {
-              content: { text: "We use a ..... to move on the screen." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "printer" },
-                { type: "text", value: "screen" },
-                { type: "text", value: "mouse" }
-              ],
-              correctAnswer: "mouse"
-            },
-            {
-              content: { text: "We can download photos from the ....." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "internet" },
-                { type: "text", value: "museum" },
-                { type: "text", value: "keyboard" }
-              ],
-              correctAnswer: "internet"
-            },
-            {
-              content: { text: "I am happy to ..... here." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "am" },
-                { type: "text", value: "is" },
-                { type: "text", value: "be" }
-              ],
-              correctAnswer: "be"
-            },
-            {
-              content: { text: "They ..... from France." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "am" },
-                { type: "text", value: "is" },
-                { type: "text", value: "are" }
-              ],
-              correctAnswer: "are"
-            },
-            {
-              content: { text: "My ..... is Samy." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "color" },
-                { type: "text", value: "food" },
-                { type: "text", value: "name" }
-              ],
-              correctAnswer: "name"
-            },
-            {
-              content: { text: "She ..... dinner yesterday." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "cook" },
-                { type: "text", value: "cooked" },
-                { type: "text", value: "cooking" }
-              ],
-              correctAnswer: "cooked"
-            },
-            {
-              content: { text: "I didn't ..... to the club yesterday." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "go" },
-                { type: "text", value: "went" },
-                { type: "text", value: "goes" }
-              ],
-              correctAnswer: "go"
-            },
-            {
-              content: { text: "What's your favorite month? It's ....." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "Saturday" },
                 { type: "text", value: "winter" },
-                { type: "text", value: "December" }
-              ],
-              correctAnswer: "December"
-            },
-            {
-              content: { text: "I like July and August best because it's hot and we can go to the ....." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "school" },
-                { type: "text", value: "beach" },
-                { type: "text", value: "hospital" }
-              ],
-              correctAnswer: "beach"
-            },
-            {
-              content: { text: "In spring the weather is ....." },
-              language: "en-US",
-              options: [
-                { type: "text", value: "foggy" },
-                { type: "text", value: "sunny" },
-                { type: "text", value: "cold" }
-              ],
-              correctAnswer: "sunny"
-            },
-            {
-              content: { text: "I like the ..... because it is not too hot." },
-              language: "en-US",
-              options: [
                 { type: "text", value: "fall" },
-                { type: "text", value: "winter" },
-                { type: "text", value: "summer" }
+                { type: "text", value: "spring" }
               ],
-              correctAnswer: "fall"
+              correctAnswer: "spring"
+            },
+            {
+              content: { text: "We should take a short ... to conserve water." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "shower" },
+                { type: "text", value: "lunch" },
+                { type: "text", value: "meal" }
+              ],
+              correctAnswer: "shower"
+            },
+            {
+              content: { text: "Use only the ...... you need to make coffee." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "water" },
+                { type: "text", value: "juice" },
+                { type: "text", value: "air" }
+              ],
+              correctAnswer: "water"
+            },
+            {
+              content: { text: "Turn off the...... when you are brushing your teeth." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "faucet" },
+                { type: "text", value: "t.v." },
+                { type: "text", value: "radio" }
+              ],
+              correctAnswer: "faucet"
+            },
+            {
+              content: { text: "In January, it's ....." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "cold" },
+                { type: "text", value: "hot" },
+                { type: "text", value: "sunny" }
+              ],
+              correctAnswer: "cold"
             },
             {
               content: { text: "We ..... to the cinema, today." },
@@ -14265,7 +14125,7 @@ export const questionsData = {
             },
             {
               content: { text: "They ..... fun at the museum, yesterday." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "had" },
                 { type: "text", value: "jump" },
@@ -14275,7 +14135,7 @@ export const questionsData = {
             },
             {
               content: { text: "It ..... hot this morning." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "was" },
                 { type: "text", value: "were" },
@@ -14285,7 +14145,7 @@ export const questionsData = {
             },
             {
               content: { text: "There ..... beautiful colored leaves." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "are" },
                 { type: "text", value: "is" },
@@ -14295,7 +14155,7 @@ export const questionsData = {
             },
             {
               content: { text: "I ..... December, because the weather is cold." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "like" },
                 { type: "text", value: "fall" },
@@ -14305,7 +14165,7 @@ export const questionsData = {
             },
             {
               content: { text: "..... month is special to you? July." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "which" },
                 { type: "text", value: "when" },
@@ -14315,7 +14175,7 @@ export const questionsData = {
             },
             {
               content: { text: "My birthday is ..... July." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "in" },
                 { type: "text", value: "on" },
@@ -14325,7 +14185,7 @@ export const questionsData = {
             },
             {
               content: { text: "..... the water you need to make coffee." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "use" },
                 { type: "text", value: "drink" },
@@ -14335,7 +14195,7 @@ export const questionsData = {
             },
             {
               content: { text: "..... the faucet if it drips." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "Fix" },
                 { type: "text", value: "Clean" },
@@ -14345,7 +14205,7 @@ export const questionsData = {
             },
             {
               content: { text: "..... take long baths." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "Don't" },
                 { type: "text", value: "Do" },
@@ -14355,7 +14215,7 @@ export const questionsData = {
             },
             {
               content: { text: "The ..... is a place to buy and sell things." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "bazar" },
                 { type: "text", value: "restaurant" },
@@ -14365,7 +14225,7 @@ export const questionsData = {
             },
             {
               content: { text: "In Khan Al Khalili, we find many ..... ." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "schools" },
                 { type: "text", value: "hospitals" },
@@ -14375,7 +14235,7 @@ export const questionsData = {
             },
             {
               content: { text: "Grandma baked us a very ..... cake." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "delicious" },
                 { type: "text", value: "sunny" },
@@ -14385,7 +14245,7 @@ export const questionsData = {
             },
             {
               content: { text: "Sally wore a ..... on her finger." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "bracelet" },
                 { type: "text", value: "necklace" },
@@ -14395,7 +14255,7 @@ export const questionsData = {
             },
             {
               content: { text: "Lily bought a very nice ..... to wear on her neck." },
-              language: "en",
+              language: "en-US",
               options: [
                 { type: "text", value: "ring" },
                 { type: "text", value: "necklace" },
@@ -14403,6 +14263,56 @@ export const questionsData = {
               ],
               correctAnswer: "necklace",
             },
+            {
+              content: { text: "They bought beautiful (silver) from the bazar." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "pizza" },
+                { type: "text", value: "silver" },
+                { type: "text", value: "coffee" }
+              ],
+              correctAnswer: "silver"
+            },
+            {
+              content: { text: "I saw lots of (tourists) in the Egyptian museum." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "farmers" },
+                { type: "text", value: "tourists" },
+                { type: "text", value: "players" }
+              ],
+              correctAnswer: "tourists"
+            },
+            {
+              content: { text: "The great Sphinx is very (famous)." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "famous" },
+                { type: "text", value: "unknown" },
+                { type: "text", value: "small" }
+              ],
+              correctAnswer: "famous"
+            },
+            {
+              content: { text: "Ancient Egyptians wore silver and (gold) jewelry." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "glass" },
+                { type: "text", value: "plastic" },
+                { type: "text", value: "gold" }
+              ],
+              correctAnswer: "gold"
+            },
+            {
+              content: { text: "I (cooked) dinner for my mom yesterday." },
+              language: "en-US",
+              options: [
+                { type: "text", value: "cook" },
+                { type: "text", value: "cooked" },
+                { type: "text", value: "cooking" }
+              ],
+              correctAnswer: "cooked"
+            }
 
           ]
 

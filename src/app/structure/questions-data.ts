@@ -9431,7 +9431,7 @@ export const questionsData = {
                 { type: "text", value: "أربعة" },
                 { type: "text", value: "خمسة" }
               ],
-              correctAnswer: "أربعة"
+              correctAnswer: "خمسة"
             },
             {
               content: {
@@ -26002,7 +26002,7 @@ export const questionsData = {
                 { type: "text", value: "أربعة" },
                 { type: "text", value: "خمسة" }
               ],
-              correctAnswer: "أربعة"
+              correctAnswer: "خمسة"
             },
             {
               content: {

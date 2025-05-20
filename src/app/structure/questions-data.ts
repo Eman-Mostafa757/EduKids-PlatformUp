@@ -16771,20 +16771,7 @@ export const questionsData = {
               ],
               correctAnswer: 'roots'
             },
-            {
-              content: {
-                speakAnswer: true,
-
-                image: "assets/english/كرسي بعجل.jfif",
-
-              },
-              language: 'en-US',
-              options: [
-                { type: 'text', value: 'wheelchair' },
-                { type: 'text', value: 'truck' },
-              ],
-              correctAnswer: 'wheelchair'
-            },
+           
             {
               content: {
                 speakAnswer: true,
@@ -17103,6 +17090,20 @@ export const questionsData = {
                 { type: 'text', value: 'a' },
               ],
               correctAnswer: 'o'
+            },
+             {
+              content: {
+                speakAnswer: true,
+
+                image: "assets/english/كرسي بعجل.jfif",
+
+              },
+              language: 'en-US',
+              options: [
+                { type: 'text', value: 'wheelchair' },
+                { type: 'text', value: 'truck' },
+              ],
+              correctAnswer: 'wheelchair'
             },
 
           ],

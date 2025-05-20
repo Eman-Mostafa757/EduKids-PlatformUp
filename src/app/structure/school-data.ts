@@ -22,7 +22,7 @@ export const schoolStructure: Record<SectionType, { phases: Record<'حضانة' 
     phases: {
       حضانة: {
         grades: ['KG1', 'KG2'],
-        subjects: ['عربي', 'Math', 'متعدد', 'English Connect +', 'English Crystal'],
+        subjects: ['عربي', 'Math', 'Discover', 'English Connect +', 'English Crystal'],
       },
       ابتدائي: {
         grades: ['Grade 1', 'Grade 2', 'Grade 3'],
